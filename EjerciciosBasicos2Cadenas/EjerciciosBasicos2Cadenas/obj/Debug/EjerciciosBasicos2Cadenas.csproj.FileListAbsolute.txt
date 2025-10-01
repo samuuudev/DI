@@ -1,0 +1,7 @@
+C:\Users\b15-17m\source\repos\EjerciciosBasicos2Cadenas\EjerciciosBasicos2Cadenas\bin\Debug\EjerciciosBasicos2Cadenas.exe.config
+C:\Users\b15-17m\source\repos\EjerciciosBasicos2Cadenas\EjerciciosBasicos2Cadenas\bin\Debug\EjerciciosBasicos2Cadenas.exe
+C:\Users\b15-17m\source\repos\EjerciciosBasicos2Cadenas\EjerciciosBasicos2Cadenas\bin\Debug\EjerciciosBasicos2Cadenas.pdb
+C:\Users\b15-17m\source\repos\EjerciciosBasicos2Cadenas\EjerciciosBasicos2Cadenas\obj\Debug\EjerciciosBasicos2Cadenas.csproj.AssemblyReference.cache
+C:\Users\b15-17m\source\repos\EjerciciosBasicos2Cadenas\EjerciciosBasicos2Cadenas\obj\Debug\EjerciciosBasicos2Cadenas.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\source\repos\EjerciciosBasicos2Cadenas\EjerciciosBasicos2Cadenas\obj\Debug\EjerciciosBasicos2Cadenas.exe
+C:\Users\b15-17m\source\repos\EjerciciosBasicos2Cadenas\EjerciciosBasicos2Cadenas\obj\Debug\EjerciciosBasicos2Cadenas.pdb

@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MovimientoTablasMatrices
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Tablero tablero = new Tablero(5, 5);
+
+            tablero.iniciar();
+
+        }
+    }
+}

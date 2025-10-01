@@ -1,0 +1,8 @@
+C:\Users\b15-17m\source\repos\EjerciciosBasicosMatrices\EjerciciosBasicosMatrices\obj\Debug\EjerciciosBasicosMatrices.csproj.AssemblyReference.cache
+C:\Users\b15-17m\source\repos\EjerciciosBasicosMatrices\EjerciciosBasicosMatrices\obj\Debug\EjerciciosBasicosMatrices.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\source\repos\EjerciciosBasicosMatrices\EjerciciosBasicosMatrices\bin\Debug\EjerciciosBasicosMatrices.exe.config
+C:\Users\b15-17m\source\repos\EjerciciosBasicosMatrices\EjerciciosBasicosMatrices\bin\Debug\EjerciciosBasicosMatrices.exe
+C:\Users\b15-17m\source\repos\EjerciciosBasicosMatrices\EjerciciosBasicosMatrices\bin\Debug\EjerciciosBasicosMatrices.pdb
+C:\Users\b15-17m\source\repos\EjerciciosBasicosMatrices\EjerciciosBasicosMatrices\obj\Debug\EjerciciosBasicosMatrices.exe
+C:\Users\b15-17m\source\repos\EjerciciosBasicosMatrices\EjerciciosBasicosMatrices\obj\Debug\EjerciciosBasicosMatrices.pdb
+C:\Users\b15-17m\source\repos\EjerciciosBasicosMatrices\EjerciciosBasicosMatrices\obj\Debug\EjerciciosBasicosMatrices.exe.config

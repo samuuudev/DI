@@ -1,0 +1,7 @@
+C:\Users\b15-17m\source\repos\menu\menu\bin\Debug\menu.exe.config
+C:\Users\b15-17m\source\repos\menu\menu\bin\Debug\menu.exe
+C:\Users\b15-17m\source\repos\menu\menu\bin\Debug\menu.pdb
+C:\Users\b15-17m\source\repos\menu\menu\obj\Debug\menu.csproj.AssemblyReference.cache
+C:\Users\b15-17m\source\repos\menu\menu\obj\Debug\menu.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\source\repos\menu\menu\obj\Debug\menu.exe
+C:\Users\b15-17m\source\repos\menu\menu\obj\Debug\menu.pdb

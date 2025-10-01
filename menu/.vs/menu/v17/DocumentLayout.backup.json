@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-17m\\source\\repos\\menu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0958ECB-4113-4DAD-A5E9-C5C86DB0CFBF}|menu\\menu.csproj|c:\\users\\b15-17m\\source\\repos\\menu\\menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0958ECB-4113-4DAD-A5E9-C5C86DB0CFBF}|menu\\menu.csproj|solutionrelative:menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0958ECB-4113-4DAD-A5E9-C5C86DB0CFBF}|menu\\menu.csproj|c:\\users\\b15-17m\\source\\repos\\menu\\menu\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0958ECB-4113-4DAD-A5E9-C5C86DB0CFBF}|menu\\menu.csproj|solutionrelative:menu\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Operaciones.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\source\\repos\\menu\\menu\\Operaciones.cs",
+              "RelativeDocumentMoniker": "menu\\Operaciones.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\source\\repos\\menu\\menu\\Operaciones.cs",
+              "RelativeToolTip": "menu\\Operaciones.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwEMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T07:44:00.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\source\\repos\\menu\\menu\\Program.cs",
+              "RelativeDocumentMoniker": "menu\\Program.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\source\\repos\\menu\\menu\\Program.cs",
+              "RelativeToolTip": "menu\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T07:43:37.508Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+C:\Users\b15-17m\source\repos\EjerciciosBasicos\EjerciciosBasicos\bin\Debug\EjerciciosBasicos.exe.config
+C:\Users\b15-17m\source\repos\EjerciciosBasicos\EjerciciosBasicos\bin\Debug\EjerciciosBasicos.exe
+C:\Users\b15-17m\source\repos\EjerciciosBasicos\EjerciciosBasicos\bin\Debug\EjerciciosBasicos.pdb
+C:\Users\b15-17m\source\repos\EjerciciosBasicos\EjerciciosBasicos\obj\Debug\EjerciciosBasicos.csproj.AssemblyReference.cache
+C:\Users\b15-17m\source\repos\EjerciciosBasicos\EjerciciosBasicos\obj\Debug\EjerciciosBasicos.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\source\repos\EjerciciosBasicos\EjerciciosBasicos\obj\Debug\EjerciciosBasicos.exe
+C:\Users\b15-17m\source\repos\EjerciciosBasicos\EjerciciosBasicos\obj\Debug\EjerciciosBasicos.pdb
+C:\Users\b15-17m\source\repos\EjerciciosBasicos\EjerciciosBasicos\obj\Debug\EjerciciosBasicos.exe.config

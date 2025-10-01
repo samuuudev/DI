@@ -1,0 +1,8 @@
+C:\Users\b15-17m\source\repos\MovimientoTablasMatrices\MovimientoTablasMatrices\bin\Debug\MovimientoTablasMatrices.exe.config
+C:\Users\b15-17m\source\repos\MovimientoTablasMatrices\MovimientoTablasMatrices\bin\Debug\MovimientoTablasMatrices.exe
+C:\Users\b15-17m\source\repos\MovimientoTablasMatrices\MovimientoTablasMatrices\bin\Debug\MovimientoTablasMatrices.pdb
+C:\Users\b15-17m\source\repos\MovimientoTablasMatrices\MovimientoTablasMatrices\obj\Debug\MovimientoTablasMatrices.csproj.AssemblyReference.cache
+C:\Users\b15-17m\source\repos\MovimientoTablasMatrices\MovimientoTablasMatrices\obj\Debug\MovimientoTablasMatrices.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\source\repos\MovimientoTablasMatrices\MovimientoTablasMatrices\obj\Debug\MovimientoTablasMatrices.exe
+C:\Users\b15-17m\source\repos\MovimientoTablasMatrices\MovimientoTablasMatrices\obj\Debug\MovimientoTablasMatrices.pdb
+C:\Users\b15-17m\source\repos\MovimientoTablasMatrices\MovimientoTablasMatrices\obj\Debug\MovimientoTablasMatrices.exe.config

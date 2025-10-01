@@ -1,0 +1,7 @@
+C:\Users\b15-17m\source\repos\EjerciciosArrayList\EjerciciosArrayList\bin\Debug\EjerciciosArrayList.exe.config
+C:\Users\b15-17m\source\repos\EjerciciosArrayList\EjerciciosArrayList\bin\Debug\EjerciciosArrayList.exe
+C:\Users\b15-17m\source\repos\EjerciciosArrayList\EjerciciosArrayList\bin\Debug\EjerciciosArrayList.pdb
+C:\Users\b15-17m\source\repos\EjerciciosArrayList\EjerciciosArrayList\obj\Debug\EjerciciosArrayList.csproj.AssemblyReference.cache
+C:\Users\b15-17m\source\repos\EjerciciosArrayList\EjerciciosArrayList\obj\Debug\EjerciciosArrayList.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\source\repos\EjerciciosArrayList\EjerciciosArrayList\obj\Debug\EjerciciosArrayList.exe
+C:\Users\b15-17m\source\repos\EjerciciosArrayList\EjerciciosArrayList\obj\Debug\EjerciciosArrayList.pdb

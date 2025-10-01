@@ -1,0 +1,8 @@
+C:\Users\b15-17m\source\repos\EjemploCoches\EjemploCoches\bin\Debug\EjemploCoches.exe.config
+C:\Users\b15-17m\source\repos\EjemploCoches\EjemploCoches\bin\Debug\EjemploCoches.exe
+C:\Users\b15-17m\source\repos\EjemploCoches\EjemploCoches\bin\Debug\EjemploCoches.pdb
+C:\Users\b15-17m\source\repos\EjemploCoches\EjemploCoches\obj\Debug\EjemploCoches.csproj.AssemblyReference.cache
+C:\Users\b15-17m\source\repos\EjemploCoches\EjemploCoches\obj\Debug\EjemploCoches.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\source\repos\EjemploCoches\EjemploCoches\obj\Debug\EjemploCoches.exe
+C:\Users\b15-17m\source\repos\EjemploCoches\EjemploCoches\obj\Debug\EjemploCoches.pdb
+C:\Users\b15-17m\source\repos\EjemploCoches\EjemploCoches\obj\Debug\EjemploCoches.exe.config

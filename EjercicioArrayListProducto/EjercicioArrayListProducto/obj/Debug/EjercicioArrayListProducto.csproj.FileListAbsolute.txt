@@ -1,0 +1,8 @@
+C:\Users\b15-17m\source\repos\EjercicioArrayListProducto\EjercicioArrayListProducto\bin\Debug\EjercicioArrayListProducto.exe.config
+C:\Users\b15-17m\source\repos\EjercicioArrayListProducto\EjercicioArrayListProducto\bin\Debug\EjercicioArrayListProducto.exe
+C:\Users\b15-17m\source\repos\EjercicioArrayListProducto\EjercicioArrayListProducto\bin\Debug\EjercicioArrayListProducto.pdb
+C:\Users\b15-17m\source\repos\EjercicioArrayListProducto\EjercicioArrayListProducto\obj\Debug\EjercicioArrayListProducto.csproj.AssemblyReference.cache
+C:\Users\b15-17m\source\repos\EjercicioArrayListProducto\EjercicioArrayListProducto\obj\Debug\EjercicioArrayListProducto.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\source\repos\EjercicioArrayListProducto\EjercicioArrayListProducto\obj\Debug\EjercicioArrayListProducto.exe
+C:\Users\b15-17m\source\repos\EjercicioArrayListProducto\EjercicioArrayListProducto\obj\Debug\EjercicioArrayListProducto.pdb
+C:\Users\b15-17m\source\repos\EjercicioArrayListProducto\EjercicioArrayListProducto\obj\Debug\EjercicioArrayListProducto.exe.config

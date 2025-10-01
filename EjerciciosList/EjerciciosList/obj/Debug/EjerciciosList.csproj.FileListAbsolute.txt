@@ -1,0 +1,7 @@
+C:\Users\b15-17m\source\repos\EjerciciosList\EjerciciosList\bin\Debug\EjerciciosList.exe.config
+C:\Users\b15-17m\source\repos\EjerciciosList\EjerciciosList\bin\Debug\EjerciciosList.exe
+C:\Users\b15-17m\source\repos\EjerciciosList\EjerciciosList\bin\Debug\EjerciciosList.pdb
+C:\Users\b15-17m\source\repos\EjerciciosList\EjerciciosList\obj\Debug\EjerciciosList.csproj.AssemblyReference.cache
+C:\Users\b15-17m\source\repos\EjerciciosList\EjerciciosList\obj\Debug\EjerciciosList.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\source\repos\EjerciciosList\EjerciciosList\obj\Debug\EjerciciosList.exe
+C:\Users\b15-17m\source\repos\EjerciciosList\EjerciciosList\obj\Debug\EjerciciosList.pdb

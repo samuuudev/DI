@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-17m\\source\\repos\\EjerciciosBasicos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87BF22B9-18A6-4BD1-ACAF-887C6455BB4D}|EjerciciosBasicos\\EjerciciosBasicos.csproj|c:\\users\\b15-17m\\source\\repos\\ejerciciosbasicos\\ejerciciosbasicos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BF22B9-18A6-4BD1-ACAF-887C6455BB4D}|EjerciciosBasicos\\EjerciciosBasicos.csproj|solutionrelative:ejerciciosbasicos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BF22B9-18A6-4BD1-ACAF-887C6455BB4D}|EjerciciosBasicos\\EjerciciosBasicos.csproj|c:\\users\\b15-17m\\source\\repos\\ejerciciosbasicos\\ejerciciosbasicos\\enumeraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BF22B9-18A6-4BD1-ACAF-887C6455BB4D}|EjerciciosBasicos\\EjerciciosBasicos.csproj|solutionrelative:ejerciciosbasicos\\enumeraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\source\\repos\\EjerciciosBasicos\\EjerciciosBasicos\\Program.cs",
+              "RelativeDocumentMoniker": "EjerciciosBasicos\\Program.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\source\\repos\\EjerciciosBasicos\\EjerciciosBasicos\\Program.cs",
+              "RelativeToolTip": "EjerciciosBasicos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T08:52:11.001Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enumeraciones.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\source\\repos\\EjerciciosBasicos\\EjerciciosBasicos\\Enumeraciones.cs",
+              "RelativeDocumentMoniker": "EjerciciosBasicos\\Enumeraciones.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\source\\repos\\EjerciciosBasicos\\EjerciciosBasicos\\Enumeraciones.cs",
+              "RelativeToolTip": "EjerciciosBasicos\\Enumeraciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:28:08.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
