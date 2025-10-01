@@ -29,7 +29,7 @@ namespace marioBros
             {
                 for (int j = 0; j < matriz.GetLength(1); j++)
                 {
-                    matriz[i, j] = Utilidades.numAleatorio(0, 3).ToString();
+                    matriz[i, j] = Utilidades.numAleatorio(0, 3);
                 }
             }
         }
