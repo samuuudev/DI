@@ -13,7 +13,8 @@ namespace marioBros
 
             // Bucle principal
             Console.WriteLine("Bienvenido a Mario Bros");
-            Operaciones.iniciarJuego();
+            Juego juego = new Juego();
+            juego.IniciarJuego();
 
         }
     }

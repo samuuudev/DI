@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\marioBros\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16AEF6A6-04AC-46AF-848D-4CA484301F38}|marioBros\\marioBros.csproj|c:\\users\\b15-17m\\documents\\github\\di\\mariobros\\mariobros\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AEF6A6-04AC-46AF-848D-4CA484301F38}|marioBros\\marioBros.csproj|solutionrelative:mariobros\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AEF6A6-04AC-46AF-848D-4CA484301F38}|marioBros\\marioBros.csproj|c:\\users\\b15-17m\\documents\\github\\di\\mariobros\\mariobros\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AEF6A6-04AC-46AF-848D-4CA484301F38}|marioBros\\marioBros.csproj|solutionrelative:mariobros\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AEF6A6-04AC-46AF-848D-4CA484301F38}|marioBros\\marioBros.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\marioBros\\mariobros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AEF6A6-04AC-46AF-848D-4CA484301F38}|marioBros\\marioBros.csproj|solutionrelative:mariobros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AEF6A6-04AC-46AF-848D-4CA484301F38}|marioBros\\marioBros.csproj|c:\\users\\b15-17m\\documents\\github\\di\\mariobros\\mariobros\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AEF6A6-04AC-46AF-848D-4CA484301F38}|marioBros\\marioBros.csproj|solutionrelative:mariobros\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AEF6A6-04AC-46AF-848D-4CA484301F38}|marioBros\\marioBros.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\marioBros\\mariobros\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AEF6A6-04AC-46AF-848D-4CA484301F38}|marioBros\\marioBros.csproj|solutionrelative:mariobros\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Jugador.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\marioBros\\marioBros\\Jugador.cs",
+              "RelativeDocumentMoniker": "marioBros\\Jugador.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\marioBros\\marioBros\\Jugador.cs",
+              "RelativeToolTip": "marioBros\\Jugador.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwC0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:46:22.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Juego.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\marioBros\\marioBros\\Juego.cs",
+              "RelativeDocumentMoniker": "marioBros\\Juego.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\marioBros\\marioBros\\Juego.cs",
+              "RelativeToolTip": "marioBros\\Juego.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:45:59.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Utilidades.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\marioBros\\marioBros\\Utilidades.cs",
+              "RelativeDocumentMoniker": "marioBros\\Utilidades.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\marioBros\\marioBros\\Utilidades.cs",
+              "RelativeToolTip": "marioBros\\Utilidades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T12:39:13.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tablero.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\marioBros\\marioBros\\Tablero.cs",
+              "RelativeDocumentMoniker": "marioBros\\Tablero.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\marioBros\\marioBros\\Tablero.cs",
+              "RelativeToolTip": "marioBros\\Tablero.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T12:39:11.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\marioBros\\marioBros\\Program.cs",
+              "RelativeDocumentMoniker": "marioBros\\Program.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\marioBros\\marioBros\\Program.cs",
+              "RelativeToolTip": "marioBros\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T12:39:10.522Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

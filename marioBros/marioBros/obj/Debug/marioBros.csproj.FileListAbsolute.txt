@@ -6,3 +6,11 @@ C:\Users\b15-17m\source\repos\marioBros\marioBros\obj\Debug\marioBros.csproj.Cor
 C:\Users\b15-17m\source\repos\marioBros\marioBros\obj\Debug\marioBros.exe
 C:\Users\b15-17m\source\repos\marioBros\marioBros\obj\Debug\marioBros.pdb
 C:\Users\b15-17m\source\repos\marioBros\marioBros\obj\Debug\marioBros.exe.config
+C:\Users\b15-17m\Documents\GitHub\DI\marioBros\marioBros\obj\Debug\marioBros.csproj.AssemblyReference.cache
+C:\Users\b15-17m\Documents\GitHub\DI\marioBros\marioBros\obj\Debug\marioBros.exe.config
+C:\Users\b15-17m\Documents\GitHub\DI\marioBros\marioBros\obj\Debug\marioBros.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\Documents\GitHub\DI\marioBros\marioBros\obj\Debug\marioBros.exe
+C:\Users\b15-17m\Documents\GitHub\DI\marioBros\marioBros\obj\Debug\marioBros.pdb
+C:\Users\b15-17m\Documents\GitHub\DI\marioBros\marioBros\bin\Debug\marioBros.exe.config
+C:\Users\b15-17m\Documents\GitHub\DI\marioBros\marioBros\bin\Debug\marioBros.exe
+C:\Users\b15-17m\Documents\GitHub\DI\marioBros\marioBros\bin\Debug\marioBros.pdb
