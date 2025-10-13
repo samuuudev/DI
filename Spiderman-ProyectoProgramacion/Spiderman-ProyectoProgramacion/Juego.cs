@@ -70,6 +70,7 @@ namespace Spiderman_ProyectoProgramacion
         // cambiar el nombre de este metodo no me gusta y no describe lo que hace
         private void controlador(Tablero tablero, Jugador jugador)
         {
+
             // logica del juego
             switch (tablero.getValorMatriz(jugador))
             {
@@ -114,7 +115,7 @@ namespace Spiderman_ProyectoProgramacion
                 Environment.Exit(0);
             }
 
-            if (jugador.civiles >= 5)
+            if (jugador.civiles >= 5 && tablero.getValorMatriz(jugador) == tablero.getUltimaPosicion())
             {
                 Console.WriteLine("Has ganado");
                 Environment.Exit(0);

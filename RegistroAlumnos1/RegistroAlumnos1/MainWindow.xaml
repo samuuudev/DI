@@ -1,0 +1,40 @@
+﻿<Window x:Class="RegistroAlumnos1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegistroAlumnos1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="LbNombre" Content="Nombre" HorizontalAlignment="Left" Margin="156,89,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LbEdad" Content="Edad" HorizontalAlignment="Left" Margin="156,115,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LbSexo" Content="Sexo" HorizontalAlignment="Left" Margin="156,146,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LbCurso" Content="Curso" HorizontalAlignment="Left" Margin="156,177,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LbHorario" Content="Horario" HorizontalAlignment="Left" Margin="156,208,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Tbx_nombre" HorizontalAlignment="Left" Margin="240,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="Tbx_Edad" HorizontalAlignment="Left" Margin="240,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48"/>
+        <RadioButton x:Name="Rb_Femenino" Content="Femenino" HorizontalAlignment="Center" Margin="0,152,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Rb_Masculino" Content="Masculino" HorizontalAlignment="Left" Margin="240,152,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="CoB_Curso" HorizontalAlignment="Left" Margin="240,179,0,0" VerticalAlignment="Top" Width="196">
+            <ComboBoxItem Content="DAM1"/>
+            <ComboBoxItem Content="DAM2"/>
+            <ComboBoxItem Content="DAW1"/>
+            <ComboBoxItem Content="DAW2"/>
+            <ComboBoxItem Content="ASIR1"/>
+            <ComboBoxItem Content="ASIR2"/>
+        </ComboBox>
+        <ComboBox x:Name="CoB_Horario" HorizontalAlignment="Left" Margin="240,210,0,0" VerticalAlignment="Top" Width="196">
+            <ComboBoxItem Content="Mañana"/>
+            <ComboBoxItem Content="Tarde"/>
+            <ComboBoxItem Content="Noche"/>
+        </ComboBox>
+        <CheckBox x:Name="CB_Ti" Content="T.I." HorizontalAlignment="Left" Margin="162,251,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <CheckBox x:Name="CB_OtroDocumento" Content="Otro Documento" HorizontalAlignment="Left" Margin="217,251,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Tbx_Documento" HorizontalAlignment="Left" Margin="340,250,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="96"/>
+        <Label x:Name="LB_informacion" Content="" HorizontalAlignment="Left" Margin="162,292,0,0" VerticalAlignment="Top" Width="274"/>
+        <Button x:Name="Btn_Registrar" Content="Registrar" HorizontalAlignment="Left" Margin="162,323,0,0" VerticalAlignment="Top" Width="102" Height="30"/>
+        <Button x:Name="Btn_Salir" Content="Salir" HorizontalAlignment="Left" Margin="336,323,0,0" VerticalAlignment="Top" Height="30" Width="100"/>
+
+    </Grid>
+</Window>

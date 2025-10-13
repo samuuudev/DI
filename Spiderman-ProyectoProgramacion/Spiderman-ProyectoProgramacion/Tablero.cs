@@ -85,6 +85,11 @@ namespace Spiderman_ProyectoProgramacion
             }
         }
 
+        public int getUltimaPosicion()
+        {
+            return matriz.GetLength(0) - 1 + matriz.GetLength(1) - 1;
+        }
+
         public char getValorMatriz(Jugador jugador)
         {
 
