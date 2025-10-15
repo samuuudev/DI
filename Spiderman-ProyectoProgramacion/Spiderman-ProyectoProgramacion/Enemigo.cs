@@ -9,7 +9,7 @@ namespace Spiderman_ProyectoProgramacion
     internal class Enemigo
     {
         private char tipo;
-        private string habilidad;
+        private string nombre;
         private int dano;
 
         public Enemigo(char tipo)
@@ -18,29 +18,55 @@ namespace Spiderman_ProyectoProgramacion
             switch (tipo)
             {
                 case 'D':
-                    habilidad = "Golpe";
+                    nombre = "Doctor Octopus";
                     dano = 1;
                     break;
                 case 'G':
-                    habilidad = "Golpe";
+                    nombre = "Duende Verde";
                     dano = 1;
                     break;
                 case 'M':
-                    habilidad = "Aleatorio";
+                    nombre = "Mysterio";
                     dano = 0;
                     break;
             }
         }
-        public void Atacar(Jugador jugador)
+
+        /// <summary>
+        /// Define el tipo de ataque y caracteristica
+        /// </summary>
+        /// <param name="jugador"></param>
+        /// <param name="tablero"></param>
+        public void Atacar(Jugador jugador, Tablero tablero)
         {
-            jugador.vida -= dano;
-            Console.WriteLine($"Has sido atacado por {habilidad}. Has perdido {dano} vida.");
+            if (tipo == 'M')
+            {
+                Random rnd = new Random();
+                int nuevaFila, nuevaColumna;
+
+                do
+                {
+                    nuevaFila = rnd.Next(0, tablero.Filas);
+                    nuevaColumna = rnd.Next(0, tablero.Columnas);
+                } while (!tablero.DentroMatriz(nuevaFila, nuevaColumna));
+
+                jugador.PosI = nuevaFila;
+                jugador.PosJ = nuevaColumna;
+
+                Console.WriteLine($"Mysterio ha jugado contigo. Te ha teletransportado a ({nuevaFila}, {nuevaColumna}).");
+                
+            }
+            else
+            {
+                jugador.vida -= dano;
+                Console.WriteLine($"Has sido atacado por {nombre}. Has perdido {dano} vida.");
+            }
         }
 
 
         // Getters
         public char Tipo { get { return tipo; } }
-        public string Habilidad { get { return habilidad; } }
+        public string Nombre { get { return nombre; } }
         public int Dano { get { return dano; } }
     }
 }
