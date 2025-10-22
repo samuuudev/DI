@@ -8,6 +8,8 @@
         Height="450"
         Width="800">
 
+    
+    
     <Grid Name="contenedor">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="250"/>
@@ -24,10 +26,10 @@
 
         <!-- Frame para el área del tablero -->
         <Frame Grid.Column="1"
-               Name="frameMariposa"
+               Name="frameTablero"
                NavigationUIVisibility="Hidden"
                HorizontalAlignment="Stretch"
                VerticalAlignment="Stretch"
-               Source="MariposaSimple.xaml"/>
+               Source="tablero.xaml"/>
     </Grid>
 </Window>

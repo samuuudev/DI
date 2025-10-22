@@ -1,0 +1,23 @@
+﻿<Window x:Class="contenedores.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:contenedores"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas>
+            <Button Canvas.Left="70">Top izquierda</Button>
+            <Button Canvas.Right="70">Top derecha</Button>
+            <Button Canvas.Left="70" Canvas.Bottom="10">Bottom izquierda</Button>
+            <Button Canvas.Right="70" Canvas.Bottom="10">Bottom derecha</Button>
+        </Canvas>
+        <Canvas x:Name="contenedor">
+            <Ellipse Panel.ZIndex="2" Canvas.Left="35" Canvas.Top="35" Width="200" Height="200" Fill="Gainsboro"/>
+            <Rectangle Panel.ZIndex="3" Canvas.Left="25" Canvas.Top="25" Width="50" Height="50" Fill="LightBlue"/>
+            <Rectangle Panel.ZIndex="2" Canvas.Left="50" Canvas.Top="50" Width="50" Height="50" Fill="LightCoral"/>
+            <Rectangle Panel.ZIndex="3" Canvas.Left="75" Canvas.Top="75" Width="50" Height="50" Fill="LightCyan"/>
+        </Canvas>
+    </Grid>
+</Window>

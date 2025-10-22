@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\b15-17m\\source\\repos\\menu\\",
+  "WorkspaceRootPath": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\menu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0958ECB-4113-4DAD-A5E9-C5C86DB0CFBF}|menu\\menu.csproj|C:\\Users\\b15-17m\\source\\repos\\menu\\menu\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0958ECB-4113-4DAD-A5E9-C5C86DB0CFBF}|menu\\menu.csproj|c:\\users\\b15-17m\\documents\\github\\di\\menu\\menu\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0958ECB-4113-4DAD-A5E9-C5C86DB0CFBF}|menu\\menu.csproj|solutionrelative:menu\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0958ECB-4113-4DAD-A5E9-C5C86DB0CFBF}|menu\\menu.csproj|c:\\users\\b15-17m\\source\\repos\\menu\\menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0958ECB-4113-4DAD-A5E9-C5C86DB0CFBF}|menu\\menu.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\menu\\menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0958ECB-4113-4DAD-A5E9-C5C86DB0CFBF}|menu\\menu.csproj|solutionrelative:menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Operaciones.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\source\\repos\\menu\\menu\\Operaciones.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\menu\\menu\\Operaciones.cs",
               "RelativeDocumentMoniker": "menu\\Operaciones.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\source\\repos\\menu\\menu\\Operaciones.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\menu\\menu\\Operaciones.cs",
               "RelativeToolTip": "menu\\Operaciones.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -37,14 +37,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\source\\repos\\menu\\menu\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\menu\\menu\\Program.cs",
               "RelativeDocumentMoniker": "menu\\Program.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\source\\repos\\menu\\menu\\Program.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\menu\\menu\\Program.cs",
               "RelativeToolTip": "menu\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T07:43:37.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T07:43:37.508Z"
             }
           ]
         }
