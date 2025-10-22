@@ -8,8 +8,8 @@ namespace Spiderman_ProyectoProgramacion
 {
     internal class Jugador
     {
-        public int PosI { get; private set; }
-        public int PosJ { get; private set; }
+        public int PosI { get; set; }
+        public int PosJ { get; set; }
         public string Simbolo { get; private set; }
 
         public int civiles { get; set; } = 0;
@@ -25,6 +25,14 @@ namespace Spiderman_ProyectoProgramacion
             Simbolo = simbolo;
         }
 
+
+        /// <summary>
+        /// Usamos los valores del jugador de posicion para moverlo por el tablero seleccionado
+        /// </summary>
+        /// <param name="dI"></param>
+        /// <param name="dJ"></param>
+        /// <param name="tablero"></param>
+        /// <returns></returns>
         public bool Mover(int dI, int dJ, Tablero tablero)
         {
 
@@ -47,6 +55,10 @@ namespace Spiderman_ProyectoProgramacion
 
             return false;
         }
+
+        /// <summary>
+        /// Actualiza en tiempo de ejecucion la vida restante y civiles
+        /// </summary>
         public void MostrarEstado()
         {
             Console.WriteLine($"Vida: {vida}, Civiles: {civiles}");
