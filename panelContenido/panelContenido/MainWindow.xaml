@@ -1,0 +1,40 @@
+﻿<Window x:Class="MiPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mi Panel" Height="400" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Menú lateral -->
+        <StackPanel Background="LightSlateGray">
+            <TextBlock Text="Mi Panel" Margin="10" Foreground="White"/>
+            <Button Content="Home" Margin="5"/>
+            <Button Content="Dashboard" Margin="5"/>
+            <Button Content="Reports" Margin="5"/>
+            <Button Content="Settings" Margin="5"/>
+        </StackPanel>
+
+        <!-- Contenido principal -->
+        <Grid Grid.Column="1" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Mi Panel - April 24, 2024" FontWeight="Bold"/>
+
+            <StackPanel Grid.Row="1" Orientation="Vertical" Margin="0,10,0,0">
+                <TextBlock Text="120 Tasks"/>
+                <TextBlock Text="80 Notes"/>
+                <TextBlock Text="Quick Access"/>
+                <TextBlock Text="Contenido"/>
+                <TextBlock Text="Statistic: 75"/>
+                <TextBlock Text="Statistic: 200"/>
+                <TextBlock Text="Statistic: 300"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
