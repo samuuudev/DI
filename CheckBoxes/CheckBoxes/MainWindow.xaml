@@ -1,0 +1,20 @@
+﻿<Window x:Class="CheckBoxes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CheckBoxes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Name="lbMensaje"  Content="Label" Canvas.Left="26" Canvas.Top="153" Margin="10,158,-10,-158"/>
+        <CheckBox x:Name="chk_Si" Content="Si" IsChecked="True"
+                  HorizontalAlignment="Left" VerticalAlignment="Top"
+                  Margin="10,191,0,0"
+                  Checked="chk_Si_Checked"/>
+        <CheckBox x:Name="chk_No" Content="No" IsChecked="false"
+                  HorizontalAlignment="Left" VerticalAlignment="Top"
+                  Margin="10,221,0,0"
+                  Checked="chk_No_Checked"/>
+    </Grid>
+</Window>

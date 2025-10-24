@@ -1,0 +1,16 @@
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\bin\Debug\MenuWPF.exe.config
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\bin\Debug\MenuWPF.exe
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\bin\Debug\MenuWPF.pdb
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\obj\Debug\MenuWPF.csproj.AssemblyReference.cache
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\obj\Debug\MainWindow.g.cs
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\obj\Debug\App.g.cs
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\obj\Debug\MenuWPF_MarkupCompile.cache
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\obj\Debug\MenuWPF_MarkupCompile.lref
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\obj\Debug\MainWindow.baml
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\obj\Debug\MenuWPF.g.resources
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\obj\Debug\MenuWPF.Properties.Resources.resources
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\obj\Debug\MenuWPF.csproj.GenerateResource.cache
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\obj\Debug\MenuWPF.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\obj\Debug\MenuWPF.exe
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\obj\Debug\MenuWPF.pdb
+C:\Users\b15-17m\Documents\GitHub\DI\MenuWPF\MenuWPF\obj\Debug\MenuWPF.exe.config

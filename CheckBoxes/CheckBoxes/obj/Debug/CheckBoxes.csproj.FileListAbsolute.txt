@@ -1,0 +1,16 @@
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\obj\Debug\CheckBoxes.csproj.AssemblyReference.cache
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\obj\Debug\MainWindow.g.cs
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\obj\Debug\App.g.cs
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\obj\Debug\CheckBoxes_MarkupCompile.cache
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\obj\Debug\CheckBoxes_MarkupCompile.lref
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\bin\Debug\CheckBoxes.exe.config
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\bin\Debug\CheckBoxes.exe
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\bin\Debug\CheckBoxes.pdb
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\obj\Debug\MainWindow.baml
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\obj\Debug\CheckBoxes.g.resources
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\obj\Debug\CheckBoxes.Properties.Resources.resources
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\obj\Debug\CheckBoxes.csproj.GenerateResource.cache
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\obj\Debug\CheckBoxes.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\obj\Debug\CheckBoxes.exe
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\obj\Debug\CheckBoxes.pdb
+C:\Users\b15-17m\Documents\GitHub\DI\CheckBoxes\CheckBoxes\obj\Debug\CheckBoxes.exe.config

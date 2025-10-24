@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\GridTablero\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF68524-28F7-4E7B-ACFD-AE924E8E3EB7}|GridTablero\\GridTablero.csproj|c:\\users\\b15-17m\\documents\\github\\di\\gridtablero\\gridtablero\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF68524-28F7-4E7B-ACFD-AE924E8E3EB7}|GridTablero\\GridTablero.csproj|solutionrelative:gridtablero\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF68524-28F7-4E7B-ACFD-AE924E8E3EB7}|GridTablero\\GridTablero.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\GridTablero\\gridtablero\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EF68524-28F7-4E7B-ACFD-AE924E8E3EB7}|GridTablero\\GridTablero.csproj|solutionrelative:gridtablero\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\GridTablero\\GridTablero\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "GridTablero\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\GridTablero\\GridTablero\\MainWindow.xaml",
+              "RelativeToolTip": "GridTablero\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-17T09:17:33.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\GridTablero\\GridTablero\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GridTablero\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\GridTablero\\GridTablero\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GridTablero\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwB8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:17:33.263Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
