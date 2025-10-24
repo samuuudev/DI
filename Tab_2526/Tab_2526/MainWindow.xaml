@@ -1,0 +1,32 @@
+﻿<Window x:Class="Tab_2526.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tab_2526"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Name="ContenedorPrincipal" Margin="0,99,0,0">
+        <Grid Name="Banner" Grid.Row="1" Grid.Column="3">
+            
+        </Grid>
+        <TabControl TabStripPlacement="Left">
+            <TabItem Header="Usuarios">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Educacion">
+                <Grid Background="#FFE5E5E5">
+                    <TabControl>
+                        <TabItem Header="MATRICULACION">
+                            <Grid Background="#FFE5E5E5"/>
+                        </TabItem>
+                        <TabItem Header="DUALIDAD EMPRESAS">
+                            <Grid Background="#FFE5E5E5"/>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Label Content="Proyecto Ejemplo" HorizontalAlignment="Left" Margin="96,-62,0,0" VerticalAlignment="Top" Width="392"/>
+    </Grid>
+</Window>

@@ -9,7 +9,7 @@
         </Grid.ColumnDefinitions>
 
         <!-- Menú lateral -->
-        <StackPanel Background="LightSlateGray">
+        <StackPanel Grid.Column="0" Background="LightSlateGray">
             <TextBlock Text="Mi Panel" Margin="10" Foreground="White"/>
             <Button Content="Home" Margin="5"/>
             <Button Content="Dashboard" Margin="5"/>

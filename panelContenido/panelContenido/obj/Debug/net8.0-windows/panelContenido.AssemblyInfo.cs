@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("panelContenido")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+712fa4cb4e50c9d8da38c9475b1a1564e6349ee9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b2cb301f0d3b5690c4babfdfbfab9620dfa5668")]
 [assembly: System.Reflection.AssemblyProductAttribute("panelContenido")]
 [assembly: System.Reflection.AssemblyTitleAttribute("panelContenido")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

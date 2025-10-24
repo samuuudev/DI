@@ -1,0 +1,44 @@
+﻿<Window x:Class="TiendaJuego.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TiendaJuego"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Name="contenedorTienda">
+        <Canvas>
+            <Grid x:Name="Banner" Height="101" Width="800" HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Label x:Name="lb_dinero" Content="Dinero:"/>
+                <Label x:Name="lb_tiendaInicio" Content="Tienda" HorizontalAlignment="Left" FontSize="24" FontWeight="Bold" Margin="352,23,0,40"/>
+            </Grid>
+            <StackPanel Height="343" Width="770" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Top="81" Canvas.Left="10" Orientation="Horizontal">
+
+                <TabControl Height="314" Width="347" Margin="10">
+                    <TabItem Header="Pasivas" RenderTransformOrigin="0.5,0.5">
+                        <Grid Background="#FFE5E5E5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="69*"/>
+                                <ColumnDefinition Width="7*"/>
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Header="Activas">
+                        <Grid Background="#FFE5E5E5"/>
+                    </TabItem>
+                    <TabItem Header="Armas"/>
+                    <TabItem Header="Arrojables"/>
+                    <TabItem Header="Consumibles"/>
+                    <TabItem Header="Objetos"/>
+                </TabControl>
+                <Canvas x:Name="AreaInformacion" Height="313" Width="378" Margin="10" Background="#19000000">
+                    <Label x:Name="lb_nombreObjeto" Content="Nombre objeto:" HorizontalAlignment="Center" Canvas.Left="10" Canvas.Top="161" VerticalAlignment="Top"/>
+                    <Label x:Name="lb_descripcionObjeto" Content="Descripcion:" Canvas.Left="10" Canvas.Top="192" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <Image x:Name="img_objetoTienda" Height="100" Canvas.Left="139" Canvas.Top="34" Width="100"/>
+                </Canvas>
+
+            </StackPanel>
+
+        </Canvas>
+    </Grid>
+</Window>
