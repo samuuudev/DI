@@ -1,0 +1,7 @@
+He optado por estructurar el proyecto en cuatro clases principales: Juego, Tablero, Enemigo y Jugador.
+	- Tablero gestiona la creación, visualización y control de las posiciones dentro del juego.
+	- Jugador almacena la información de vida, posición y civiles rescatados, además de los métodos para actualizar su estado.
+	- Enemigo define las características y el comportamiento de los enemigos, incluyendo su método de ataque.
+	- Juego centraliza la lógica general, coordinando la interacción entre los demás objetos.
+
+Esta organización evita mezclar responsabilidades, mantiene los datos bien estructurados y facilita la ampliación o modificación del código en el futuro.

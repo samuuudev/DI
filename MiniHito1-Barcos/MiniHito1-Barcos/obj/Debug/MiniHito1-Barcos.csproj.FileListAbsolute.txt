@@ -1,0 +1,8 @@
+C:\Users\b15-17m\Documents\GitHub\DI\MiniHito1-Barcos\MiniHito1-Barcos\bin\Debug\MiniHito1-Barcos.exe.config
+C:\Users\b15-17m\Documents\GitHub\DI\MiniHito1-Barcos\MiniHito1-Barcos\bin\Debug\MiniHito1-Barcos.exe
+C:\Users\b15-17m\Documents\GitHub\DI\MiniHito1-Barcos\MiniHito1-Barcos\bin\Debug\MiniHito1-Barcos.pdb
+C:\Users\b15-17m\Documents\GitHub\DI\MiniHito1-Barcos\MiniHito1-Barcos\obj\Debug\MiniHito1-Barcos.csproj.AssemblyReference.cache
+C:\Users\b15-17m\Documents\GitHub\DI\MiniHito1-Barcos\MiniHito1-Barcos\obj\Debug\MiniHito1-Barcos.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\Documents\GitHub\DI\MiniHito1-Barcos\MiniHito1-Barcos\obj\Debug\MiniHito1-Barcos.exe
+C:\Users\b15-17m\Documents\GitHub\DI\MiniHito1-Barcos\MiniHito1-Barcos\obj\Debug\MiniHito1-Barcos.pdb
+C:\Users\b15-17m\Documents\GitHub\DI\MiniHito1-Barcos\MiniHito1-Barcos\obj\Debug\MiniHito1-Barcos.exe.config

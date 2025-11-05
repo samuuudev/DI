@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\InicioSesionBasico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC993086-BC52-4287-905F-0C187761DF78}|InicioSesionBasico\\InicioSesionBasico.csproj|c:\\users\\b15-17m\\documents\\github\\di\\iniciosesionbasico\\iniciosesionbasico\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC993086-BC52-4287-905F-0C187761DF78}|InicioSesionBasico\\InicioSesionBasico.csproj|solutionrelative:iniciosesionbasico\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC993086-BC52-4287-905F-0C187761DF78}|InicioSesionBasico\\InicioSesionBasico.csproj|c:\\users\\b15-17m\\documents\\github\\di\\iniciosesionbasico\\iniciosesionbasico\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC993086-BC52-4287-905F-0C187761DF78}|InicioSesionBasico\\InicioSesionBasico.csproj|solutionrelative:iniciosesionbasico\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\InicioSesionBasico\\InicioSesionBasico\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "InicioSesionBasico\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\InicioSesionBasico\\InicioSesionBasico\\MainWindow.xaml",
+              "RelativeToolTip": "InicioSesionBasico\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T09:19:33.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\InicioSesionBasico\\InicioSesionBasico\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "InicioSesionBasico\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\InicioSesionBasico\\InicioSesionBasico\\MainWindow.xaml.cs",
+              "RelativeToolTip": "InicioSesionBasico\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:19:33.26Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
