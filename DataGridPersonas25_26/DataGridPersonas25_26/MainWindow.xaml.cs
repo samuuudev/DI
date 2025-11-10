@@ -41,6 +41,7 @@ namespace DataGridPersonas25_26
 
         public void start()
         {
+            // Limpiamos los TextBox
             txtBox_DatosNombre.Text = "";
             txtBox_DatosApellido.Text = "";
             txtBox_DatosEdad.Text = "";
@@ -48,11 +49,22 @@ namespace DataGridPersonas25_26
 
         private void dgv_Personas_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            // txtBox_DatosNombre.Text = "Ha cambiado la seleccion";
+            // Obtenemos la persona seleccionada en el DataGrid
+            Persona personaSeleccionada = (Persona)dgv_Personas.SelectedItem;
+
+            // Mostramos los datos de la persona seleccionada en los TextBox
+            if (personaSeleccionada != null) // La condicion evita el error cuando no hay ningun elemento seleccionado
+            {
+                txtBox_DatosNombre.Text = personaSeleccionada.Nombre;
+                txtBox_DatosApellido.Text = personaSeleccionada.Apellido;
+                txtBox_DatosEdad.Text = personaSeleccionada.Edad.ToString();
+            }
+
         }
 
         private void btn_EliminarDatos_Click(object sender, RoutedEventArgs e)
         {
+            // Borramos la persona seleccionada en el DataGrid de la lista de personas
             lstPersonas.Remove((Persona)dgv_Personas.SelectedItem);
             dgv_Personas.Items.Refresh();
             start();
@@ -62,6 +74,7 @@ namespace DataGridPersonas25_26
         {
             // Creamos una nueva persona con los datos modificados
             Persona persona = new Persona(txtBox_DatosNombre.Text, txtBox_DatosApellido.Text, int.Parse(txtBox_DatosEdad.Text));
+
             // Reemplazamos la persona seleccionada en la lista por la nueva persona
             lstPersonas[dgv_Personas.SelectedIndex] = persona;
             dgv_Personas.Items.Refresh();
@@ -71,6 +84,8 @@ namespace DataGridPersonas25_26
 
         private void btn_AgregarDatos_Click(object sender, RoutedEventArgs e)
         {
+
+            // Creamos una nueva persona con los datos ingresados
             Persona persona = new Persona(txtBox_DatosNombre.Text, txtBox_DatosApellido.Text, int.Parse(txtBox_DatosEdad.Text));
             lstPersonas.Add(persona);
             dgv_Personas.Items.Refresh();

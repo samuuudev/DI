@@ -81,7 +81,8 @@
               "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\MainWindow.xaml",
               "RelativeToolTip": "DataGridPersonas25_26\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-30T08:46:48.115Z"
+              "WhenOpened": "2025-10-30T08:46:48.115Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -91,7 +92,7 @@
               "RelativeDocumentMoniker": "DataGridPersonas25_26\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\MainWindow.xaml.cs",
               "RelativeToolTip": "DataGridPersonas25_26\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T08:46:47.275Z",
               "EditorCaption": ""
@@ -105,7 +106,8 @@
               "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\App.xaml",
               "RelativeToolTip": "DataGridPersonas25_26\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-04T08:00:58.598Z"
+              "WhenOpened": "2025-11-04T08:00:58.598Z",
+              "EditorCaption": ""
             }
           ]
         }
