@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|c:\\users\\b15-17m\\documents\\github\\di\\datagridpersonas25_26\\datagridpersonas25_26\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\datagridpersonas25_26\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|solutionrelative:datagridpersonas25_26\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\datagridpersonas25_26\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|solutionrelative:datagridpersonas25_26\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\datagridpersonas25_26\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|solutionrelative:datagridpersonas25_26\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\datagridpersonas25_26\\persistance\\personapersistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|solutionrelative:datagridpersonas25_26\\persistance\\personapersistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\datagridpersonas25_26\\persistance\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|solutionrelative:datagridpersonas25_26\\persistance\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|c:\\users\\b15-17m\\documents\\github\\di\\datagridpersonas25_26\\datagridpersonas25_26\\persistance\\manage\\personapersistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|solutionrelative:datagridpersonas25_26\\persistance\\manage\\personapersistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\datagridpersonas25_26\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|solutionrelative:datagridpersonas25_26\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91EED3F1-8307-48DB-A38A-A6C7FF014010}|DataGridPersonas25_26\\DataGridPersonas25_26.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\datagridpersonas25_26\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,47 +38,54 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PersonaPersistance.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\persistance\\PersonaPersistance.cs",
-              "RelativeDocumentMoniker": "DataGridPersonas25_26\\persistance\\PersonaPersistance.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\persistance\\PersonaPersistance.cs",
-              "RelativeToolTip": "DataGridPersonas25_26\\persistance\\PersonaPersistance.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCIAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DataGridPersonas25_26\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DataGridPersonas25_26\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAASwEsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T08:06:30.795Z"
+              "WhenOpened": "2025-10-30T08:46:47.275Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\domain\\Persona.cs",
-              "RelativeDocumentMoniker": "DataGridPersonas25_26\\domain\\Persona.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\domain\\Persona.cs",
-              "RelativeToolTip": "DataGridPersonas25_26\\domain\\Persona.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCAAAABLAAAAAAAAAA==",
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\persistance\\DBBroker.cs",
+              "RelativeDocumentMoniker": "DataGridPersonas25_26\\persistance\\DBBroker.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\persistance\\DBBroker.cs",
+              "RelativeToolTip": "DataGridPersonas25_26\\persistance\\DBBroker.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAlwDYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T08:01:19.712Z"
+              "WhenOpened": "2025-11-12T10:03:14.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonaPersistance.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\persistance\\manage\\PersonaPersistance.cs",
+              "RelativeDocumentMoniker": "DataGridPersonas25_26\\persistance\\manage\\PersonaPersistance.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\persistance\\manage\\PersonaPersistance.cs",
+              "RelativeToolTip": "DataGridPersonas25_26\\persistance\\manage\\PersonaPersistance.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAnwEoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T08:06:30.795Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\App.xaml.cs",
-              "RelativeDocumentMoniker": "DataGridPersonas25_26\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\App.xaml.cs",
-              "RelativeToolTip": "DataGridPersonas25_26\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T08:00:55.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DataGridPersonas25_26\\MainWindow.xaml",
@@ -86,20 +97,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DataGridPersonas25_26\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "DataGridPersonas25_26\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwDUAAAANAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\domain\\Persona.cs",
+              "RelativeDocumentMoniker": "DataGridPersonas25_26\\domain\\Persona.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\domain\\Persona.cs",
+              "RelativeToolTip": "DataGridPersonas25_26\\domain\\Persona.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T08:46:47.275Z",
+              "WhenOpened": "2025-11-04T08:01:19.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DataGridPersonas25_26\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\App.xaml.cs",
+              "RelativeToolTip": "DataGridPersonas25_26\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T08:00:55.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridPersonas25_26\\DataGridPersonas25_26\\App.xaml",
               "RelativeDocumentMoniker": "DataGridPersonas25_26\\App.xaml",

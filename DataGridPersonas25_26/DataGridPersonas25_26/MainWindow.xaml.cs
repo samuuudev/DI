@@ -28,15 +28,13 @@ namespace DataGridPersonas25_26
         {
             InitializeComponent();
             lstPersonas = new List<Persona>();
-            // Descargamos los datos de la base de datos (simulado)
-
-
             // Paso 1: Instanciamos la clase persona y la inicializamos usando el constructor vacio
             persona = new Persona();
             // Llamamos al metodo getPersonas para obtener la lista de personas
             lstPersonas = persona.getPersonas();
             // Sincronizamos el DataGrid con la lista de personas
             dgv_Personas.ItemsSource = lstPersonas;
+            start();
         }
 
         public void start()
@@ -64,6 +62,8 @@ namespace DataGridPersonas25_26
 
         private void btn_EliminarDatos_Click(object sender, RoutedEventArgs e)
         {
+            Persona personaEliminar = (Persona)dgv_Personas.SelectedItem;
+            personaEliminar.delete();
             // Borramos la persona seleccionada en el DataGrid de la lista de personas
             lstPersonas.Remove((Persona)dgv_Personas.SelectedItem);
             dgv_Personas.Items.Refresh();
@@ -73,10 +73,9 @@ namespace DataGridPersonas25_26
         private void btn_ModificarDatos_Click(object sender, RoutedEventArgs e)
         {
             // Creamos una nueva persona con los datos modificados
-            Persona persona = new Persona(txtBox_DatosNombre.Text, txtBox_DatosApellido.Text, int.Parse(txtBox_DatosEdad.Text));
+            Persona persona = (Persona)dgv_Personas.SelectedItem;
 
-            // Reemplazamos la persona seleccionada en la lista por la nueva persona
-            lstPersonas[dgv_Personas.SelectedIndex] = persona;
+            persona.modificar();
             dgv_Personas.Items.Refresh();
 
             start();
@@ -87,6 +86,10 @@ namespace DataGridPersonas25_26
 
             // Creamos una nueva persona con los datos ingresados
             Persona persona = new Persona(txtBox_DatosNombre.Text, txtBox_DatosApellido.Text, int.Parse(txtBox_DatosEdad.Text));
+            persona.last();
+            persona.insertar();
+
+
             lstPersonas.Add(persona);
             dgv_Personas.Items.Refresh();
 
