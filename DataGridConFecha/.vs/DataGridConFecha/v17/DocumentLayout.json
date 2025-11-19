@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridConFecha\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67224C91-44E7-4D7F-8CFC-B18B263D8DF9}|DataGridConFecha\\DataGridConFecha.csproj|c:\\users\\b15-17m\\documents\\github\\di\\datagridconfecha\\datagridconfecha\\persistance\\personapersistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67224C91-44E7-4D7F-8CFC-B18B263D8DF9}|DataGridConFecha\\DataGridConFecha.csproj|solutionrelative:datagridconfecha\\persistance\\personapersistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67224C91-44E7-4D7F-8CFC-B18B263D8DF9}|DataGridConFecha\\DataGridConFecha.csproj|c:\\users\\b15-17m\\documents\\github\\di\\datagridconfecha\\datagridconfecha\\persistance\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67224C91-44E7-4D7F-8CFC-B18B263D8DF9}|DataGridConFecha\\DataGridConFecha.csproj|solutionrelative:datagridconfecha\\persistance\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67224C91-44E7-4D7F-8CFC-B18B263D8DF9}|DataGridConFecha\\DataGridConFecha.csproj|c:\\users\\b15-17m\\documents\\github\\di\\datagridconfecha\\datagridconfecha\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67224C91-44E7-4D7F-8CFC-B18B263D8DF9}|DataGridConFecha\\DataGridConFecha.csproj|solutionrelative:datagridconfecha\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67224C91-44E7-4D7F-8CFC-B18B263D8DF9}|DataGridConFecha\\DataGridConFecha.csproj|c:\\users\\b15-17m\\documents\\github\\di\\datagridconfecha\\datagridconfecha\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67224C91-44E7-4D7F-8CFC-B18B263D8DF9}|DataGridConFecha\\DataGridConFecha.csproj|solutionrelative:datagridconfecha\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67224C91-44E7-4D7F-8CFC-B18B263D8DF9}|DataGridConFecha\\DataGridConFecha.csproj|c:\\users\\b15-17m\\documents\\github\\di\\datagridconfecha\\datagridconfecha\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67224C91-44E7-4D7F-8CFC-B18B263D8DF9}|DataGridConFecha\\DataGridConFecha.csproj|solutionrelative:datagridconfecha\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67224C91-44E7-4D7F-8CFC-B18B263D8DF9}|DataGridConFecha\\DataGridConFecha.csproj|c:\\users\\b15-17m\\documents\\github\\di\\datagridconfecha\\datagridconfecha\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67224C91-44E7-4D7F-8CFC-B18B263D8DF9}|DataGridConFecha\\DataGridConFecha.csproj|solutionrelative:datagridconfecha\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridConFecha\\DataGridConFecha\\domain\\Persona.cs",
+              "RelativeDocumentMoniker": "DataGridConFecha\\domain\\Persona.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridConFecha\\DataGridConFecha\\domain\\Persona.cs",
+              "RelativeToolTip": "DataGridConFecha\\domain\\Persona.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAhwDoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:23:49.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridConFecha\\DataGridConFecha\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DataGridConFecha\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridConFecha\\DataGridConFecha\\view\\MainWindow.xaml",
+              "RelativeToolTip": "DataGridConFecha\\view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T13:18:04.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridConFecha\\DataGridConFecha\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DataGridConFecha\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridConFecha\\DataGridConFecha\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DataGridConFecha\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwFcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:17:56.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonaPersistance.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridConFecha\\DataGridConFecha\\persistance\\PersonaPersistance.cs",
+              "RelativeDocumentMoniker": "DataGridConFecha\\persistance\\PersonaPersistance.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridConFecha\\DataGridConFecha\\persistance\\PersonaPersistance.cs",
+              "RelativeToolTip": "DataGridConFecha\\persistance\\PersonaPersistance.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAvwCsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:05:19.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridConFecha\\DataGridConFecha\\App.xaml",
+              "RelativeDocumentMoniker": "DataGridConFecha\\App.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridConFecha\\DataGridConFecha\\App.xaml",
+              "RelativeToolTip": "DataGridConFecha\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T12:53:48.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridConFecha\\DataGridConFecha\\persistance\\DBBroker.cs",
+              "RelativeDocumentMoniker": "DataGridConFecha\\persistance\\DBBroker.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DataGridConFecha\\DataGridConFecha\\persistance\\DBBroker.cs",
+              "RelativeToolTip": "DataGridConFecha\\persistance\\DBBroker.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwEQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:49:40.168Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

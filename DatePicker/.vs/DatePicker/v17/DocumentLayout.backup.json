@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DatePicker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54B4BE42-63EC-48C2-836C-F63F2132DC99}|DatePicker\\DatePicker.csproj|c:\\users\\b15-17m\\documents\\github\\di\\datepicker\\datepicker\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B4BE42-63EC-48C2-836C-F63F2132DC99}|DatePicker\\DatePicker.csproj|solutionrelative:datepicker\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B4BE42-63EC-48C2-836C-F63F2132DC99}|DatePicker\\DatePicker.csproj|c:\\users\\b15-17m\\documents\\github\\di\\datepicker\\datepicker\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54B4BE42-63EC-48C2-836C-F63F2132DC99}|DatePicker\\DatePicker.csproj|solutionrelative:datepicker\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DatePicker\\DatePicker\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DatePicker\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DatePicker\\DatePicker\\MainWindow.xaml",
+              "RelativeToolTip": "DatePicker\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T12:19:39.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DatePicker\\DatePicker\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DatePicker\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\DatePicker\\DatePicker\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DatePicker\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAApwCEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:19:39.74Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

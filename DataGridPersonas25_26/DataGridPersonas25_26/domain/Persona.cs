@@ -27,13 +27,13 @@ namespace DataGridPersonas25_26.domain
             this.id = id;
         }
 
-        //public Persona(string nombre, string apellido, int edad)
-        //{
-        //    pm = new PersonaPersistance();
-        //    this.nombre = nombre;
-        //    this.apellido = apellido;
-        //    this.edad = edad;
-        //}
+        public Persona(string nombre, string apellido, int edad)
+        {
+            pm = new PersonaPersistance();
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.edad = edad;
+        }
         public Persona(int id, string nombre, string apellido, int edad)
         {
             pm = new PersonaPersistance();
