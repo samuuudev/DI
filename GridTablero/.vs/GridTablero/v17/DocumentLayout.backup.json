@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -39,7 +43,7 @@
               "RelativeDocumentMoniker": "GridTablero\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\GridTablero\\GridTablero\\MainWindow.xaml.cs",
               "RelativeToolTip": "GridTablero\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwB8AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-17T09:17:33.263Z",
               "EditorCaption": ""
