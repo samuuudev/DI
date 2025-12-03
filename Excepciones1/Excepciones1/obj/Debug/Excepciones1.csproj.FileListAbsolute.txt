@@ -1,0 +1,8 @@
+C:\Users\b15-17m\Documents\GitHub\DI\Excepciones1\Excepciones1\bin\Debug\Excepciones1.exe.config
+C:\Users\b15-17m\Documents\GitHub\DI\Excepciones1\Excepciones1\bin\Debug\Excepciones1.exe
+C:\Users\b15-17m\Documents\GitHub\DI\Excepciones1\Excepciones1\bin\Debug\Excepciones1.pdb
+C:\Users\b15-17m\Documents\GitHub\DI\Excepciones1\Excepciones1\obj\Debug\Excepciones1.csproj.AssemblyReference.cache
+C:\Users\b15-17m\Documents\GitHub\DI\Excepciones1\Excepciones1\obj\Debug\Excepciones1.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\Documents\GitHub\DI\Excepciones1\Excepciones1\obj\Debug\Excepciones1.exe
+C:\Users\b15-17m\Documents\GitHub\DI\Excepciones1\Excepciones1\obj\Debug\Excepciones1.pdb
+C:\Users\b15-17m\Documents\GitHub\DI\Excepciones1\Excepciones1\obj\Debug\Excepciones1.exe.config

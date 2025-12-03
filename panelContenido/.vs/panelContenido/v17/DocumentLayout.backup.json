@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\panelContenido\\",
+  "WorkspaceRootPath": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\panelContenido\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{230B8C32-EA0D-44CC-AEBB-F981762497FA}|panelContenido\\panelContenido.csproj|c:\\users\\samu\\desktop\\dam2\\di\\panelcontenido\\panelcontenido\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{230B8C32-EA0D-44CC-AEBB-F981762497FA}|panelContenido\\panelContenido.csproj|c:\\users\\b15-17m\\documents\\github\\di\\panelcontenido\\panelcontenido\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{230B8C32-EA0D-44CC-AEBB-F981762497FA}|panelContenido\\panelContenido.csproj|solutionrelative:panelcontenido\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{230B8C32-EA0D-44CC-AEBB-F981762497FA}|panelContenido\\panelContenido.csproj|c:\\users\\samu\\desktop\\dam2\\di\\panelcontenido\\panelcontenido\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{230B8C32-EA0D-44CC-AEBB-F981762497FA}|panelContenido\\panelContenido.csproj|c:\\users\\b15-17m\\documents\\github\\di\\panelcontenido\\panelcontenido\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{230B8C32-EA0D-44CC-AEBB-F981762497FA}|panelContenido\\panelContenido.csproj|solutionrelative:panelcontenido\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\panelContenido\\panelContenido\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\panelContenido\\panelContenido\\MainWindow.xaml",
               "RelativeDocumentMoniker": "panelContenido\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\panelContenido\\panelContenido\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\panelContenido\\panelContenido\\MainWindow.xaml",
               "RelativeToolTip": "panelContenido\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-23T23:03:33.126Z",
@@ -36,14 +36,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\panelContenido\\panelContenido\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\panelContenido\\panelContenido\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "panelContenido\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\panelContenido\\panelContenido\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\panelContenido\\panelContenido\\MainWindow.xaml.cs",
               "RelativeToolTip": "panelContenido\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAhwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T23:03:14.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T23:03:14.315Z"
             }
           ]
         }

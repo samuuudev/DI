@@ -5,13 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:aceptasreto"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        >
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="5*" />
         </Grid.RowDefinitions>
-        
+
         <TabControl Grid.Row="1" TabStripPlacement="Left" Name="tbCtrl_Tab">
             <TabItem Header="PARTICIPANTES">
                 <Grid Background="#FFE5E5E5">
@@ -42,7 +47,6 @@
                                     <Label x:Name="lbApellidoCRUD" Content="Apellido: " />
                                     <TextBox x:Name="txtBoxApellidoCRUD" Height="25"/>
                                     <Label x:Name="lbCursoCRUD" Content="Curso: " />
-                                    <Slider x:Name="sldBoxCursoCRUD" />
                                 </StackPanel>
 
                                 <StackPanel Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Orientation="Horizontal">
@@ -78,4 +82,5 @@
 
 
     </Grid>
+
 </Window>

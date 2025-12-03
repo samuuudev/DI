@@ -1,0 +1,8 @@
+C:\Users\b15-17m\Documents\GitHub\DI\DebugYPuntosDeRuptura\DebugYPuntosDeRuptura\bin\Debug\DebugYPuntosDeRuptura.exe.config
+C:\Users\b15-17m\Documents\GitHub\DI\DebugYPuntosDeRuptura\DebugYPuntosDeRuptura\bin\Debug\DebugYPuntosDeRuptura.exe
+C:\Users\b15-17m\Documents\GitHub\DI\DebugYPuntosDeRuptura\DebugYPuntosDeRuptura\bin\Debug\DebugYPuntosDeRuptura.pdb
+C:\Users\b15-17m\Documents\GitHub\DI\DebugYPuntosDeRuptura\DebugYPuntosDeRuptura\obj\Debug\DebugYPuntosDeRuptura.csproj.AssemblyReference.cache
+C:\Users\b15-17m\Documents\GitHub\DI\DebugYPuntosDeRuptura\DebugYPuntosDeRuptura\obj\Debug\DebugYPuntosDeRuptura.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\Documents\GitHub\DI\DebugYPuntosDeRuptura\DebugYPuntosDeRuptura\obj\Debug\DebugYPuntosDeRuptura.exe
+C:\Users\b15-17m\Documents\GitHub\DI\DebugYPuntosDeRuptura\DebugYPuntosDeRuptura\obj\Debug\DebugYPuntosDeRuptura.pdb
+C:\Users\b15-17m\Documents\GitHub\DI\DebugYPuntosDeRuptura\DebugYPuntosDeRuptura\obj\Debug\DebugYPuntosDeRuptura.exe.config
