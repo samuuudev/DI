@@ -38,7 +38,7 @@ namespace aceptasreto
 
         private void btn_AgregarDatos_Click(object sender, RoutedEventArgs e)
         {
-            Alumno alumno = new Alumno(txtBoxNombreCRUD.Text, txtBoxApellidoCRUD.Text, Convert.ToInt32(sldBoxCursoCRUD.Value));
+            Alumno alumno = new Alumno(txtBoxNombreCRUD.Text, txtBoxApellidoCRUD.Text, 0);
             // alumno.last();
             alumno.insertar();
             dgAlumnos.Items.Refresh();

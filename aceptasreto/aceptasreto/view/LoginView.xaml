@@ -15,8 +15,7 @@
 
     <Border CornerRadius="12">
         <Border.Background>
-            <ImageBrush ImageSource="/Images/back-image.jpg"
-                        Stretch="None"/>
+            <ImageBrush Stretch="None"/>
         </Border.Background>
 
         <Border CornerRadius="10"                    
@@ -25,16 +24,16 @@
 
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#462AD8" Offset="0"/>
-                    <GradientStop Color="#DA34AE" Offset="0.75"/>
-                    <GradientStop Color="#8A16C1" Offset="1"/>
+                    <GradientStop Color="#FF18086F" Offset="0"/>
+                    <GradientStop Color="#FF1A5BFB" Offset="0.75"/>
+                    <GradientStop Color="#FF1FC7FF" Offset="1"/>
                 </LinearGradientBrush>
             </Border.BorderBrush>
 
             <Border.Background>
                 <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-                    <GradientStop Color="#060531" Offset="0"/>
-                    <GradientStop Color="#1B1448" Offset="1"/>
+                    <GradientStop Color="#FF0E5567" Offset="0"/>
+                    <GradientStop Color="#FF2CE3FB" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
 
@@ -54,7 +53,7 @@
                     </Grid.ColumnDefinitions>
 
                     <TextBlock Text="LOG IN"
-                               Foreground="DarkGray"
+                               Foreground="Black"
                                FontSize="10"
                                FontFamily="Montserrat"
                                Grid.Column="0"
@@ -134,28 +133,9 @@
                             Orientation="Vertical"
                             Margin="0,35,0,0">
 
-                    <Image Source="/Images/Logo.png"
-                           Width="100" Height="100"/>
-
-                    <TextBlock Text="RJ CODE"
-                               Foreground="White"
-                               FontSize="25"
-                               FontWeight="Medium"
-                               FontFamily="Montserrat"
-                               HorizontalAlignment="Center"/>
-
-                    <TextBlock Text="Learning to code is useful no matter what your career ambitions are."
-                               Foreground="LightGray"
-                               FontSize="12"
-                               FontWeight="Medium"
-                               FontFamily="Montserrat"
-                               TextWrapping="Wrap"
-                               TextAlignment="Center"
-                               Margin="0,5,0,0"/>
-
 
                     <TextBlock Text="Username"
-                               Foreground="DarkGray"
+                               Foreground="Black"
                                FontSize="12"
                                FontWeight="Medium"
                                FontFamily="Montserrat"                             
@@ -173,16 +153,14 @@
                              VerticalContentAlignment="Center"
                              Margin="0,5,0,0"
                              Padding="20,0,0,0">
-
                         <TextBox.Background>
-                            <ImageBrush ImageSource="/Images/user-icon.png"
-                                        Stretch="None"
+                            <ImageBrush Stretch="None"
                                         AlignmentX="Left"/>
                         </TextBox.Background>
                     </TextBox>
 
                     <TextBlock Text="Password"
-                               Foreground="DarkGray"
+                               Foreground="Black"
                                FontSize="12"
                                FontWeight="Medium"
                                FontFamily="Montserrat"                             
@@ -200,14 +178,12 @@
                              VerticalContentAlignment="Center"
                              Margin="0,5,0,0"
                              Padding="20,0,0,0">
-
                         <PasswordBox.Background>
-                            <ImageBrush ImageSource="/Images/key-icon.png"
-                                        Stretch="None"
+                            <ImageBrush Stretch="None"
                                         AlignmentX="Left"/>
                         </PasswordBox.Background>
                     </PasswordBox>
-
+                    
                     <Button x:Name="btnLogin"                          
                             BorderThickness="0"
                             Content="LOG IN"
@@ -243,23 +219,7 @@
 
                     <StackPanel Orientation="Horizontal"
                                 HorizontalAlignment="Center"
-                                Margin="0,15,0,0">
-
-                        <TextBlock Text="Forgot Password?"
-                               Foreground="DarkGray"
-                               FontSize="12"
-                               FontWeight="Medium"
-                               FontFamily="Montserrat"/>
-
-                        <TextBlock Text="Reset"
-                               Foreground="White"
-                               FontSize="12"
-                               FontWeight="Medium"
-                               FontFamily="Montserrat"
-                               Cursor="Hand"
-                               Margin="8,0,0,0"/>
-
-                    </StackPanel>
+                                Margin="0,15,0,0"/>
 
                 </StackPanel>
 
