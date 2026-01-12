@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 using DataGridPersonas25_26.domain;
+using Google.Protobuf;
 
 namespace DataGridPersonas25_26
 {
@@ -30,10 +31,19 @@ namespace DataGridPersonas25_26
             lstPersonas = new List<Persona>();
             // Paso 1: Instanciamos la clase persona y la inicializamos usando el constructor vacio
             persona = new Persona();
-            // Llamamos al metodo getPersonas para obtener la lista de personas
+
+            try{
+                persona.readP();
+            } catch (InvalidJsonException e)
+            {
+                MessageBox.Show("Error al leer el archivo JSON: " + e.Message);
+            }
+
             lstPersonas = persona.getPersonas();
-            // Sincronizamos el DataGrid con la lista de personas
             dgv_Personas.ItemsSource = lstPersonas;
+
+            //lstPersonas = persona.getPersonas();
+            //dgv_Personas.ItemsSource = lstPersonas;
             start();
         }
 

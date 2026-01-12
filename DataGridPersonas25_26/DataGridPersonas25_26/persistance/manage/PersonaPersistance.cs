@@ -2,11 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DataGridPersonas25_26.domain;
 using ExampleMVCnoDatabase.Persistence;
+using Newtonsoft.Json;
 
 namespace DataGridPersonas25_26.persistance
 {
@@ -14,12 +16,15 @@ namespace DataGridPersonas25_26.persistance
     {
         private DataTable table { get; set; }
         private List<Persona> listaPersonas { get; set; }
+        private string path;
 
 
         public PersonaPersistance()
         {
             table = new DataTable();
             listaPersonas = new List<Persona>();
+
+            path = "ejemplo.json";
         }
 
         // Simulacion lectura base de datos
@@ -38,6 +43,23 @@ namespace DataGridPersonas25_26.persistance
 
         //    return lista;
         //}
+
+
+        public void ReadPeople()
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(path) || !File.Exists(path))
+                {
+                    throw new ArgumentException("Hay un error en la ruta del archivo.");
+                }
+
+                string jsonData = File.ReadAllText(path);
+
+                var rootObject = JsonConvert.DeserializeObject<List<Persona>>(jsonData);
+                if (rootObject == null || rootObject.P)
+            }
+        }
 
         public List<Persona> leerPersonas()
         {

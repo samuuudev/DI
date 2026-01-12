@@ -1,0 +1,36 @@
+{
+
+	"people": [
+		{
+			"ID": 1,
+			"nombre": "Pepe",
+			"edad": 18
+		},
+		{
+			"ID": 2,
+			"nombre": "Jose",
+			"edad": 18
+		},
+		{
+			"ID": 3,
+			"nombre": "Maria",
+			"edad": 18
+		},
+		{
+			"ID": 4,
+			"nombre": "Juan",
+			"edad": 18
+		},
+		{
+			"ID": 5,
+			"nombre": "Luis",
+			"edad": 18
+		},
+		{
+			"ID": 6,
+			"nombre": "Alfredo",
+			"edad": 18
+		}
+	]
+
+}

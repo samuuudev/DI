@@ -56,6 +56,11 @@ namespace DataGridPersonas25_26.domain
 
             return listaPersonas;
         }
+        
+        public void readP()
+        {
+            pm.leerPersonas();
+        }
 
         public void last()
         {
