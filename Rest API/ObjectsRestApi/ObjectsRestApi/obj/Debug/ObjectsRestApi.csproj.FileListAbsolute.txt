@@ -1,0 +1,86 @@
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.AssemblyReference.cache
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\MainWindow.baml
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\MainWindow.g.cs
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\App.g.cs
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi_MarkupCompile.cache
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.g.resources
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.Properties.Resources.resources
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.GenerateResource.cache
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.CoreCompileInputs.cache
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.exe.config
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.exe
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.pdb
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsR.8DADF2EC.Up2Date
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.exe
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT2\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.pdb
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.exe.config
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.exe
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.pdb
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.AssemblyReference.cache
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\MainWindow.baml
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\MainWindow.g.cs
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\App.g.cs
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi_MarkupCompile.cache
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.g.resources
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.Properties.Resources.resources
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.GenerateResource.cache
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.CoreCompileInputs.cache
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsR.8DADF2EC.Up2Date
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.exe
+C:\Users\`AULAB10-PC01\Desktop\DAM\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.pdb
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.exe.config
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.exe
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.pdb
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.AssemblyReference.cache
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\MainWindow.baml
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\MainWindow.g.cs
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\App.g.cs
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi_MarkupCompile.cache
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.g.resources
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.Properties.Resources.resources
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.GenerateResource.cache
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.CoreCompileInputs.cache
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.CopyComplete
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.exe
+C:\Users\Profesor\Desktop\curso 25_26\DI\Desarrollo Interfaces(DI)\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.pdb
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.exe.config
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.exe
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.pdb
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.AssemblyReference.cache
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\MainWindow.baml
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\MainWindow.g.cs
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\App.g.cs
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi_MarkupCompile.cache
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.g.resources
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.Properties.Resources.resources
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.GenerateResource.cache
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.CoreCompileInputs.cache
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.CopyComplete
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.exe
+C:\Users\Profesor\Desktop\curso 25_26\DI\UT4\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.pdb
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.exe.config
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.exe
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\ObjectsRestApi.pdb
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.AssemblyReference.cache
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.exe.config
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\MainWindow.baml
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\MainWindow.g.cs
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\App.g.cs
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi_MarkupCompile.cache
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.g.resources
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.Properties.Resources.resources
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.GenerateResource.cache
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.csproj.CoreCompileInputs.cache
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsR.8DADF2EC.Up2Date
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.exe
+C:\Users\b15-17m\Documents\GitHub\DI\Rest API\ObjectsRestApi\ObjectsRestApi\obj\Debug\ObjectsRestApi.pdb
