@@ -24,11 +24,11 @@ namespace aceptasreto.persistence
         public List<Alumno> leerAlumnos()
         {
             Alumno alumno = null;
-            List<Object> aux = DBBroker.obtenerAgente().leer("SELECT nombre, apellidos, especialidad FROM aceptasreto.alumnado;");
+            List<Object> aux = DBBroker.obtenerAgente().leer("SELECT nombre, apellidos FROM aceptasreto.alumnado;");
 
             foreach (List<Object> c in aux)
             {
-                alumno = new Alumno(c[0].ToString(), c[1].ToString(), Convert.ToInt32(c[2])); // Convert.ToInt32(c[0]), c[1].ToString(), c[2].ToString(), Convert.ToInt32(c[3])
+                alumno = new Alumno(c[0].ToString(), c[1].ToString()); // Convert.ToInt32(c[0]), c[1].ToString(), c[2].ToString(), Convert.ToInt32(c[3])
 
                 listaAlumnos.Add(alumno);
             }
@@ -38,8 +38,8 @@ namespace aceptasreto.persistence
 
         public void insertarAlumno(Alumno a)
         {
-            String sql = "INSERT INTO aceptasreto.alumnado (nombre, apellidos, especialidad)" +
-                         "VALUES ('" + a.Nombre + "', '" + a.Apellido + "', '" + a.Especialidad +");";
+            String sql = "INSERT INTO aceptasreto.alumnado (nombre, apellidos)" +
+                         "VALUES ('" + a.Nombre + "', '" + a.Apellido + "', '" + ");";
             DBBroker.obtenerAgente().modificar(sql);
         }
 
@@ -65,7 +65,6 @@ namespace aceptasreto.persistence
             String sql = "UPDATE aceptasreto.alumnado SET " +
                          "nombre = '" + a.Nombre + "', " +
                          "apellidos = '" + a.Apellido + "', " +
-                         "especialidad = '" + a.Especialidad + "' " +
                          "WHERE id = " + a.Id + ";";
             DBBroker.obtenerAgente().modificar(sql);
         }

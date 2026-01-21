@@ -50,9 +50,9 @@
                                 </StackPanel>
 
                                 <StackPanel Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Orientation="Horizontal">
-                                    <Button Grid.Column="0" Margin="10" Content="Agregar" Name="btn_AgregarDatos" Click="btn_AgregarDatos_Click" Width="100" Height="30"/>
-                                    <Button Grid.Column="1" Margin="10" Content="Modifcar" Name="btn_ModificarDatos" Click="btn_ModificarDatos_Click" Width="100" Height="30"/>
-                                    <Button Grid.Column="2" Margin="10" Content="Eliminar" Name="btn_EliminarDatos" Click="btn_EliminarDatos_Click" Width="100" Height="30" BorderBrush="#FF707070"/>
+                                    <Button Grid.Column="0" Margin="10" Content="Agregar" Name="btn_AgregarDatosA" Click="btn_AgregarDatosA_Click" Width="100" Height="30"/>
+                                    <Button Grid.Column="1" Margin="10" Content="Modifcar" Name="btn_ModificarDatosA" Click="btn_ModificarDatosA_Click" Width="100" Height="30"/>
+                                    <Button Grid.Column="2" Margin="10" Content="Eliminar" Name="btn_EliminarDatosA" Click="btn_EliminarDatosA_Click" Width="100" Height="30" BorderBrush="#FF707070"/>
                                 </StackPanel>
 
                             </Grid>
@@ -66,10 +66,93 @@
                 </Grid>
             </TabItem>
             <TabItem Header="EMPRESAS">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="4*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Label Content="EMPRESAS" HorizontalAlignment="Center" Margin="10,10,10,10" VerticalAlignment="Top" FontSize="22"/>
+                    <!-- CRUD empresas -->
+                    <StackPanel x:Name="stpEmpresas" Orientation="Vertical" HorizontalAlignment="Center" Margin="10,10,10,10" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2">
+                        
+                        <!-- Acaban todos en E por ser la seccion EMPRESAS -->
+                        
+                        <Label Content="Razon social: " VerticalAlignment="Center" FontSize="12"/>
+                        <TextBox x:Name="txtBoxRazonSocialE" Width="200" Height="25" FontSize="12"/>
+
+                        <Label Content="Ciudad: " VerticalAlignment="Center" FontSize="12"/>
+                        <TextBox x:Name="txtBoxCiudadE" Width="200" Height="25" FontSize="12"/>
+
+                        <Label Content="Direccion: " VerticalAlignment="Center" FontSize="12"/>
+                        <TextBox x:Name="txtBoxDireccionE" Width="200" Height="25" FontSize="12"/>
+
+                        <Label Content="Telefono contacto: " VerticalAlignment="Center" FontSize="12"/>
+                        <TextBox x:Name="txtBoxTelefonoContactoE" Width="200" Height="25" FontSize="12"/>
+
+                        <Label Content="Correo de contacto: " VerticalAlignment="Center" FontSize="12"/>
+                        <TextBox x:Name="txtBoxCorreoContactoE" Width="200" Height="25" FontSize="12"/>
+                        
+                    </StackPanel>
+
+                    <DataGrid x:Name="dgEmpresas" Grid.Row="1" Margin="10,10,10,10" />
+
+                    <StackPanel Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Orientation="Horizontal">
+                        <Button Grid.Column="0" Margin="10" Content="Agregar" Name="btn_AgregarDatosE" Click="btn_AgregarDatosE_Click" Width="100" Height="30"/>
+                        <Button Grid.Column="1" Margin="10" Content="Modifcar" Name="btn_ModificarDatosE" Click="btn_ModificarDatosE_Click" Width="100" Height="30"/>
+                        <Button Grid.Column="2" Margin="10" Content="Eliminar" Name="btn_EliminarDatosE" Click="btn_EliminarDatosE_Click" Width="100" Height="30" BorderBrush="#FF707070"/>
+                    </StackPanel>
+
+                </Grid>
+
+
+
             </TabItem>
             <TabItem Header="Retos">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="4*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Label Content="RETOS" HorizontalAlignment="Center" Margin="10,10,10,10" VerticalAlignment="Top" FontSize="22"/>
+                    <!-- CRUD empresas -->
+                    <StackPanel x:Name="stpRetos" Orientation="Vertical" HorizontalAlignment="Center" Margin="10,10,10,10" Grid.Column="1" Grid.Row="1">
+
+                        <!-- Acaban todos en E por ser la seccion EMPRESAS -->
+
+                        <Label Content="Nombre reto: " VerticalAlignment="Center" FontSize="12"/>
+                        <TextBox x:Name="txtBoxNombreR" Width="200" Height="25" FontSize="12"/>
+
+                        <Label Content="Descripcion: " VerticalAlignment="Center" FontSize="12"/>
+                        <TextBox x:Name="txtBoxDescripcionR" Width="200" Height="25" FontSize="12"/>
+
+                        <Label Content="Fecha Inicio: " VerticalAlignment="Center" FontSize="12"/>
+                        <TextBox x:Name="txtBoxFechaInicioR" Width="200" Height="25" FontSize="12"/>
+
+                    </StackPanel>
+
+                    <DataGrid x:Name="dgRetos" Grid.Row="1" Margin="10,10,10,10" />
+
+                    <StackPanel Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Orientation="Horizontal">
+                        <Button Grid.Column="0" Margin="10" Content="Agregar" Name="btn_AgregarDatosR" Click="btn_AgregarDatosR_Click" Width="100" Height="30"/>
+                        <Button Grid.Column="1" Margin="10" Content="Modifcar" Name="btn_ModificarDatosR" Click="btn_ModificarDatosR_Click" Width="100" Height="30"/>
+                        <Button Grid.Column="2" Margin="10" Content="Eliminar" Name="btn_EliminarDatosR" Click="btn_EliminarDatosR_Click" Width="100" Height="30" BorderBrush="#FF707070"/>
+                    </StackPanel>
+
+                </Grid>
             </TabItem>
             <TabItem Header="TALENT LAB">
                 <Grid Background="#FFE5E5E5"/>

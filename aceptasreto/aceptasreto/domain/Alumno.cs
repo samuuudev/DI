@@ -27,17 +27,17 @@ namespace aceptasreto.domain
             this.idAlumno = id;
             am = new AlumnoManage();
         }
-        public Alumno(string nombre, string apellido, int especialidad)
+        public Alumno(string nombre, string apellido)
         {
             am = new AlumnoManage();
             this.nombre = nombre;
             this.apellido = apellido;
-            this.especialidad = especialidad;
+            // this.especialidad = especialidad;
         }
 
         public string Nombre { get => nombre; set => nombre = value; }
         public string Apellido { get => apellido; set => apellido = value; }
-        public int Especialidad { get => especialidad; set => especialidad = value; }
+        // public int Especialidad { get => especialidad; set => especialidad = value; }
         public int Grupo { get => grupo; set => grupo = value; }
         public int Id { get => idAlumno; set => idAlumno = value; }
 

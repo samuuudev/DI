@@ -36,26 +36,58 @@ namespace aceptasreto
 
         }
 
-        private void btn_AgregarDatos_Click(object sender, RoutedEventArgs e)
+        // Alumno CRUD botones
+        private void btn_AgregarDatosA_Click(object sender, RoutedEventArgs e)
         {
-            Alumno alumno = new Alumno(txtBoxNombreCRUD.Text, txtBoxApellidoCRUD.Text, 0);
+            Alumno alumno = new Alumno(txtBoxNombreCRUD.Text, txtBoxApellidoCRUD.Text);
             // alumno.last();
             alumno.insertar();
             dgAlumnos.Items.Refresh();
         }
 
-        private void btn_ModificarDatos_Click(object sender, RoutedEventArgs e)
+        private void btn_ModificarDatosA_Click(object sender, RoutedEventArgs e)
         {
             Alumno alumno = (Alumno)dgAlumnos.SelectedItem;
             alumno.modificar();
             dgAlumnos.Items.Refresh();
         }
 
-        private void btn_EliminarDatos_Click(object sender, RoutedEventArgs e)
+        private void btn_EliminarDatosA_Click(object sender, RoutedEventArgs e)
         {
             Alumno alumno = (Alumno)dgAlumnos.SelectedItem;
             alumno.delete();
             dgAlumnos.Items.Refresh();
         }
+
+        // Empresa CRUD botones
+        private void btn_AgregarDatosE_Click(object sender, RoutedEventArgs e)
+        {
+            Empresa empresa = new Empresa(
+                txtBoxRazonSocialE.Text, 
+                txtBoxCiudadE.Text, 
+                txtBoxDireccionE.Text, 
+                txtBoxTelefonoContactoE.Text, 
+                txtBoxCorreoContactoE.Text
+                
+            );
+
+            empresa.insertar();
+            dgAlumnos.Items.Refresh();
+        }
+
+        private void btn_ModificarDatosE_Click(object sender, RoutedEventArgs e)
+        {
+            Empresa empresa = (Empresa)dgAlumnos.SelectedItem;
+            empresa.modificar();
+            dgAlumnos.Items.Refresh();
+        }
+
+        private void btn_EliminarDatosE_Click(object sender, RoutedEventArgs e)
+        {
+            Empresa empresa = (Empresa)dgAlumnos.SelectedItem;
+            empresa.delete();
+            dgAlumnos.Items.Refresh();
+        }
+
     }
 }
