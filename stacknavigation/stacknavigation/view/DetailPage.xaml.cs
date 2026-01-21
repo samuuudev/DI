@@ -23,6 +23,7 @@ namespace stacknavigation.view
         public DetailPage()
         {
             InitializeComponent();
+            FrameBotones.Navigate(new Botones());
         }
     }
 }

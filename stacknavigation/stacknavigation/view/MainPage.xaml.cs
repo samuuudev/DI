@@ -29,6 +29,8 @@ namespace stacknavigation.view
         {
             //Navegar a la página de detalles
             this.NavigationService.Navigate(new DetailPage());
+            FrameBotones.Navigate(new Botones());
+
         }
     }
 }

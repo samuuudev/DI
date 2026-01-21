@@ -10,5 +10,7 @@
 
     <Grid>
         <Label Content="Ejemplo de pagina 1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Frame Name="FrameBotones" NavigationUIVisibility="Hidden"/>
+
     </Grid>
 </Page>

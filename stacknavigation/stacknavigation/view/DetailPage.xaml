@@ -9,7 +9,8 @@
       Title="Página de Detalles">
 
     <Grid>
-        <Label Content="Frame  detalles" HorizontalAlignment="Left" Margin="299,170,0,0" VerticalAlignment="Top" Width="260"/>
+        <Label Content="Pagina detalles frame" HorizontalAlignment="Left" Margin="299,170,0,0" VerticalAlignment="Top" Width="260"/>
+        <Frame Name="FrameBotones" NavigationUIVisibility="Hidden"/>
 
     </Grid>
 </Page>

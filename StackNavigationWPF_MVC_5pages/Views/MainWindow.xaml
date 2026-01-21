@@ -1,0 +1,8 @@
+<Window x:Class="StackNavigationWPF.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Stack Navigation"
+        Height="450"
+        Width="700">
+    <Frame x:Name="MainFrame"/>
+</Window>

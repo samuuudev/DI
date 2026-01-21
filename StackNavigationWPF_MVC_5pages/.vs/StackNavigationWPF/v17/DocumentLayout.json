@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\controllers\\navigationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:controllers\\navigationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\models\\navigationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:models\\navigationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\views\\orderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\orderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\views\\orderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\orderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\views\\orderdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\orderdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\views\\customerspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\customerspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\views\\orderdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\orderdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\views\\customerspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\customerspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigationwpf_mvc_5pages\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\OrdersPage.xaml",
+              "RelativeDocumentMoniker": "Views\\OrdersPage.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\OrdersPage.xaml",
+              "RelativeToolTip": "Views\\OrdersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-18T11:02:57.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\OrdersPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\OrdersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\OrdersPage.xaml.cs",
+              "RelativeToolTip": "Views\\OrdersPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T11:12:24.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Views\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\HomePage.xaml",
+              "RelativeToolTip": "Views\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-18T11:02:53.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderDetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\OrderDetailPage.xaml",
+              "RelativeDocumentMoniker": "Views\\OrderDetailPage.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\OrderDetailPage.xaml",
+              "RelativeToolTip": "Views\\OrderDetailPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-18T11:02:55.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavigationModel.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Models\\NavigationModel.cs",
+              "RelativeDocumentMoniker": "Models\\NavigationModel.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Models\\NavigationModel.cs",
+              "RelativeToolTip": "Models\\NavigationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T11:08:29.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavigationController.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Controllers\\NavigationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NavigationController.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Controllers\\NavigationController.cs",
+              "RelativeToolTip": "Controllers\\NavigationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T11:09:31.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-18T10:57:39.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\CustomersPage.xaml",
+              "RelativeDocumentMoniker": "Views\\CustomersPage.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\CustomersPage.xaml",
+              "RelativeToolTip": "Views\\CustomersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-18T11:02:51.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-18T11:02:59.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T10:58:24.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\SettingsPage.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\SettingsPage.xaml",
+              "RelativeToolTip": "Views\\SettingsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-18T11:03:02.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "Views\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T11:10:39.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\CustomersPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\CustomersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\CustomersPage.xaml.cs",
+              "RelativeToolTip": "Views\\CustomersPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T11:11:00.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SettingsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\SettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SettingsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\SettingsPage.xaml.cs",
+              "RelativeToolTip": "Views\\SettingsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T11:15:34.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\OrderDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\OrderDetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\StackNavigationWPF_MVC_5pages\\Views\\OrderDetailPage.xaml.cs",
+              "RelativeToolTip": "Views\\OrderDetailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T11:15:00.683Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackNavigationWPF", "StackNavigationWPF.csproj", "{A5083AEC-7CAD-AF1D-904A-9D736C171C83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5083AEC-7CAD-AF1D-904A-9D736C171C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5083AEC-7CAD-AF1D-904A-9D736C171C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5083AEC-7CAD-AF1D-904A-9D736C171C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5083AEC-7CAD-AF1D-904A-9D736C171C83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CC2062A-0C0A-4553-ABA3-FEA3FEFA7BEA}
+	EndGlobalSection
+EndGlobal

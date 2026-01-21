@@ -33,6 +33,8 @@ namespace stacknavigation.view
         {
             paginas.Add(new MainPage());
             paginas.Add(new DetailPage());
+            paginas.Add(new PaginaEjemplo1());
+            paginas.Add(new PaginaEjemplo2());
             paginaActual = 0;
             // paginas.Add();
         }

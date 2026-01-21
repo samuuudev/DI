@@ -23,6 +23,8 @@ namespace stacknavigation.view
         public PaginaEjemplo1()
         {
             InitializeComponent();
+            FrameBotones.Navigate(new Botones());
+
         }
     }
 }

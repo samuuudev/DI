@@ -10,6 +10,7 @@
 
     <Grid>
         <Button Content="Ir a detalles" HorizontalAlignment="Center" Margin="0,196,0,0" VerticalAlignment="Top" Click="Button_Click" Width="174" Height="48"/>
+        <Frame Name="FrameBotones" NavigationUIVisibility="Hidden"/>
 
     </Grid>
 </Page>

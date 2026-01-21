@@ -39,3 +39,7 @@ C:\Users\b15-17m\Documents\GitHub\DI\stacknavigation\stacknavigation\obj\Debug\s
 C:\Users\b15-17m\Documents\GitHub\DI\stacknavigation\stacknavigation\obj\Debug\stacknavigation.pdb
 C:\Users\b15-17m\Documents\GitHub\DI\stacknavigation\stacknavigation\obj\Debug\view\Botones.g.cs
 C:\Users\b15-17m\Documents\GitHub\DI\stacknavigation\stacknavigation\obj\Debug\view\Botones.baml
+C:\Users\b15-17m\Documents\GitHub\DI\stacknavigation\stacknavigation\obj\Debug\view\PaginaEjemplo2.g.cs
+C:\Users\b15-17m\Documents\GitHub\DI\stacknavigation\stacknavigation\obj\Debug\view\PaginaEjemplo1.g.cs
+C:\Users\b15-17m\Documents\GitHub\DI\stacknavigation\stacknavigation\obj\Debug\view\PaginaEjemplo2.baml
+C:\Users\b15-17m\Documents\GitHub\DI\stacknavigation\stacknavigation\obj\Debug\view\PaginaEjemplo1.baml
