@@ -1,0 +1,58 @@
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\bin\Debug\net6.0-windows\StackNavigationWPF.exe
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\bin\Debug\net6.0-windows\StackNavigationWPF.deps.json
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\bin\Debug\net6.0-windows\StackNavigationWPF.runtimeconfig.json
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\bin\Debug\net6.0-windows\StackNavigationWPF.dll
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\bin\Debug\net6.0-windows\StackNavigationWPF.pdb
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\Views\CustomersPage.baml
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\Views\HomePage.baml
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\Views\MainWindow.baml
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\Views\OrderDetailPage.baml
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\Views\OrdersPage.baml
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\Views\SettingsPage.baml
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\Views\CustomersPage.g.cs
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\Views\HomePage.g.cs
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\Views\OrderDetailPage.g.cs
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\Views\OrdersPage.g.cs
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\Views\SettingsPage.g.cs
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\StackNavigationWPF_MarkupCompile.cache
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\StackNavigationWPF.g.resources
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\StackNavigationWPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\StackNavigationWPF.AssemblyInfoInputs.cache
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\StackNavigationWPF.AssemblyInfo.cs
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\StackNavigationWPF.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\StackNavigationWPF.dll
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\refint\StackNavigationWPF.dll
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\StackNavigationWPF.pdb
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\StackNavigationWPF.genruntimeconfig.cache
+C:\Users\HP\Downloads\StackNavigationWPF_MVC_Fixed\obj\Debug\net6.0-windows\ref\StackNavigationWPF.dll
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\bin\Debug\net6.0-windows\StackNavigationWPF.exe
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\bin\Debug\net6.0-windows\StackNavigationWPF.deps.json
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\bin\Debug\net6.0-windows\StackNavigationWPF.runtimeconfig.json
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\bin\Debug\net6.0-windows\StackNavigationWPF.dll
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\bin\Debug\net6.0-windows\StackNavigationWPF.pdb
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\Views\CustomersPage.baml
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\Views\HomePage.baml
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\Views\MainWindow.baml
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\Views\OrderDetailPage.baml
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\Views\OrdersPage.baml
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\Views\SettingsPage.baml
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\Views\CustomersPage.g.cs
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\Views\HomePage.g.cs
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\Views\OrderDetailPage.g.cs
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\Views\OrdersPage.g.cs
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\Views\SettingsPage.g.cs
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\App.g.cs
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\StackNavigationWPF_MarkupCompile.cache
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\StackNavigationWPF.g.resources
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\StackNavigationWPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\StackNavigationWPF.AssemblyInfoInputs.cache
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\StackNavigationWPF.AssemblyInfo.cs
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\StackNavigationWPF.csproj.CoreCompileInputs.cache
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\StackNavigationWPF.dll
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\refint\StackNavigationWPF.dll
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\StackNavigationWPF.pdb
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\StackNavigationWPF.genruntimeconfig.cache
+D:\DOCENCIA\Curso 2025-2026\MÓDULOS 2025-26\Desarrollo de Interfaces\UT06\StackNavigationWPF_MVC_5pages\obj\Debug\net6.0-windows\ref\StackNavigationWPF.dll

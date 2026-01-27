@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Rest API\\ObjectsRestApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8355D68-E69B-44BC-8280-E7F1A03808E9}|ObjectsRestApi\\ObjectsRestApi.csproj|c:\\users\\b15-17m\\documents\\github\\di\\rest api\\objectsrestapi\\objectsrestapi\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8355D68-E69B-44BC-8280-E7F1A03808E9}|ObjectsRestApi\\ObjectsRestApi.csproj|solutionrelative:objectsrestapi\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8355D68-E69B-44BC-8280-E7F1A03808E9}|ObjectsRestApi\\ObjectsRestApi.csproj|c:\\users\\b15-17m\\documents\\github\\di\\rest api\\objectsrestapi\\objectsrestapi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8355D68-E69B-44BC-8280-E7F1A03808E9}|ObjectsRestApi\\ObjectsRestApi.csproj|solutionrelative:objectsrestapi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Rest API\\ObjectsRestApi\\ObjectsRestApi\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ObjectsRestApi\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Rest API\\ObjectsRestApi\\ObjectsRestApi\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ObjectsRestApi\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T09:28:11.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Rest API\\ObjectsRestApi\\ObjectsRestApi\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ObjectsRestApi\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Rest API\\ObjectsRestApi\\ObjectsRestApi\\MainWindow.xaml",
+              "RelativeToolTip": "ObjectsRestApi\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T16:38:03.367Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

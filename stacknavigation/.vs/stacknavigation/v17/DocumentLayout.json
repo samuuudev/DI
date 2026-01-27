@@ -1,0 +1,242 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\botones.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|solutionrelative:stacknavigation\\view\\botones.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|solutionrelative:stacknavigation\\view\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|solutionrelative:stacknavigation\\view\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigation\\stacknavigation\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|solutionrelative:stacknavigation\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|solutionrelative:stacknavigation\\view\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigation\\stacknavigation\\view\\paginaejemplo1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|solutionrelative:stacknavigation\\view\\paginaejemplo1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigation\\stacknavigation\\view\\paginaejemplo2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|solutionrelative:stacknavigation\\view\\paginaejemplo2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigation\\stacknavigation\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|solutionrelative:stacknavigation\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigation\\stacknavigation\\view\\paginaejemplo2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|solutionrelative:stacknavigation\\view\\paginaejemplo2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|c:\\users\\b15-17m\\documents\\github\\di\\stacknavigation\\stacknavigation\\view\\paginaejemplo1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|solutionrelative:stacknavigation\\view\\paginaejemplo1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|solutionrelative:stacknavigation\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\botones.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|solutionrelative:stacknavigation\\view\\botones.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2826C85-FDD5-41F9-9BEA-D5979DD92F97}|stacknavigation\\stacknavigation.csproj|solutionrelative:stacknavigation\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaginaEjemplo1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\PaginaEjemplo1.xaml.cs",
+              "RelativeDocumentMoniker": "stacknavigation\\view\\PaginaEjemplo1.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\PaginaEjemplo1.xaml.cs",
+              "RelativeToolTip": "stacknavigation\\view\\PaginaEjemplo1.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:19:18.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\DetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "stacknavigation\\view\\DetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\DetailPage.xaml.cs",
+              "RelativeToolTip": "stacknavigation\\view\\DetailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T11:09:49.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "stacknavigation\\view\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\MainPage.xaml.cs",
+              "RelativeToolTip": "stacknavigation\\view\\MainPage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAD4vx8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T11:08:08.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\DetailPage.xaml",
+              "RelativeDocumentMoniker": "stacknavigation\\view\\DetailPage.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\DetailPage.xaml",
+              "RelativeToolTip": "stacknavigation\\view\\DetailPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-16T11:08:08.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaginaEjemplo1.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\PaginaEjemplo1.xaml",
+              "RelativeDocumentMoniker": "stacknavigation\\view\\PaginaEjemplo1.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\PaginaEjemplo1.xaml",
+              "RelativeToolTip": "stacknavigation\\view\\PaginaEjemplo1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T07:55:14.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Botones.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\Botones.xaml.cs",
+              "RelativeDocumentMoniker": "stacknavigation\\view\\Botones.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\Botones.xaml.cs",
+              "RelativeToolTip": "stacknavigation\\view\\Botones.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwDcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T11:22:40.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\MainPage.xaml",
+              "RelativeDocumentMoniker": "stacknavigation\\view\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\MainPage.xaml",
+              "RelativeToolTip": "stacknavigation\\view\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T07:54:59.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaginaEjemplo2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\PaginaEjemplo2.xaml.cs",
+              "RelativeDocumentMoniker": "stacknavigation\\view\\PaginaEjemplo2.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\PaginaEjemplo2.xaml.cs",
+              "RelativeToolTip": "stacknavigation\\view\\PaginaEjemplo2.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:19:23.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaginaEjemplo2.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\PaginaEjemplo2.xaml",
+              "RelativeDocumentMoniker": "stacknavigation\\view\\PaginaEjemplo2.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\PaginaEjemplo2.xaml",
+              "RelativeToolTip": "stacknavigation\\view\\PaginaEjemplo2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T07:55:17.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "stacknavigation\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "stacknavigation\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAtwBoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T11:08:08.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "stacknavigation\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\MainWindow.xaml",
+              "RelativeToolTip": "stacknavigation\\view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-16T11:08:08.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Botones.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\Botones.xaml",
+              "RelativeDocumentMoniker": "stacknavigation\\view\\Botones.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\view\\Botones.xaml",
+              "RelativeToolTip": "stacknavigation\\view\\Botones.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-16T11:22:36.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\App.xaml",
+              "RelativeDocumentMoniker": "stacknavigation\\App.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\stacknavigation\\stacknavigation\\App.xaml",
+              "RelativeToolTip": "stacknavigation\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-16T11:08:08.469Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
