@@ -1,0 +1,8 @@
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen2\RepasoExamen2\obj\Debug\RepasoExamen2.csproj.AssemblyReference.cache
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen2\RepasoExamen2\obj\Debug\RepasoExamen2.csproj.CoreCompileInputs.cache
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen2\RepasoExamen2\bin\Debug\RepasoExamen2.exe.config
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen2\RepasoExamen2\bin\Debug\RepasoExamen2.exe
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen2\RepasoExamen2\bin\Debug\RepasoExamen2.pdb
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen2\RepasoExamen2\obj\Debug\RepasoExamen2.exe
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen2\RepasoExamen2\obj\Debug\RepasoExamen2.pdb
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen2\RepasoExamen2\obj\Debug\RepasoExamen2.exe.config

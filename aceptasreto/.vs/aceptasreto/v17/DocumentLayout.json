@@ -1,41 +1,43 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\",
+  "WorkspaceRootPath": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|solutionrelative:aceptasreto\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|c:\\users\\samu\\desktop\\dam2\\di\\aceptasreto\\aceptasreto\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|solutionrelative:aceptasreto\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|solutionrelative:aceptasreto\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|solutionrelative:aceptasreto\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|c:\\users\\b15-17m\\documents\\github\\di\\aceptasreto\\aceptasreto\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|solutionrelative:aceptasreto\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:aceptasreto\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|solutionrelative:aceptasreto\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|solutionrelative:aceptasreto\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|solutionrelative:aceptasreto\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|solutionrelative:aceptasreto\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\persistence\\alumnomanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\persistence\\alumnomanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|solutionrelative:aceptasreto\\persistence\\alumnomanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:aceptasreto\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\domain\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\domain\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B109ACAB-49D7-48D8-BEB1-0AFB3644D3C2}|aceptasreto\\aceptasreto.csproj|solutionrelative:aceptasreto\\domain\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,7 +48,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 155,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,11 +56,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "aceptasreto\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\view\\MainWindow.xaml",
+              "RelativeToolTip": "aceptasreto\\view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-14T12:23:02.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "aceptasreto\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "aceptasreto\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAWwCgAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T13:30:11.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-18T08:14:20.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\view\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "aceptasreto\\view\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\view\\LoginView.xaml.cs",
+              "RelativeToolTip": "aceptasreto\\view\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T10:23:54.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\App.xaml",
               "RelativeDocumentMoniker": "aceptasreto\\App.xaml",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\App.xaml",
+              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\App.xaml",
               "RelativeToolTip": "aceptasreto\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-05T10:26:08.113Z",
@@ -66,49 +115,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\view\\LoginView.xaml.cs",
-              "RelativeDocumentMoniker": "aceptasreto\\view\\LoginView.xaml.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\view\\LoginView.xaml.cs",
-              "RelativeToolTip": "aceptasreto\\view\\LoginView.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T10:23:54.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\view\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "aceptasreto\\view\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\view\\MainWindow.xaml.cs",
-              "RelativeToolTip": "aceptasreto\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAWwCgAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T13:30:11.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "LoginView.xaml",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\view\\LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\view\\LoginView.xaml",
               "RelativeDocumentMoniker": "aceptasreto\\view\\LoginView.xaml",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\view\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\view\\LoginView.xaml",
               "RelativeToolTip": "aceptasreto\\view\\LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-03T13:29:11.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T13:29:11.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Alumno.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\domain\\Alumno.cs",
+              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\domain\\Alumno.cs",
               "RelativeDocumentMoniker": "aceptasreto\\domain\\Alumno.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\domain\\Alumno.cs",
+              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\domain\\Alumno.cs",
               "RelativeToolTip": "aceptasreto\\domain\\Alumno.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAIwCgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -116,33 +138,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "aceptasreto\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml",
-              "RelativeToolTip": "aceptasreto\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-18T08:14:20.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "aceptasreto\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml.cs",
-              "RelativeToolTip": "aceptasreto\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\MainWindow.xaml.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T08:13:20.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DBBroker.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\persistence\\DBBroker.cs",
+              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\persistence\\DBBroker.cs",
               "RelativeDocumentMoniker": "aceptasreto\\persistence\\DBBroker.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\persistence\\DBBroker.cs",
+              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\persistence\\DBBroker.cs",
               "RelativeToolTip": "aceptasreto\\persistence\\DBBroker.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAlwDcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,11 +161,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AlumnoManage.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\persistence\\AlumnoManage.cs",
+              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\persistence\\AlumnoManage.cs",
               "RelativeDocumentMoniker": "aceptasreto\\persistence\\AlumnoManage.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\aceptasreto\\aceptasreto\\persistence\\AlumnoManage.cs",
+              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\aceptasreto\\aceptasreto\\persistence\\AlumnoManage.cs",
               "RelativeToolTip": "aceptasreto\\persistence\\AlumnoManage.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

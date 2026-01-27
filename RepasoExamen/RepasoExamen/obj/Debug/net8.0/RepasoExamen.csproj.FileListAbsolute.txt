@@ -1,0 +1,15 @@
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\bin\Debug\net8.0\RepasoExamen.exe
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\bin\Debug\net8.0\RepasoExamen.deps.json
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\bin\Debug\net8.0\RepasoExamen.runtimeconfig.json
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\bin\Debug\net8.0\RepasoExamen.dll
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\bin\Debug\net8.0\RepasoExamen.pdb
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\obj\Debug\net8.0\RepasoExamen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\obj\Debug\net8.0\RepasoExamen.AssemblyInfoInputs.cache
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\obj\Debug\net8.0\RepasoExamen.AssemblyInfo.cs
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\obj\Debug\net8.0\RepasoExamen.csproj.CoreCompileInputs.cache
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\obj\Debug\net8.0\RepasoExamen.sourcelink.json
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\obj\Debug\net8.0\RepasoExamen.dll
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\obj\Debug\net8.0\refint\RepasoExamen.dll
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\obj\Debug\net8.0\RepasoExamen.pdb
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\obj\Debug\net8.0\RepasoExamen.genruntimeconfig.cache
+C:\Users\samu\Desktop\DAM2\DI\RepasoExamen\RepasoExamen\obj\Debug\net8.0\ref\RepasoExamen.dll
