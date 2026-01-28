@@ -1,9 +1,8 @@
-﻿<Window x:Class="Ejercicio1Examen.MainWindow"
+﻿<Window x:Class="Ejercicio2.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Ejercicio1Examen"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
@@ -20,9 +19,8 @@
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="4*"/>
                     </Grid.RowDefinitions>
-                    <StackPanel x:Name="stckPanelParametrosTabla" Grid.ColumnSpan="2" Margin="0,0,0,59" Grid.RowSpan="2">
+                    <StackPanel x:Name="stckPanelParametrosTabla" Margin="0,0,0,59">
                         <Grid>
-                            <!-- Defino las columnas y filas -->
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*" />
                                 <RowDefinition Height="*" />
@@ -34,14 +32,13 @@
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
 
-
-                            <Label Name="lbNumParedes" Content="Numeros de paredes" Grid.Row="0" Grid.Column="0"/>
+                            <Label Name="lbNumParedes" Content="Número de paredes" Grid.Row="0" Grid.Column="0"/>
                             <TextBox Name="txtbNumParedes" Grid.Row="1" Grid.Column="0"/>
 
                             <Button Name="btnSumarParedes" Content="+" Grid.Row="0" Grid.Column="1"/>
                             <Button Name="btnRestarParedes" Content="-" Grid.Row="1" Grid.Column="1"/>
 
-                            <Label Name="lbNumRatones" Content="Numeros de paredes" Grid.Row="0" Grid.Column="2"/>
+                            <Label Name="lbNumRatones" Content="Número de ratones" Grid.Row="0" Grid.Column="2"/>
                             <TextBox Name="txtbNumRatones" Grid.Row="1" Grid.Column="2"/>
 
                             <Button Name="btnSumarRatones" Content="+" Grid.Row="0" Grid.Column="3"/>
@@ -49,19 +46,25 @@
                         </Grid>
                     </StackPanel>
 
-                    <!-- Aqui va el nick del jugador y el boton de iniciar juego -->
-
+                    <!-- Nick del jugador y botón de iniciar juego -->
                     <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="100,0,0,0" HorizontalAlignment="Center">
                         <Label x:Name="lbNickJugador" Content="NICKJUGADOR" Width="100" Height="30" />
                         <TextBox x:Name="txtboxNickJugador" Width="200" Height="30" />
                         <Button x:Name="btnIniciarJuego" Content="Iniciar Juego" Width="100" HorizontalAlignment="Right" Margin="100,0,0,0" Height="30" Click="btnIniciarJuego_Click"/>
                     </StackPanel>
-                        
                     
-                    <!-- Aqui va la tabla -->
-                    <Grid Name="contenedorTablero" Grid.Row="1" ShowGridLines="True" Grid.ColumnSpan="2" Margin="0,59,0,0" Grid.RowSpan="2">
-
+                    <!-- Tabla del tablero -->
+                    <Grid Name="contenedorTablero" Grid.Row="2" ShowGridLines="True" Margin="0,59,0,0">
                     </Grid>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center" Margin="0,10,0,0">
+                        <Button Name="btnArriba" Content="⬆️" Width="40" Height="40"/>
+                        <Button Name="btnAbajo" Content="⬇️" Width="40" Height="40"/>
+                        <StackPanel Orientation="Vertical">
+                            <Button Name="btnIzquierda" Content="⬅️" Width="40" Height="40"/>
+                            <Button Name="btnDerecha" Content="➡️" Width="40" Height="40"/>
+                        </StackPanel>
+                    </StackPanel>
                 </Grid>
             </TabItem>
             <TabItem Header="Ranking">
@@ -76,12 +79,9 @@
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
 
-
                     <TextBox x:Name="txtBoxBuscador" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Search" VerticalAlignment="Center" Width="300" Height="35"/>
 
-                    <DataGrid x:Name="dgJugador" Grid.Row="1" Margin="10,10,10,10">
-
-                    </DataGrid>
+                    <DataGrid x:Name="dgJugador" Grid.Row="1" Margin="10,10,10,10"/>
 
                     <Label x:Name="lbJugadorCRUD" Content="JUGADOR" Grid.Row="1" Grid.Column="1" Width="200"/>
                     <StackPanel x:Name="stpJugadorCRUD" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
@@ -108,13 +108,11 @@
 
                     <StackPanel Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Orientation="Horizontal">
                         <Button Grid.Column="0" Margin="10" Content="Agregar" Name="btn_AgregarDatos" Click="btn_AgregarDatos_Click" Width="100" Height="30"/>
-                        <Button Grid.Column="1" Margin="10" Content="Modifcar" Name="btn_ModificarDatos" Click="btn_ModificarDatos_Click" Width="100" Height="30"/>
+                        <Button Grid.Column="1" Margin="10" Content="Modificar" Name="btn_ModificarDatos" Click="btn_ModificarDatos_Click" Width="100" Height="30"/>
                         <Button Grid.Column="2" Margin="10" Content="Eliminar" Name="btn_EliminarDatos" Click="btn_EliminarDatos_Click" Width="100" Height="30" BorderBrush="#FF707070"/>
                     </StackPanel>
-
                 </Grid>
             </TabItem>
         </TabControl>
-
     </Grid>
 </Window>

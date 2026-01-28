@@ -46,6 +46,11 @@ namespace Ejercicio2.persistance
 
             foreach (List<Object> c in aux)
             {
+
+                DateTime fecha = DateTime.ParseExact(
+                    c[2].ToString(),
+                    "yyyy-MM-dd",
+                    System.Globalization.CultureInfo.InvariantCulture);
                 jugador = new Jugador(Convert.ToInt32(c[0]), c[1].ToString(), DateTime.Parse(c[2].ToString()), Convert.ToInt32(c[3]), Convert.ToInt32(c[4]));
 
                 listaJugadores.Add(jugador);
@@ -54,14 +59,17 @@ namespace Ejercicio2.persistance
             return listaJugadores;
         }
 
-        public void insertarJugador(Jugador p)
+        public void insertarJugador(Jugador j)
         {
-
-            string fecha = p.FechaJuego.ToString("yyyy-MM-dd");
+            string fecha = j.FechaJuego.ToString("yyyy-MM-dd");
 
             String sql = "INSERT INTO jugador.jugador (fecha_juego, nickname, nivel, puntuacion) " +
-                         "VALUES ('" + fecha  + "', '" + p.Nickname + "', " + p.Nivel + ", " + p.Puntuacion + ");";
+                         "VALUES ('" + fecha + "', '" + j.Nickname + "', " + j.Nivel + ", " + j.Puntuacion + ");";
             DBBroker.obtenerAgente().modificar(sql);
+
+            // Ahora recupera el último ID e insértalo en el objeto jugador (si lo necesitas)
+            var res = DBBroker.obtenerAgente().leer("SELECT LAST_INSERT_ID();");
+            if (res.Count > 0) j.Id = Convert.ToInt32(((List<object>)res[0])[0]);
         }
 
         public void lastIdJugador(Jugador p) // Este metodo no creo que sea necesario, lo dejo en el caso que me interese saber el id ultumo

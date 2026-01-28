@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\",
+  "WorkspaceRootPath": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|c:\\users\\b15-17m\\documents\\github\\di\\ejercicio1examen\\ejercicio1examen\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\ejercicio1examen\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|solutionrelative:ejercicio1examen\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|c:\\users\\samu\\desktop\\dam2\\di\\ejercicio1examen\\ejercicio1examen\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|solutionrelative:ejercicio1examen\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\ejercicio1examen\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\ejercicio1examen\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|solutionrelative:ejercicio1examen\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\ejercicio1examen\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\ejercicio1examen\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|solutionrelative:ejercicio1examen\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\ejercicio1examen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\ejercicio1examen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|solutionrelative:ejercicio1examen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\ejercicio1examen\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE1C582-7EE4-4C78-B49E-CE143FDE7937}|Ejercicio1Examen\\Ejercicio1Examen.csproj|solutionrelative:ejercicio1examen\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,62 +38,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Utilidades.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Utilidades.cs",
+              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Utilidades.cs",
               "RelativeDocumentMoniker": "Ejercicio1Examen\\Utilidades.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Utilidades.cs",
+              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Utilidades.cs",
               "RelativeToolTip": "Ejercicio1Examen\\Utilidades.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T11:16:09.972Z"
+              "WhenOpened": "2025-11-20T11:16:09.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Jugador.cs",
+              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Jugador.cs",
+              "RelativeDocumentMoniker": "Ejercicio1Examen\\Jugador.cs",
+              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Jugador.cs",
+              "RelativeToolTip": "Ejercicio1Examen\\Jugador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T11:15:46.838Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Jugador.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Jugador.cs",
-              "RelativeDocumentMoniker": "Ejercicio1Examen\\Jugador.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Jugador.cs",
-              "RelativeToolTip": "Ejercicio1Examen\\Jugador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAsAAAAAAAAAA==",
+              "Title": "Juego.cs",
+              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Juego.cs",
+              "RelativeDocumentMoniker": "Ejercicio1Examen\\Juego.cs",
+              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Juego.cs",
+              "RelativeToolTip": "Ejercicio1Examen\\Juego.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T11:15:46.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T11:15:26.566Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Juego.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Juego.cs",
-              "RelativeDocumentMoniker": "Ejercicio1Examen\\Juego.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Juego.cs",
-              "RelativeToolTip": "Ejercicio1Examen\\Juego.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T11:15:26.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Tablero.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Tablero.cs",
+              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Tablero.cs",
               "RelativeDocumentMoniker": "Ejercicio1Examen\\Tablero.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Tablero.cs",
+              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Tablero.cs",
               "RelativeToolTip": "Ejercicio1Examen\\Tablero.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAApwCsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAvwCsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T11:14:48.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Program.cs",
               "RelativeDocumentMoniker": "Ejercicio1Examen\\Program.cs",
-              "ToolTip": "C:\\Users\\b15-17m\\Documents\\GitHub\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Program.cs",
+              "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\Ejercicio1Examen\\Ejercicio1Examen\\Program.cs",
               "RelativeToolTip": "Ejercicio1Examen\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

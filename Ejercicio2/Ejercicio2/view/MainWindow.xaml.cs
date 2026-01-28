@@ -15,7 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Ejercicio1Examen
+namespace Ejercicio2
 {
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
@@ -42,42 +42,95 @@ namespace Ejercicio1Examen
             
         }
 
-
+        private void RefrescarJugadores()
+        {
+            lstJugador = jugador.getJugadores();
+            dgJugador.ItemsSource = null; // Truco para forzar refresco del grid
+            dgJugador.ItemsSource = lstJugador;
+        }
 
         private void btnIniciarJuego_Click(object sender, RoutedEventArgs e)
         {
             Generador gen = new Generador(contenedorTablero);
             gen.crearTablero(6, 6, 3, 3);
-            gen.colocarParedes();
         }
+
+
 
         private void btn_AgregarDatos_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(txtBoxNombreCRUD.Text) ||
+                    !datePickerFechaCRUD.SelectedDate.HasValue ||
+                    string.IsNullOrWhiteSpace(txtBoxPuntuacionCRUD.Text))
+                {
+                    MessageBox.Show("Complete todos los campos.");
+                    return;
+                }
 
-            string fecha = datePickerFechaCRUD.SelectedDate.ToString();
-            int nivel = cmbBoxCursoCRUD.SelectedIndex;
+                int nivel = cmbBoxCursoCRUD.SelectedIndex;
+                int puntuacion;
+                if (!int.TryParse(txtBoxPuntuacionCRUD.Text, out puntuacion))
+                {
+                    MessageBox.Show("Puntuación no válida.");
+                    return;
+                }
 
-            Console.WriteLine(fecha);
+                Jugador nuevoJugador = new Jugador(
+                    txtBoxNombreCRUD.Text,
+                    datePickerFechaCRUD.SelectedDate.Value,
+                    nivel,
+                    puntuacion);
 
-            Jugador jugador = new Jugador(
-                txtBoxNombreCRUD.Text,
-                DateTime.Parse(fecha),
-                cmbBoxCursoCRUD.SelectedIndex,
-                int.Parse(txtBoxPuntuacionCRUD.Text));
+                nuevoJugador.insertar(); // Esto guardará en BBDD y debe actualizar el id localmente (ver más abajo)
 
-            jugador.insertar();
-            lstJugador.Add(jugador);
-            dgJugador.Items.Refresh();
+                RefrescarJugadores();
+
+                // Limpia los campos
+                txtBoxNombreCRUD.Clear();
+                txtBoxPuntuacionCRUD.Clear();
+                cmbBoxCursoCRUD.SelectedIndex = 0;
+                datePickerFechaCRUD.SelectedDate = null;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al agregar jugador: " + ex.Message);
+            }
         }
 
         private void btn_ModificarDatos_Click(object sender, RoutedEventArgs e)
         {
-            Jugador jugador = (Jugador)dgJugador.SelectedItem;
-            jugador.modificar();
-            dgJugador.Items.Refresh();
-            
-        }
+            if (dgJugador.SelectedItem is Jugador jugadorSeleccionado)
+            {
+                try
+                {
+                    // Actualizar objetos con los datos de los campos (puedes hacer doble click en el grid para rellenar los TextBox)
+                    jugadorSeleccionado.Nickname = txtBoxNombreCRUD.Text;
+                    jugadorSeleccionado.Puntuacion = int.Parse(txtBoxPuntuacionCRUD.Text);
+                    jugadorSeleccionado.Nivel = cmbBoxCursoCRUD.SelectedIndex;
+                    jugadorSeleccionado.FechaJuego = datePickerFechaCRUD.SelectedDate.Value;
 
+                    jugadorSeleccionado.modificar();
+                    RefrescarJugadores();
+
+                    // Limpia los campos
+                    txtBoxNombreCRUD.Clear();
+                    txtBoxPuntuacionCRUD.Clear();
+                    cmbBoxCursoCRUD.SelectedIndex = 0;
+                    datePickerFechaCRUD.SelectedDate = null;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al modificar jugador: " + ex.Message);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Seleccione un jugador antes de modificar.");
+            }
+        }
+            
         private void btn_EliminarDatos_Click(object sender, RoutedEventArgs e)
         {
             Jugador jugador = (Jugador)dgJugador.SelectedItem;

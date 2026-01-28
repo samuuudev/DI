@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -11,92 +9,101 @@ namespace Ejercicio2.domain
     internal class Generador
     {
         private Grid contenedorTablero;
+        private char[,] modelo; // Modelo del tablero
+        private int filas;
+        private int columnas;
+        private static readonly char PARED = 'P';
+        private static readonly char RATON = 'R';
+        private static readonly char LIBRE = ' ';
 
         public Generador(Grid grid)
         {
             this.contenedorTablero = grid;
         }
 
-
+        /// <summary>
+        /// Genera el tablero de tamaño i x j, colocando el número justo de paredes y ratones, y rellena el resto con huecos libres.
+        /// </summary>
         public void crearTablero(int i, int j, int numParedes, int numRatones)
         {
+            // PREPARA EL MODELO DE DATOS
+            filas = i;
+            columnas = j;
+            modelo = new char[filas, columnas];
 
-            Random random = new Random(3);
+            // 1. Inicializa todas las posiciones como LIBRE
+            for (int f = 0; f < filas; f++)
+                for (int c = 0; c < columnas; c++)
+                    modelo[f, c] = LIBRE;
 
-            for (int fila = 0; fila < i; fila++)
+            // 2. Genera una lista con todas las posiciones disponibles
+            var rnd = new Random();
+            var posicionesDisponibles = new List<(int, int)>();
+            for (int f = 0; f < filas; f++)
+                for (int c = 0; c < columnas; c++)
+                    posicionesDisponibles.Add((f, c));
+
+            // 3. Coloca paredes sin repetir posiciones
+            for (int n = 0; n < numParedes && posicionesDisponibles.Count > 0; n++)
             {
-                RowDefinition rowDef = new RowDefinition();
-                contenedorTablero.RowDefinitions.Add(rowDef);
+                int idx = rnd.Next(posicionesDisponibles.Count);
+                var pos = posicionesDisponibles[idx];
+                modelo[pos.Item1, pos.Item2] = PARED;
+                posicionesDisponibles.RemoveAt(idx);
             }
-            for (int columna = 0; columna < j; columna++)
+            // 4. Coloca ratones sin repetir posiciones
+            for (int n = 0; n < numRatones && posicionesDisponibles.Count > 0; n++)
             {
-                ColumnDefinition colDef = new ColumnDefinition();
-                contenedorTablero.ColumnDefinitions.Add(colDef);
+                int idx = rnd.Next(posicionesDisponibles.Count);
+                var pos = posicionesDisponibles[idx];
+                modelo[pos.Item1, pos.Item2] = RATON;
+                posicionesDisponibles.RemoveAt(idx);
             }
-            for (int fila = 0; fila < i; fila++)
+
+            // 5. Borra el grid visual antes de añadir labels nuevos
+            contenedorTablero.Children.Clear();
+            contenedorTablero.RowDefinitions.Clear();
+            contenedorTablero.ColumnDefinitions.Clear();
+
+            for (int f = 0; f < filas; f++)
+                contenedorTablero.RowDefinitions.Add(new RowDefinition());
+            for (int c = 0; c < columnas; c++)
+                contenedorTablero.ColumnDefinitions.Add(new ColumnDefinition());
+
+            // 6. Pinta la matriz sobre el Grid
+            for (int f = 0; f < filas; f++)
             {
-                for (int columna = 0; columna < j; columna++)
+                for (int c = 0; c < columnas; c++)
                 {
-                    if (numParedes <= 0 && random.Next() % 2 == 0)
+                    Label label = new Label
                     {
-                        Label etiqueta = new Label();
-                        etiqueta.HorizontalAlignment = HorizontalAlignment.Center;
-                        etiqueta.VerticalAlignment = VerticalAlignment.Top;
-                        etiqueta.Content = "P";
-                        Grid.SetRow(etiqueta, fila);
-                        Grid.SetColumn(etiqueta, columna);
-                        contenedorTablero.Children.Add(etiqueta);
-                        numParedes--;
-                    }
-                    else if (numRatones <= 0 && random.Next() % 2 == 0)
+                        HorizontalAlignment = HorizontalAlignment.Center,
+                        VerticalAlignment = VerticalAlignment.Center,
+                        FontWeight = FontWeights.Bold,
+                        FontSize = 18
+                    };
+                    switch (modelo[f, c])
                     {
-                        Label etiqueta = new Label();
-                        etiqueta.HorizontalAlignment = HorizontalAlignment.Center;
-                        etiqueta.VerticalAlignment = VerticalAlignment.Top;
-                        etiqueta.Content = "R";
-                        Grid.SetRow(etiqueta, fila);
-                        Grid.SetColumn(etiqueta, columna);
-                        contenedorTablero.Children.Add(etiqueta);
-                        numRatones--;
+                        case 'P':
+                            label.Content = "🟥"; // Pared
+                            break;
+                        case 'R':
+                            label.Content = "🐭"; // Ratón
+                            break;
+                        default:
+                            label.Content = ""; // Libre
+                            break;
                     }
-                    else
-                    {
-                        Label etiqueta = new Label();
-                        etiqueta.Margin = new Thickness(1);
-                        etiqueta.HorizontalAlignment = HorizontalAlignment.Left;
-                        etiqueta.VerticalAlignment = VerticalAlignment.Top;
-                        etiqueta.Content = $"({fila},{columna})";
-                        Grid.SetRow(etiqueta, fila);
-                        Grid.SetColumn(etiqueta, columna);
-                        contenedorTablero.Children.Add(etiqueta);
-                    }
+                    Grid.SetRow(label, f);
+                    Grid.SetColumn(label, c);
+                    contenedorTablero.Children.Add(label);
                 }
             }
         }
-               
-            
-  
 
-        // A esta funcion la llamo desde el boton que me falta por implementar en el XAML
-        public void colocarParedes()
-        {
-            int numParedes = 3;
-            // int numParedes = Convert.ToInt32(txtbNumParedes.Text);
-            for (int fila = 0; fila < contenedorTablero.RowDefinitions.Count; fila++)
-            {
-                for (int columna = 0; columna < contenedorTablero.ColumnDefinitions.Count; columna++)
-                {
-                    // coloco de forma aleatoria paredes en el tablero en base al numero aportado por el usuario en el textbox
-                    Random rand = new Random();
-                    int randomNum = rand.Next(0, contenedorTablero.RowDefinitions.Count * contenedorTablero.ColumnDefinitions.Count);
-
-                    if (rand.Next(0, 3) == 0)
-                    {
-                        
-                    }
-                    
-                }
-            }
-        }
+        /// <summary>
+        /// Devuelve el modelo actual del tablero (por si quieres gestionarlo) 
+        /// </summary>
+        public char[,] GetModelo() => modelo;
     }
 }
