@@ -1,0 +1,126 @@
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.csproj.AssemblyReference.cache
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\MainWindow.g.cs
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\App.g.cs
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid_MarkupCompile.cache
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid_MarkupCompile.lref
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\PruebaExamen2_Curso_JSON_DataGrid.exe.config
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\PruebaExamen2_Curso_JSON_DataGrid.exe
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\PruebaExamen2_Curso_JSON_DataGrid.pdb
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Google.Protobuf.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\MySql.Data.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Buffers.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Memory.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\ZstdSharp.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Google.Protobuf.pdb
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Google.Protobuf.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\MySql.Data.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Buffers.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Memory.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\MainWindow.baml
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.g.resources
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.Properties.Resources.resources
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.csproj.GenerateResource.cache
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.csproj.CoreCompileInputs.cache
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaEx.E7942408.Up2Date
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.exe
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.pdb
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.exe.config
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\log4net.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\sapbusinessobjects.wpf.viewer.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Trending Pc\source\repos\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\log4net.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\PruebaExamen2_Curso_JSON_DataGrid.exe.config
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\PruebaExamen2_Curso_JSON_DataGrid.exe
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\PruebaExamen2_Curso_JSON_DataGrid.pdb
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Google.Protobuf.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\log4net.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\MySql.Data.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\sapbusinessobjects.wpf.viewer.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Buffers.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.IO.Pipelines.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Memory.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\ZstdSharp.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\stdole.dll
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Google.Protobuf.pdb
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Google.Protobuf.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\log4net.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\MySql.Data.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Buffers.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.IO.Pipelines.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Memory.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.csproj.AssemblyReference.cache
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.exe.config
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\MainWindow.g.cs
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\App.g.cs
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid_MarkupCompile.cache
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid_MarkupCompile.lref
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\MainWindow.baml
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.g.resources
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.Properties.Resources.resources
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.csproj.GenerateResource.cache
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.csproj.CoreCompileInputs.cache
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaEx.E7942408.Up2Date
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.exe
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid.pdb
+C:\Users\samu\Desktop\DAM2\DI\PruebaExamen2_Curso_JSON_DataGrid\PruebaExamen2_Curso_JSON_DataGrid\obj\Debug\PruebaExamen2_Curso_JSON_DataGrid_Content.g.cs

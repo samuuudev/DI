@@ -1,0 +1,15 @@
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\bin\Debug\WpfVozNUI.exe.config
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\bin\Debug\WpfVozNUI.exe
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\bin\Debug\WpfVozNUI.pdb
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\obj\Debug\WpfVozNUI.csproj.AssemblyReference.cache
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\obj\Debug\MainWindow.baml
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\obj\Debug\MainWindow.g.cs
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\obj\Debug\App.g.cs
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\obj\Debug\WpfVozNUI_MarkupCompile.cache
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\obj\Debug\WpfVozNUI.g.resources
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\obj\Debug\WpfVozNUI.Properties.Resources.resources
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\obj\Debug\WpfVozNUI.csproj.GenerateResource.cache
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\obj\Debug\WpfVozNUI.csproj.CoreCompileInputs.cache
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\obj\Debug\WpfVozNUI.exe
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\obj\Debug\WpfVozNUI.pdb
+C:\Users\samu\Desktop\DAM2\DI\WpfVozNUI\WpfVozNUI\obj\Debug\WpfVozNUI.exe.config

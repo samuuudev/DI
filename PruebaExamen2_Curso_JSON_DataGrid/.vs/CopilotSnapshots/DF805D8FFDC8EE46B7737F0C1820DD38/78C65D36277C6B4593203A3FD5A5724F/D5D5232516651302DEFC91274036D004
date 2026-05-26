@@ -1,0 +1,192 @@
+﻿using ExampleMVCnoDatabase.Persistence.dbbroker;
+using Newtonsoft.Json;
+using PruebaExamen2_Curso_JSON_DataGrid.CrystalReport;
+using PruebaExamen2_Curso_JSON_DataGrid.domain.profesor;
+using PruebaExamen2_Curso_JSON_DataGrid.persistence.manages.profesormanage;
+using PruebaExamen2_Estudiantes.domain.curso;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace PruebaExamen2_Curso_JSON_DataGrid
+{
+    /// <summary>
+    /// Lógica de interacción para MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        private static readonly HttpClient httpClient = new HttpClient();
+        private List<Curso> lstCurso;
+        private Curso curso;
+        private profesorManage profesorManage = new profesorManage();
+        public MainWindow()
+        {
+            InitializeComponent();
+            Profesor profesor = new Profesor();
+            try
+            {
+                profesorManage.readProfesor();
+            }
+            catch (JsonException ex)
+            {
+                Console.WriteLine($"Error al deserializar el JSON: {ex.Message}");
+            }
+            curso = new Curso();
+            lstCurso = curso.getListaCurso();
+            dgCursos.ItemsSource = lstCurso;
+        }
+        public void start()
+        {       
+            txtCursoNombre.Text = "";
+            txtCursoCredito.Text = "";
+
+
+        }
+        public void dgCursos_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (dgCursos.SelectedItem != null)
+            {
+                Curso selectedCurso = (Curso)dgCursos.SelectedItem;
+                txtCursoNombre.Text = selectedCurso.Nombre;
+                txtCursoCredito.Text = selectedCurso.Creditos.ToString();
+                //JSON PARA MODIFICAR ESTE CAMPOS (SE CAMBIA EN LA BASE DE DATOS)
+                txtEspecialidad.Text = selectedCurso.Especialidad;
+            }
+        }
+        public void CargarCursos()
+        {
+            Curso service = new Curso();
+            lstCurso = service.getListaCurso();
+            dgCursos.ItemsSource = null;
+            dgCursos.ItemsSource = lstCurso;
+        }
+        public void btnCursoAdd_Click(object sender, RoutedEventArgs e)
+        {
+            Curso curso = new Curso(txtCursoNombre.Text, int.Parse(txtCursoCredito.Text));
+            //JSON PARA PONER LOS ID CORRESPONDIENTES
+            int proximoId = lstCurso.Count > 0 ? lstCurso.Max(c => c.Id) + 1 : 1;
+            curso.Id = proximoId;
+
+            curso.AsignarProfesorDesdeJson();
+            //
+            curso.insertar();
+            lstCurso.Add(curso);
+            dgCursos.Items.Refresh();
+            CargarCursos();
+            start();
+        }
+        public void btnCursoMod_Click(object sender, RoutedEventArgs e)
+        {
+            if (dgCursos.SelectedItem != null)
+            {
+               
+                Curso curso = (Curso)dgCursos.SelectedItem;
+                curso.Nombre = txtCursoNombre.Text;
+                curso.Creditos = int.Parse(txtCursoCredito.Text);
+                curso.Especialidad = txtEspecialidad.Text;
+                curso.modificar();
+
+             
+                profesorManage.readProfesor();
+
+            
+                Profesor profesorConCambios = new Profesor()
+                {
+                    ID = curso.Id, 
+                    Especialidad = txtEspecialidad.Text
+                };
+
+              
+                bool modificadoConExito = profesorManage.updateProfesor(profesorConCambios);
+
+                // 5. Refrescamos la UI
+                CargarCursos();
+                start();
+
+                if (modificadoConExito)
+                {
+                    MessageBox.Show("Curso y Especialidad en JSON actualizados correctamente.");
+                }
+                else
+                {
+                    MessageBox.Show("El curso se modificó en la BD, pero no se encontró ningún profesor con el ID " + curso.Id + " en el archivo JSON.");
+                }
+            }
+        }
+        public void btnCursoDel_Click(object sender, RoutedEventArgs e)
+        {
+            Curso curso = (Curso)dgCursos.SelectedItem;
+            curso.borrar();
+            CargarCursos();
+        }
+        private void CargarInformeCurso()
+        {
+            // xmlns: viewer = "clr-namespace:SAPBusinessObjects.WPF.Viewer;assembly=SAPBusinessObjects.WPF.Viewer" (ACORDARSE DE PONERLO EN EL XAML)
+            try
+            {
+                string query = "SELECT id, nombreCurso, creditos, nombreProfesor, especialidadProfesor FROM inscripciones.curso;";
+
+
+                List<Object> resultado = DBBroker.obtenerAgente().leer(query);
+
+
+                DataTable tabla1 = new DataTable("Curso");
+                tabla1.Columns.Add("id");
+                tabla1.Columns.Add("nombreCurso");
+                tabla1.Columns.Add("creditos");
+                tabla1.Columns.Add("nombreProfesor");
+                tabla1.Columns.Add("especialidadProfesor");
+
+
+                foreach (List<Object> fila in resultado)
+                {
+
+                    tabla1.Rows.Add(fila.ToArray());
+                }
+
+
+                CrystalReport1 report = new CrystalReport1();
+                report.Database.Tables["Curso"].SetDataSource(tabla1);
+                visor.ViewerCore.ReportSource = report;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al generar el informe: " + ex.Message);
+            }
+        }
+        private void btnInformeCurso_Click(object sender, RoutedEventArgs e)
+        {
+            CargarInformeCurso();
+        }
+
+        private async void btnCargarApi_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                string url = "https://jsonplaceholder.typicode.com/users/1";
+                string json = await httpClient.GetStringAsync(url);
+
+                object jsonObj = JsonConvert.DeserializeObject(json);
+                txtApiJson.Text = JsonConvert.SerializeObject(jsonObj, Formatting.Indented);
+            }
+            catch (Exception ex)
+            {
+                txtApiJson.Text = "No se pudo cargar la API.";
+                MessageBox.Show("Error al consultar la API: " + ex.Message);
+            }
+        }
+    }
+}

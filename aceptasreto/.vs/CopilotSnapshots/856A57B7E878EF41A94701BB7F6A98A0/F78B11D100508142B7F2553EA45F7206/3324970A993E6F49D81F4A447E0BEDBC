@@ -1,0 +1,69 @@
+﻿using aceptasreto.domain;
+using aceptasreto.Persistence;
+using System;
+using System.Collections.Generic;
+
+namespace aceptasreto.persistence
+{
+    internal class RetoManage
+    {
+        private string E(string s) => (s ?? "").Replace("'", "''");
+
+        public List<Reto> leerRetos(bool esAdmin, int? idGrupo)
+        {
+            var lista = new List<Reto>();
+            string sql;
+
+            if (esAdmin)
+            {
+                sql = "SELECT id_reto, descripcion FROM aceptasreto.reto;";
+            }
+            else
+            {
+                // Si no es admin y no tiene grupo, devolvemos lista vacía (SQL válida)
+                if (!idGrupo.HasValue)
+                {
+                    sql = "SELECT id_reto, descripcion FROM aceptasreto.reto WHERE 1 = 0;";
+                }
+                else
+                {
+                    sql = "SELECT DISTINCT r.id_reto, r.descripcion " +
+                          "FROM aceptasreto.reto r " +
+                          "INNER JOIN aceptasreto.talent_lab t " +
+                          "ON (r.id_reto = t.id_reto1 OR r.id_reto = t.id_reto2 OR r.id_reto = t.id_reto3) " +
+                          "WHERE t.id_grupo = " + idGrupo.Value + ";";
+                }
+            }
+
+            var aux = DBBroker.obtenerAgente().leer(sql);
+
+            foreach (List<object> c in aux)
+            {
+                var r = new Reto();
+                r.Id = Convert.ToInt32(c[0]);
+                r.Descripcion = c[1]?.ToString() ?? "";
+                lista.Add(r);
+            }
+
+            return lista;
+        }
+
+        public void insertarReto(Reto r)
+        {
+            string sql = "INSERT INTO aceptasreto.reto (descripcion) VALUES ('" + E(r.Descripcion) + "');";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+        public void modificarReto(Reto r)
+        {
+            string sql = "UPDATE aceptasreto.reto SET descripcion='" + E(r.Descripcion) + "' WHERE id_reto=" + r.Id + ";";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+        public void eliminarReto(Reto r)
+        {
+            string sql = "DELETE FROM aceptasreto.reto WHERE id_reto=" + r.Id + ";";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+    }
+}

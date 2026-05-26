@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{B65695FC-163D-4203-99B6-B6CD71DCCC53}|RepasoExamen2\\RepasoExamen2.csproj|solutionrelative:repasoexamen2\\pacman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B65695FC-163D-4203-99B6-B6CD71DCCC53}|RepasoExamen2\\RepasoExamen2.csproj|c:\\users\\samu\\desktop\\dam2\\di\\repasoexamen2\\repasoexamen2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B65695FC-163D-4203-99B6-B6CD71DCCC53}|RepasoExamen2\\RepasoExamen2.csproj|C:\\Users\\samu\\Desktop\\DAM2\\DI\\RepasoExamen2\\repasoexamen2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B65695FC-163D-4203-99B6-B6CD71DCCC53}|RepasoExamen2\\RepasoExamen2.csproj|solutionrelative:repasoexamen2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B65695FC-163D-4203-99B6-B6CD71DCCC53}|RepasoExamen2\\RepasoExamen2.csproj|c:\\users\\samu\\desktop\\dam2\\di\\repasoexamen2\\repasoexamen2\\proceduralpacmanmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B65695FC-163D-4203-99B6-B6CD71DCCC53}|RepasoExamen2\\RepasoExamen2.csproj|C:\\Users\\samu\\Desktop\\DAM2\\DI\\RepasoExamen2\\repasoexamen2\\proceduralpacmanmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B65695FC-163D-4203-99B6-B6CD71DCCC53}|RepasoExamen2\\RepasoExamen2.csproj|solutionrelative:repasoexamen2\\proceduralpacmanmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "RepasoExamen2\\Pacman.cs",
               "ToolTip": "C:\\Users\\samu\\Desktop\\DAM2\\DI\\RepasoExamen2\\RepasoExamen2\\Pacman.cs",
               "RelativeToolTip": "RepasoExamen2\\Pacman.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAuwIUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T18:35:06.98Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "RepasoExamen2\\ProceduralPacmanMap.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAiwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T18:30:29.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-27T18:30:29.184Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "RepasoExamen2\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T18:29:23.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-27T18:29:23.714Z"
             }
           ]
         }

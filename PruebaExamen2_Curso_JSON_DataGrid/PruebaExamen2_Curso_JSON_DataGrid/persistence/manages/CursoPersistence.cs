@@ -1,0 +1,63 @@
+﻿
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using PruebaExamen2_Estudiantes.domain.curso;
+using ExampleMVCnoDatabase.Persistence.dbbroker;
+
+namespace PruebaExamen2_Estudiantes.persistence.manages.cursopersistence
+{
+    internal class CursoPersistence
+    {
+        private DataTable table { get; set; }
+        List<Curso> ListaCurso { get; set; }
+
+        public CursoPersistence()
+        {
+            table = new DataTable();
+            ListaCurso = new List<Curso>();
+        }
+        public List<Curso> LeerCursos()
+        {
+            Curso curso = null;
+            ListaCurso.Clear();
+            List<Object> aux = DBBroker.obtenerAgente().leer(
+                "SELECT c.id, c.nombreCurso, c.creditos, " +
+                "COALESCE(p.nombre, c.nombreProfesor) AS nombreProfesor, " +
+                "COALESCE(p.especialidad, c.especialidadProfesor) AS especialidad " +
+                "FROM inscripciones.curso c " +
+                "LEFT JOIN inscripciones.profesor p ON c.id = p.id;");
+            foreach (List<Object> c in aux)
+            {
+                curso = new Curso(Convert.ToInt32(c[0]), c[1].ToString(), Convert.ToInt32(c[2]), c[3].ToString(), c[4].ToString());
+                ListaCurso.Add(curso);
+            }
+            return ListaCurso;
+        }
+        public void InsertarCurso(Curso curso)
+        {
+            String sql = $"INSERT INTO inscripciones.curso  VALUES (null,'{curso.Nombre}','{curso.Creditos}','{curso.NombreProfesorJSON}','{curso.Especialidad}')";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+        public void BorrarCurso(Curso curso)
+        {
+            String sql = $"DELETE FROM inscripciones.curso  WHERE id = {curso.Id};";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+        public void ModificarCurso(Curso curso)
+        {
+            String sql = $"UPDATE inscripciones.curso SET " +
+                 $"nombreCurso = '{curso.Nombre}'," +
+                 $"creditos = '{curso.Creditos}'," +
+                 $"nombreProfesor = '{curso.NombreProfesorJSON}'," +
+                 $"especialidadProfesor = '{curso.Especialidad}' " +
+                 $"WHERE id = {curso.Id};";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+    }
+}
+

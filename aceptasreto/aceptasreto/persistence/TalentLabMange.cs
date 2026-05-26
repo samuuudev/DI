@@ -1,0 +1,91 @@
+﻿using aceptasreto.domain;
+using aceptasreto.Persistence;
+using System;
+using System.Collections.Generic;
+
+namespace aceptasreto.persistence
+{
+    internal class TalentLabManage
+    {
+        public List<TalentLab> leerTalentLabs(bool esAdmin, int? idGrupoSesion)
+        {
+            var lista = new List<TalentLab>();
+            string sql = esAdmin
+                ? "SELECT t.id_talent_lab, t.id_reto1, t.id_reto2, t.id_reto3, t.id_grupo, g.descripcion, r1.descripcion, r2.descripcion, r3.descripcion " +
+                  "FROM aceptasreto.talent_lab t " +
+                  "LEFT JOIN aceptasreto.grupo g ON t.id_grupo = g.id_grupo " +
+                  "LEFT JOIN aceptasreto.reto r1 ON t.id_reto1 = r1.id_reto " +
+                  "LEFT JOIN aceptasreto.reto r2 ON t.id_reto2 = r2.id_reto " +
+                  "LEFT JOIN aceptasreto.reto r3 ON t.id_reto3 = r3.id_reto;"
+                : "SELECT t.id_talent_lab, t.id_reto1, t.id_reto2, t.id_reto3, t.id_grupo, g.descripcion, r1.descripcion, r2.descripcion, r3.descripcion " +
+                  "FROM aceptasreto.talent_lab t " +
+                  "LEFT JOIN aceptasreto.grupo g ON t.id_grupo = g.id_grupo " +
+                  "LEFT JOIN aceptasreto.reto r1 ON t.id_reto1 = r1.id_reto " +
+                  "LEFT JOIN aceptasreto.reto r2 ON t.id_reto2 = r2.id_reto " +
+                  "LEFT JOIN aceptasreto.reto r3 ON t.id_reto3 = r3.id_reto " +
+                  "WHERE t.id_grupo=" + (idGrupoSesion ?? -1) + ";";
+
+            var aux = DBBroker.obtenerAgente().leer(sql);
+
+            foreach (List<object> c in aux)
+            {
+                TalentLab t = new TalentLab();
+                t.IdTalentLab = Convert.ToInt32(c[0]);
+                t.IdReto1 = string.IsNullOrEmpty(c[1]?.ToString()) ? (int?)null : Convert.ToInt32(c[1]);
+                t.IdReto2 = string.IsNullOrEmpty(c[2]?.ToString()) ? (int?)null : Convert.ToInt32(c[2]);
+                t.IdReto3 = string.IsNullOrEmpty(c[3]?.ToString()) ? (int?)null : Convert.ToInt32(c[3]);
+                t.IdGrupo = string.IsNullOrEmpty(c[4]?.ToString()) ? (int?)null : Convert.ToInt32(c[4]);
+                t.NombreGrupo = c[5]?.ToString() ?? "";
+                t.NombreReto1 = c[6]?.ToString() ?? "";
+                t.NombreReto2 = c[7]?.ToString() ?? "";
+                t.NombreReto3 = c[8]?.ToString() ?? "";
+                lista.Add(t);
+            }
+
+            return lista;
+        }
+
+        public void insertarTalentLab(TalentLab t)
+        {
+            int nuevoId = ObtenerUltimoId() + 1;
+            t.IdTalentLab = nuevoId;
+            string sql = "INSERT INTO aceptasreto.talent_lab (id_talent_lab, id_reto1, id_reto2, id_reto3, id_grupo) VALUES (" +
+                         nuevoId + "," +
+                         (t.IdReto1.HasValue ? t.IdReto1.Value.ToString() : "NULL") + "," +
+                         (t.IdReto2.HasValue ? t.IdReto2.Value.ToString() : "NULL") + "," +
+                         (t.IdReto3.HasValue ? t.IdReto3.Value.ToString() : "NULL") + "," +
+                         (t.IdGrupo.HasValue ? t.IdGrupo.Value.ToString() : "NULL") + ");";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+        public void modificarTalentLab(TalentLab t)
+        {
+            string sql = "UPDATE aceptasreto.talent_lab SET " +
+                         "id_reto1=" + (t.IdReto1.HasValue ? t.IdReto1.Value.ToString() : "NULL") + ", " +
+                         "id_reto2=" + (t.IdReto2.HasValue ? t.IdReto2.Value.ToString() : "NULL") + ", " +
+                         "id_reto3=" + (t.IdReto3.HasValue ? t.IdReto3.Value.ToString() : "NULL") + ", " +
+                         "id_grupo=" + (t.IdGrupo.HasValue ? t.IdGrupo.Value.ToString() : "NULL") + " " +
+                         "WHERE id_talent_lab=" + t.IdTalentLab + ";";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+        public void eliminarTalentLab(TalentLab t)
+        {
+            DBBroker.obtenerAgente().modificar("DELETE FROM aceptasreto.talent_lab WHERE id_talent_lab=" + t.IdTalentLab + ";");
+        }
+
+        public int ObtenerUltimoId()
+        {
+            var resultado = DBBroker.obtenerAgente().leer("SELECT IFNULL(MAX(id_talent_lab),0) FROM aceptasreto.talent_lab;");
+            if (resultado.Count > 0)
+            {
+                var fila = (List<object>)resultado[0] as List<object>;
+                if (fila != null && fila.Count > 0 && int.TryParse(fila[0].ToString(), out int id))
+                {
+                    return id;
+                }
+            }
+            return 0;
+        }
+    }
+}

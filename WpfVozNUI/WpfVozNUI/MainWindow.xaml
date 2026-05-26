@@ -1,0 +1,55 @@
+﻿<Window x:Class="WpfVozNUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Interfaz Natural (Voz) - WPF"
+        Width="900" Height="520"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,12">
+            <TextBlock Text="Interfaz Natural de Usuario (Voz)" FontSize="22" FontWeight="Bold"/>
+            <TextBlock Text="Comandos: “saludar”, “adiós”, “limpiar”, “leer texto” (extra)."
+                       Margin="0,6,0,0"/>
+        </StackPanel>
+
+        <!-- Content -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.1*"/>
+                <ColumnDefinition Width="0.9*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Izquierda: entrada y acciones -->
+            <StackPanel Grid.Column="0" Margin="0,0,12,0">
+                <TextBlock Text="Texto a leer en voz alta" FontWeight="SemiBold" Margin="0,0,0,6"/>
+                <TextBox x:Name="InputTextBox"
+                         MinHeight="30"
+                         Text="Hola, esto es una prueba de síntesis de voz."
+                         Margin="0,0,0,12"/>
+
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
+                    <Button Content="Leer (TTS)" Click="SpeakButton_Click" Margin="0,0,10,0"/>
+                    <Button Content="Iniciar voz" Click="StartVoiceButton_Click" Margin="0,0,10,0"/>
+                    <Button Content="Detener voz" Click="StopVoiceButton_Click"/>
+                </StackPanel>
+
+                <TextBlock x:Name="StatusTextBlock" Text="Estado: listo"/>
+            </StackPanel>
+
+            <!-- Derecha: salida -->
+            <StackPanel Grid.Column="1">
+                <TextBlock Text="Salida" FontWeight="SemiBold" Margin="0,0,0,6"/>
+
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <TextBlock x:Name="OutputTextBlock" TextWrapping="Wrap"/>
+                </ScrollViewer>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

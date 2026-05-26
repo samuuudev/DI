@@ -1,0 +1,116 @@
+{
+  "profesor": [
+    {
+      "ID": 1,
+      "Nombre": "Carlos",
+      "Apellido": "Sanchez",
+      "Especialidad": "Mates",
+      "FechaContratacion": "2026-05-25T11:07:57.2121789+02:00",
+      "Sueldo": 3000
+    },
+    {
+      "ID": 2,
+      "Nombre": "Alejo",
+      "Apellido": "Sanchez",
+      "Especialidad": "Fisica",
+      "FechaContratacion": "2026-05-25T11:08:12.9642902+02:00",
+      "Sueldo": 3000
+    },
+    {
+      "ID": 3,
+      "Nombre": "fdsf",
+      "Apellido": "fdwfg",
+      "Especialidad": "fdgs",
+      "FechaContratacion": "2026-05-25T11:54:09.1729089+02:00",
+      "Sueldo": 300
+    },
+    {
+      "ID": 4,
+      "Nombre": "dsa",
+      "Apellido": "dsa",
+      "Especialidad": "dsa",
+      "FechaContratacion": "2026-05-25T11:57:38.3630147+02:00",
+      "Sueldo": 32
+    },
+    {
+      "ID": 5,
+      "Nombre": "dsa",
+      "Apellido": "dsa",
+      "Especialidad": "dsa",
+      "FechaContratacion": "2026-05-25T11:57:41.0349963+02:00",
+      "Sueldo": 32
+    },
+    {
+      "ID": 6,
+      "Nombre": "dsa",
+      "Apellido": "dsa",
+      "Especialidad": "dsa",
+      "FechaContratacion": "2026-05-25T11:57:42.7242438+02:00",
+      "Sueldo": 32
+    },
+    {
+      "ID": 7,
+      "Nombre": "fdws",
+      "Apellido": "fds",
+      "Especialidad": "fds",
+      "FechaContratacion": "2026-05-25T12:07:28.5872704+02:00",
+      "Sueldo": 43
+    },
+    {
+      "ID": 8,
+      "Nombre": "fdws",
+      "Apellido": "fds",
+      "Especialidad": "fds",
+      "FechaContratacion": "2026-05-25T12:07:29.9635175+02:00",
+      "Sueldo": 43
+    },
+    {
+      "ID": 9,
+      "Nombre": "fdws",
+      "Apellido": "fds",
+      "Especialidad": "fds",
+      "FechaContratacion": "2026-05-25T12:07:31.34715+02:00",
+      "Sueldo": 43
+    },
+    {
+      "ID": 10,
+      "Nombre": "fdws",
+      "Apellido": "fds",
+      "Especialidad": "fds",
+      "FechaContratacion": "2026-05-25T12:07:32.7083415+02:00",
+      "Sueldo": 43
+    },
+    {
+      "ID": 11,
+      "Nombre": "fdws",
+      "Apellido": "fds",
+      "Especialidad": "fds",
+      "FechaContratacion": "2026-05-25T12:07:34.0448886+02:00",
+      "Sueldo": 43
+    },
+    {
+      "ID": 12,
+      "Nombre": "Alberto",
+      "Apellido": "García",
+      "Especialidad": "pablo",
+      "FechaContratacion": "2021-09-01T00:00:00",
+      "Sueldo": 2200
+    },
+    {
+      "ID": 13,
+      "Nombre": "Beatriz",
+      "Apellido": "López",
+      "Especialidad": "Matemáticas",
+      "FechaContratacion": "2019-02-15T00:00:00",
+      "Sueldo": 2500
+    },
+    {
+      "ID": 14,
+      "Nombre": "Carlos",
+      "Apellido": "Martínez",
+      "Especialidad": "Sistemas",
+      "FechaContratacion": "2023-01-10T00:00:00",
+      "Sueldo": 2100
+    }
+  ]
+}

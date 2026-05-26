@@ -1,23 +1,13 @@
-﻿using aceptasreto.Persistence;
+﻿using aceptasreto.domain;
+using aceptasreto.persistence;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
-namespace WPF_LoginForm.View
+namespace aceptasreto.view
 {
-    /// <summary>
-    /// Interaction logic for LoginView.xaml
-    /// </summary>
     public partial class LoginView : Window
     {
         public LoginView()
@@ -25,63 +15,41 @@ namespace WPF_LoginForm.View
             InitializeComponent();
         }
 
-        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.LeftButton == MouseButtonState.Pressed)
-                DragMove();
-        }
-
-        private void btnMinimize_Click(object sender, RoutedEventArgs e)
-        {
-            WindowState = WindowState.Minimized;
-        }
-
-        private void btnClose_Click(object sender, RoutedEventArgs e)
-        {
-            Application.Current.Shutdown();
-        }
-
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            string usuario = txtUser.Text?.Trim() ?? string.Empty;
-            string contraseña = txtPasswd.Text ?? string.Empty;
+            string login = txtUser.Text?.Trim() ?? "";
+            string pass = txtPass.Password ?? "";
 
-            if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(contraseña))
+            if (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(pass))
             {
-                ShowMessage("Introduce usuario y contraseña.", Colors.DarkRed);
+                txtMensaje.Text = "Introduce username/correo y contraseña.";
                 return;
             }
 
-            try
+            UsuarioManage um = new UsuarioManage();
+            List<object> fila = um.LoginPorUsernameOCorreo(login, pass);
+
+            if (fila != null)
             {
-                // --- Construye aquí la consulta que desees usar contra la BBDD ---
-                // Ejemplo (sustituye por tu tabla/columnas reales):
-                string sql = $"SELECT id FROM aceptasreto.usuario WHERE usuario = '{Escape(usuario)}' AND contraseña = '{Escape(contraseña)}';";
-
-                var filas = DBBroker.obtenerAgente().leer(sql);
-
-                if (filas != null && filas.Count > 0)
-                {
-                    ShowMessage("Inicio de sesión correcto.", Colors.Green);
-                    // Aquí puedes abrir MainWindow, guardar contexto de usuario, etc.
-                    // Ejemplo: this.DialogResult = true; this.Close();
-                }
-                else
-                {
-                    ShowMessage("Usuario o contraseña incorrectos.", Colors.DarkRed);
-                }
+                SesionActual.IdUsuario = Convert.ToInt32(fila[0]);
+                SesionActual.Username = fila[1]?.ToString() ?? "";
+                SesionActual.Rol = fila[2]?.ToString() ?? "";
+                SesionActual.IdGrupo = string.IsNullOrEmpty(fila[3]?.ToString())
+                    ? (int?)null
+                    : Convert.ToInt32(fila[3]);
+                var mw = new MainWindow();
+                mw.Show();
+                Close();
             }
-            catch (Exception ex)
+            else
             {
-                ShowMessage("Error al conectar con la BBDD: " + ex.Message, Colors.DarkRed);
+                txtMensaje.Text = "Credenciales incorrectas.";
+                txtMensaje.Foreground = new SolidColorBrush(Colors.DarkRed);
             }
         }
-        private void ShowMessage(string text, Color color)
-        {
-            txtMensaje.Text = text;
-            txtMensaje.Foreground = new SolidColorBrush(color);
-        }
-        private string Escape(string s) => s.Replace("'", "''");
 
+        private void btnMinimize_Click(object sender, RoutedEventArgs e) => WindowState = WindowState.Minimized;
+        private void btnClose_Click(object sender, RoutedEventArgs e) => Application.Current.Shutdown();
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e) { if (e.LeftButton == MouseButtonState.Pressed) DragMove(); }
     }
 }

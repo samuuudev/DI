@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>RepasoExamen2</name>
+  </assembly>
+  <members>
+    <member name="M:RepasoExamen2.Pacman.PlacePacman(System.Int32,System.Int32)">
+        <summary>Places the pacman.</summary>
+        <param name="startX">The start x.</param>
+        <param name="startY">The start y.</param>
+</member>
+  </members>
+</doc>

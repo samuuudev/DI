@@ -1,0 +1,36 @@
+﻿using aceptasreto.Persistence;
+using System.Collections.Generic;
+
+namespace aceptasreto.persistence
+{
+    internal class RetoManage
+    {
+        public List<object> leerRetos(bool esAdmin, int? idGrupo)
+        {
+            string sql;
+
+            if (esAdmin)
+            {
+                sql = "SELECT id_reto, descripcion FROM aceptasreto.reto;";
+            }
+            else
+            {
+                // Si no es admin y no tiene grupo, devolvemos lista vacía (SQL válida)
+                if (!idGrupo.HasValue)
+                {
+                    sql = "SELECT id_reto, descripcion FROM aceptasreto.reto WHERE 1 = 0;";
+                }
+                else
+                {
+                    sql = "SELECT DISTINCT r.id_reto, r.descripcion " +
+                          "FROM aceptasreto.reto r " +
+                          "INNER JOIN aceptasreto.talent_lab t " +
+                          "ON (r.id_reto = t.id_reto1 OR r.id_reto = t.id_reto2 OR r.id_reto = t.id_reto3) " +
+                          "WHERE t.id_grupo = " + idGrupo.Value + ";";
+                }
+            }
+
+            return DBBroker.obtenerAgente().leer(sql);
+        }
+    }
+}

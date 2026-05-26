@@ -1,26 +1,25 @@
-﻿<Window x:Class="WPF_LoginForm.View.LoginView"
+﻿<Window x:Class="aceptasreto.view.LoginView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WPF_LoginForm.View"
+        xmlns:local="clr-namespace:aceptasreto.view"
         mc:Ignorable="d"
         Title="LoginView" Height="550" Width="800"
         WindowStyle="None"
-        ResizeMode="NoResize"
+        ResizeMode="CanResize"
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
-        AllowsTransparency="True"
-        MouseDown="Window_MouseDown">
+        AllowsTransparency="True">
 
     <Border CornerRadius="12">
         <Border.Background>
             <ImageBrush Stretch="None"/>
         </Border.Background>
 
-        <Border CornerRadius="10"                    
-            BorderThickness="2"
-            Opacity="0.95">
+        <Border CornerRadius="10"
+                BorderThickness="2"
+                Opacity="0.95">
 
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
@@ -44,7 +43,6 @@
                 </Grid.RowDefinitions>
 
                 <Grid Grid.Row="0">
-
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                         <ColumnDefinition Width="25"/>
@@ -58,9 +56,10 @@
                                FontFamily="Montserrat"
                                Grid.Column="0"
                                VerticalAlignment="Center"
-                               Margin="10,0,0,0"/>
+                               Margin="10,0,0,0"
+                               />
 
-                    <Button x:Name="btnMinimize"                           
+                    <Button x:Name="btnMinimize"
                             BorderThickness="0"
                             Content="-"
                             Foreground="White"
@@ -69,7 +68,6 @@
                             Cursor="Hand"
                             Grid.Column="1"
                             Click="btnMinimize_Click">
-
                         <Button.Style>
                             <Style TargetType="Button">
                                 <Setter Property="Background" Value="#28AEED"/>
@@ -80,21 +78,16 @@
                                 </Style.Triggers>
                             </Style>
                         </Button.Style>
-
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
-                                <Border Width="18" Height="18"
-                                        CornerRadius="9"
-                                        Background="{TemplateBinding Background}">
-                                    <ContentPresenter VerticalAlignment="Center"
-                                                      HorizontalAlignment="Center"/>
+                                <Border Width="18" Height="18" CornerRadius="9" Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
                                 </Border>
                             </ControlTemplate>
                         </Button.Template>
-
                     </Button>
 
-                    <Button x:Name="btnClose"                          
+                    <Button x:Name="btnClose"
                             BorderThickness="0"
                             Content="X"
                             Foreground="White"
@@ -103,7 +96,6 @@
                             Cursor="Hand"
                             Grid.Column="2"
                             Click="btnClose_Click">
-
                         <Button.Style>
                             <Style TargetType="Button">
                                 <Setter Property="Background" Value="#DA34AE"/>
@@ -114,87 +106,66 @@
                                 </Style.Triggers>
                             </Style>
                         </Button.Style>
-
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
-                                <Border Width="18" Height="18"
-                                        CornerRadius="9"
-                                        Background="{TemplateBinding Background}">
-                                    <ContentPresenter VerticalAlignment="Center"
-                                                      HorizontalAlignment="Center"/>
+                                <Border Width="18" Height="18" CornerRadius="9" Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
                                 </Border>
                             </ControlTemplate>
                         </Button.Template>
                     </Button>
                 </Grid>
 
-                <StackPanel Width="220"
-                            Grid.Row="1"
-                            Orientation="Vertical"
-                            Margin="0,35,0,0">
-
-
+                <StackPanel Width="220" Grid.Row="1" Orientation="Vertical" Margin="0,35,0,0">
                     <TextBlock Text="Username"
                                Foreground="Black"
                                FontSize="12"
                                FontWeight="Medium"
-                               FontFamily="Montserrat"                             
+                               FontFamily="Montserrat"
                                Margin="0,35,0,0"/>
 
                     <TextBox x:Name="txtUser"
                              FontSize="13"
                              FontWeight="Medium"
-                             FontFamily="Montserrat"                            
-                             Foreground="White"
-                             CaretBrush="LightGray"
+                             FontFamily="Montserrat"
+                             Foreground="#111827"
+                             CaretBrush="#111827"
                              BorderBrush="DarkGray"
                              BorderThickness="0,0,0,2"
                              Height="28"
                              VerticalContentAlignment="Center"
                              Margin="0,5,0,0"
-                             Padding="20,0,0,0">
-                        <TextBox.Background>
-                            <ImageBrush Stretch="None"
-                                        AlignmentX="Left"/>
-                        </TextBox.Background>
-                    </TextBox>
+                             Padding="20,0,0,0"/>
 
-                    <TextBlock x:Name="txtPasswd"
-                               Text="Password"
+                    <TextBlock Text="Password"
                                Foreground="Black"
                                FontSize="12"
                                FontWeight="Medium"
-                               FontFamily="Montserrat"                             
+                               FontFamily="Montserrat"
                                Margin="0,15,0,0"/>
 
                     <PasswordBox x:Name="txtPass"
-                             FontSize="13"
-                             FontWeight="Medium"
-                             FontFamily="Montserrat"                            
-                             Foreground="White"
-                             CaretBrush="LightGray"
-                             BorderBrush="DarkGray"
-                             BorderThickness="0,0,0,2"
-                             Height="28"
-                             VerticalContentAlignment="Center"
-                             Margin="0,5,0,0"
-                             Padding="20,0,0,0">
-                        <PasswordBox.Background>
-                            <ImageBrush Stretch="None"
-                                        AlignmentX="Left"/>
-                        </PasswordBox.Background>
-                    </PasswordBox>
-                    
-                    <Button x:Name="btnLogin"                          
+                                 FontSize="13"
+                                 FontWeight="Medium"
+                                 FontFamily="Montserrat"
+                                 Foreground="#111827"
+                                 CaretBrush="#111827"
+                                 BorderBrush="DarkGray"
+                                 BorderThickness="0,0,0,2"
+                                 Height="28"
+                                 VerticalContentAlignment="Center"
+                                 Margin="0,5,0,0"
+                                 Padding="20,0,0,0"/>
+
+                    <Button x:Name="btnLogin"
                             BorderThickness="0"
                             Content="LOG IN"
                             Foreground="White"
                             FontSize="12"
                             FontFamily="Montserrat"
-                            Cursor="Hand"                           
+                            Cursor="Hand"
                             Margin="0,50,0,0"
                             Click="btnLogin_Click">
-
                         <Button.Style>
                             <Style TargetType="Button">
                                 <Setter Property="Background" Value="#462AD8"/>
@@ -205,31 +176,25 @@
                                 </Style.Triggers>
                             </Style>
                         </Button.Style>
-
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
-                                <Border Width="150" Height="40"
-                                        CornerRadius="20"
-                                        Background="{TemplateBinding Background}">
-                                    <ContentPresenter VerticalAlignment="Center"
-                                                      HorizontalAlignment="Center"/>
+                                <Border Width="150" Height="40" CornerRadius="20" Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
                                 </Border>
                             </ControlTemplate>
                         </Button.Template>
                     </Button>
 
-                    <TextBlock x:Name="txtMensaje" />
+                    <TextBlock x:Name="txtMensaje" TextAlignment="Center" Margin="0,10,0,0"/>
 
-                    <StackPanel Orientation="Horizontal"
-                                HorizontalAlignment="Center"
-                                Margin="0,15,0,0"/>
-
+                    <TextBlock Text="Credenciales de prueba: admin/admin"
+                               Foreground="LightGray"
+                               FontSize="10"
+                               FontFamily="Montserrat"
+                               HorizontalAlignment="Center"
+                               Margin="0,15,0,0"/>
                 </StackPanel>
-
             </Grid>
-
         </Border>
-
     </Border>
-
 </Window>

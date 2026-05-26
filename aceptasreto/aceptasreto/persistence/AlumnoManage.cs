@@ -2,75 +2,121 @@
 using aceptasreto.Persistence;
 using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace aceptasreto.persistence
 {
     internal class AlumnoManage
     {
-        private DataTable table { get; set; }
-        private List<Alumno> listaAlumnos { get; set; }
-
-
-        public AlumnoManage()
-        {
-            table = new DataTable();
-            listaAlumnos = new List<Alumno>();
-        }
+        private string E(string s) => (s ?? "").Replace("'", "''");
 
         public List<Alumno> leerAlumnos()
         {
-            Alumno alumno = null;
-            List<Object> aux = DBBroker.obtenerAgente().leer("SELECT nombre, apellidos FROM aceptasreto.alumnado;");
+            var lista = new List<Alumno>();
+            string sql = "SELECT a.id_alumnado, u.nombre, u.apellido, a.grupo " +
+                         "FROM aceptasreto.alumnado a " +
+                         "JOIN aceptasreto.usuario u ON a.usuario=u.id_usuario;";
+            var aux = DBBroker.obtenerAgente().leer(sql);
 
-            foreach (List<Object> c in aux)
+            foreach (List<object> c in aux)
             {
-                alumno = new Alumno(c[0].ToString(), c[1].ToString()); // Convert.ToInt32(c[0]), c[1].ToString(), c[2].ToString(), Convert.ToInt32(c[3])
-
-                listaAlumnos.Add(alumno);
+                Alumno al = new Alumno(c[1].ToString(), c[2].ToString());
+                al.Id = Convert.ToInt32(c[0]);
+                al.Grupo = c[3] == null || c[3].ToString() == "" ? 0 : Convert.ToInt32(c[3]);
+                lista.Add(al);
             }
-
-            return listaAlumnos;
+            return lista;
         }
 
         public void insertarAlumno(Alumno a)
         {
-            String sql = "INSERT INTO aceptasreto.alumnado (nombre, apellidos)" +
-                         "VALUES ('" + a.Nombre + "', '" + a.Apellido + "', '" + ");";
+            // Este insert asume que Alumno.Id referencia id_usuario existente
+            string sql = "INSERT INTO aceptasreto.alumnado (usuario, ciclo_formativo, curso_academico, grupo) " +
+                         "VALUES (" + a.Id + ", NULL, NULL, " + a.Grupo + ");";
             DBBroker.obtenerAgente().modificar(sql);
-        }
-
-        public void lastIdAlumno(Alumno a)
-        {
-            List<Object> lAlumno;
-            lAlumno = DBBroker.obtenerAgente().leer("SELECT MAX(idAlumnado) FROM aceptasreto.alumnado;");
-
-            foreach (List<Object> c in lAlumno)
-            {
-                a.Id = Convert.ToInt32(c[0]) + 1;
-            }
         }
 
         public void eliminarAlumno(Alumno a)
         {
-            String sql = "DELETE FROM aceptasreto.alumnado WHERE id = " + a.Id + ";";
+            string sql = "DELETE FROM aceptasreto.alumnado WHERE id_alumnado=" + a.Id + ";";
             DBBroker.obtenerAgente().modificar(sql);
         }
 
         public void modificarAlumno(Alumno a)
         {
-            String sql = "UPDATE aceptasreto.alumnado SET " +
-                         "nombre = '" + a.Nombre + "', " +
-                         "apellidos = '" + a.Apellido + "', " +
-                         "WHERE id = " + a.Id + ";";
+            string sql = "UPDATE aceptasreto.alumnado SET grupo=" + a.Grupo +
+                         " WHERE id_alumnado=" + a.Id + ";";
             DBBroker.obtenerAgente().modificar(sql);
         }
 
-        public void añadirGrupo(Alumno a) {
-            // TODO: Añadir el grupo al alumno pasado por parametro
+        public List<Alumno> LeerAlumnosSinGrupo()
+        {
+            var lista = new List<Alumno>();
+            string sql = "SELECT a.id_alumnado, u.nombre, u.apellido, a.grupo " +
+                         "FROM aceptasreto.alumnado a " +
+                         "JOIN aceptasreto.usuario u ON a.usuario=u.id_usuario " +
+                         "WHERE a.grupo IS NULL OR a.grupo=0;";
+
+            var aux = DBBroker.obtenerAgente().leer(sql);
+            foreach (List<object> c in aux)
+            {
+                Alumno al = new Alumno(c[1].ToString(), c[2].ToString());
+                al.Id = Convert.ToInt32(c[0]);
+                al.Grupo = c[3] == null || c[3].ToString() == "" ? 0 : Convert.ToInt32(c[3]);
+                lista.Add(al);
+            }
+
+            return lista;
+        }
+
+        public List<Alumno> LeerAlumnosPorGrupo(int idGrupo)
+        {
+            var lista = new List<Alumno>();
+            string sql = "SELECT a.id_alumnado, u.nombre, u.apellido, a.grupo " +
+                         "FROM aceptasreto.alumnado a " +
+                         "JOIN aceptasreto.usuario u ON a.usuario=u.id_usuario " +
+                         "WHERE a.grupo=" + idGrupo + ";";
+
+            var aux = DBBroker.obtenerAgente().leer(sql);
+            foreach (List<object> c in aux)
+            {
+                Alumno al = new Alumno(c[1].ToString(), c[2].ToString());
+                al.Id = Convert.ToInt32(c[0]);
+                al.Grupo = c[3] == null || c[3].ToString() == "" ? 0 : Convert.ToInt32(c[3]);
+                lista.Add(al);
+            }
+
+            return lista;
+        }
+
+        public void lastIdAlumno(Alumno a)
+        {
+            var l = DBBroker.obtenerAgente().leer("SELECT MAX(id_alumnado) FROM aceptasreto.alumnado;");
+            foreach (List<object> c in l) a.Id = Convert.ToInt32(c[0]) + 1;
+        }
+
+        public void AsignarGrupo(Alumno a, int idGrupo)
+        {
+            string sql = "UPDATE aceptasreto.alumnado SET grupo=" + idGrupo +
+                         " WHERE id_alumnado=" + a.Id + ";";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+        public void DesasignarGrupo(Alumno a)
+        {
+            string sql = "UPDATE aceptasreto.alumnado SET grupo=NULL WHERE id_alumnado=" + a.Id + ";";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+        public void AsignarGrupo(int idAlumno, int idGrupo)
+        {
+            string sql = "UPDATE aceptasreto.alumnado SET grupo=" + idGrupo + " WHERE id_alumnado=" + idAlumno + ";";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+        public void DesasignarGrupo(int idAlumno)
+        {
+            string sql = "UPDATE aceptasreto.alumnado SET grupo=NULL WHERE id_alumnado=" + idAlumno + ";";
+            DBBroker.obtenerAgente().modificar(sql);
         }
     }
 }

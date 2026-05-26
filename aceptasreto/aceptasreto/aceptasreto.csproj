@@ -118,9 +118,16 @@
     </Compile>
     <Compile Include="domain\Alumno.cs" />
     <Compile Include="domain\Empresa.cs" />
+    <Compile Include="domain\Grupo.cs" />
     <Compile Include="domain\Reto.cs" />
+    <Compile Include="domain\SesionActual.cs" />
+    <Compile Include="domain\TalentLab.cs" />
+    <Compile Include="domain\Usuario.cs" />
     <Compile Include="persistence\EmpresaManage.cs" />
+    <Compile Include="persistence\GrupoManage.cs" />
     <Compile Include="persistence\RetoManage.cs" />
+    <Compile Include="persistence\TalentLabMange.cs" />
+    <Compile Include="persistence\UsuarioManage.cs" />
     <Compile Include="view\LoginView.xaml.cs">
       <DependentUpon>LoginView.xaml</DependentUpon>
     </Compile>

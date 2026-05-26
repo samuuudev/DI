@@ -1,0 +1,67 @@
+﻿using aceptasreto.domain;
+using aceptasreto.Persistence;
+using System;
+using System.Collections.Generic;
+
+namespace aceptasreto.persistence
+{
+    internal class GrupoManage
+    {
+        private string E(string s) => (s ?? "").Replace("'", "''");
+
+        public List<Grupo> leerGrupos(bool esAdmin, int? idGrupoSesion)
+        {
+            var lista = new List<Grupo>();
+            string sql = esAdmin
+                ? "SELECT id_grupo, descripcion FROM aceptasreto.grupo;"
+                : "SELECT id_grupo, descripcion FROM aceptasreto.grupo WHERE id_grupo=" + (idGrupoSesion ?? -1) + ";";
+
+            var aux = DBBroker.obtenerAgente().leer(sql);
+
+            foreach (List<object> c in aux)
+            {
+                Grupo g = new Grupo();
+                g.IdGrupo = Convert.ToInt32(c[0]);
+                g.Descripcion = c[1]?.ToString();
+                lista.Add(g);
+            }
+
+            return lista;
+        }
+
+        /// <summary>
+        /// Obtiene el último ID de grupo insertado
+        /// </summary>
+        public int ObtenerUltimoId()
+        {
+            var resultado = DBBroker.obtenerAgente().leer("SELECT MAX(id_grupo) FROM aceptasreto.grupo;");
+            if (resultado.Count > 0)
+            {
+                var fila = (List<object>)resultado[0];
+                if (fila.Count > 0 && int.TryParse(fila[0].ToString(), out int id))
+                {
+                    return id;
+                }
+            }
+            return 0;
+        }
+
+        public void insertarGrupo(Grupo g)
+        {
+            string sql = "INSERT INTO aceptasreto.grupo (descripcion) VALUES ('" + E(g.Descripcion) + "');";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+        public void modificarGrupo(Grupo g)
+        {
+            string sql = "UPDATE aceptasreto.grupo SET descripcion='" + E(g.Descripcion) + "' WHERE id_grupo=" + g.IdGrupo + ";";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+        public void eliminarGrupo(Grupo g)
+        {
+            string sql = "DELETE FROM aceptasreto.grupo WHERE id_grupo=" + g.IdGrupo + ";";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+    }
+}

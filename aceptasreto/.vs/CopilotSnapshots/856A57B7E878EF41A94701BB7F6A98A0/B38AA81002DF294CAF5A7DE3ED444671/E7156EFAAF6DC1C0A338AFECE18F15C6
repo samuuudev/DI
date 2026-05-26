@@ -1,0 +1,69 @@
+﻿using aceptasreto.domain;
+using aceptasreto.Persistence;
+using System;
+using System.Collections.Generic;
+
+namespace aceptasreto.persistence
+{
+    internal class AlumnoManage
+    {
+        private string E(string s) => (s ?? "").Replace("'", "''");
+
+        public List<Alumno> leerAlumnos()
+        {
+            var lista = new List<Alumno>();
+            string sql = "SELECT a.id_alumnado, u.nombre, u.apellido, a.grupo " +
+                         "FROM aceptasreto.alumnado a " +
+                         "JOIN aceptasreto.usuario u ON a.usuario=u.id_usuario;";
+            var aux = DBBroker.obtenerAgente().leer(sql);
+
+            foreach (List<object> c in aux)
+            {
+                Alumno al = new Alumno(c[1].ToString(), c[2].ToString());
+                al.Id = Convert.ToInt32(c[0]);
+                al.Grupo = c[3] == null || c[3].ToString() == "" ? 0 : Convert.ToInt32(c[3]);
+                lista.Add(al);
+            }
+            return lista;
+        }
+
+        public void insertarAlumno(Alumno a)
+        {
+            // Este insert asume que Alumno.Id referencia id_usuario existente
+            string sql = "INSERT INTO aceptasreto.alumnado (usuario, ciclo_formativo, curso_academico, grupo) " +
+                         "VALUES (" + a.Id + ", NULL, NULL, " + a.Grupo + ");";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+        public void eliminarAlumno(Alumno a)
+        {
+            string sql = "DELETE FROM aceptasreto.alumnado WHERE id_alumnado=" + a.Id + ";";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+        public void modificarAlumno(Alumno a)
+        {
+            string sql = "UPDATE aceptasreto.alumnado SET grupo=" + a.Grupo +
+                         " WHERE id_alumnado=" + a.Id + ";";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+        public void lastIdAlumno(Alumno a)
+        {
+            var l = DBroker.obtenerAgente().leer("SELECT MAX(id_alumnado) FROM aceptasreto.alumnado;");
+            foreach (List<object> c in l) a.Id = Convert.ToInt32(c[0]) + 1;
+        }
+
+        public void AsignarGrupo(int idAlumno, int idGrupo)
+        {
+            string sql = "UPDATE aceptasreto.alumnado SET grupo=" + idGrupo + " WHERE id_alumnado=" + idAlumno + ";";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+
+        public void DesasignarGrupo(int idAlumno)
+        {
+            string sql = "UPDATE aceptasreto.alumnado SET grupo=NULL WHERE id_alumnado=" + idAlumno + ";";
+            DBBroker.obtenerAgente().modificar(sql);
+        }
+    }
+}

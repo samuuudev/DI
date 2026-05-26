@@ -23,6 +23,9 @@ namespace RepasoExamen2
             this.map = new char[x, y];
         }
 
+        /// <summary>Places the pacman.</summary>
+        /// <param name="startX">The start x.</param>
+        /// <param name="startY">The start y.</param>
         public void PlacePacman(int startX, int startY)
         {
             x = startX;
@@ -30,7 +33,9 @@ namespace RepasoExamen2
             map[y, x] = PacmanChar;
         }
 
-
+        /// <summary>
+        /// Mostrars the mapa.
+        /// </summary>
         public void mostrarMapa()
         {
             for (int i = 0; i < map.GetLength(0); i++)
@@ -42,7 +47,9 @@ namespace RepasoExamen2
                 Console.WriteLine();
             }
         }
-
+        /// <summary>
+        /// Rellenars the mapa.
+        /// </summary>
         public void rellenarMapa()
         {
             for (int i = 0; i < map.GetLength(0); i++)
@@ -60,7 +67,9 @@ namespace RepasoExamen2
                 }
             }
         }
-
+        /// <summary>
+        /// Generars the mapa procedural.
+        /// </summary>
         public void generarMapaProcedural()
         {
             Random rand = new Random();

@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using aceptasreto.Persistence;
+
+namespace repartoCrystalReports
+{
+    /// <summary>
+    /// Interaction logic for Window1.xaml
+    /// </summary>
+    public partial class Window1 : Window
+    {
+        public Window1()
+        {
+            InitializeComponent();
+            reportViewer.Owner = this;
+            CargarDatosDesdeMySQL();
+        }
+
+        private void CargarDatosDesdeMySQL()
+        {
+            try
+            {
+                DataSet1 dataSet = new DataSet1();
+                DBBroker broker = DBBroker.obtenerAgente();
+
+                broker.llenarDataTable(dataSet.Entrenador, "SELECT ID_ENTRENADOR, NOMBRE, ESPECIALIDAD FROM entrenador");
+
+                CrystalReport1 reporte = new CrystalReport1();
+                reporte.SetDataSource(dataSet);
+                reportViewer.ViewerCore.ReportSource = reporte;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar datos: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+    }
+}

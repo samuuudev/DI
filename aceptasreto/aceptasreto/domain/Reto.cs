@@ -1,46 +1,48 @@
 ﻿using aceptasreto.persistence;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace aceptasreto.domain
 {
     internal class Reto
     {
         private int id;
-        private string nombre;
         private string descripcion;
 
         private RetoManage rm;
 
-        public Reto(string nombre, string descripcion) {
+        public Reto()
+        {
+            rm = new RetoManage();
+        }
 
-            this.nombre = nombre;
+        public Reto(string descripcion)
+        {
             this.descripcion = descripcion;
             rm = new RetoManage();
         }
 
-        //public List<Reto> getRetos()
-        //{
-        //    return rm.leerRetos();
-        //}
+        public int Id { get => id; set => id = value; }
+        public string Descripcion { get => descripcion; set => descripcion = value; }
+        public string Etiqueta { get => Id + " - " + (Descripcion ?? ""); }
+
+        public List<Reto> getRetos(bool esAdmin, int? idGrupoSesion)
+        {
+            return rm.leerRetos(esAdmin, idGrupoSesion);
+        }
 
         public void insertar()
         {
-            //rm.insertarReto(this);
+            rm.insertarReto(this);
         }
 
         public void delete()
         {
-            //rm.eliminarReto(this);
+            rm.eliminarReto(this);
         }
 
         public void modificar()
         {
-            //rm.modificarReto(this);
+            rm.modificarReto(this);
         }
     }
 }
