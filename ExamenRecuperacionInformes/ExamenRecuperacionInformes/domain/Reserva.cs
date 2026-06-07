@@ -1,0 +1,78 @@
+﻿using ExamenRecuperacionInformes.persistance.manage;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ExamenRecuperacionInformes.domain
+{
+    internal class Reserva
+    {
+        private int idReserva;
+        private int idHuesped;
+        private int idParcela;
+        private DateTime fechaEntrada;
+        private DateTime fechaSalida;
+        private double costeTotal;
+        private string estado;
+
+        ReservaManage rm;
+
+        public Reserva()
+        {
+            rm = new ReservaManage();
+        }
+
+        public Reserva(int idReserva, int idHuesped, int idParcela, DateTime fechaEntrada, DateTime fechaSalida, double costeTotal, string estado)
+        {
+            rm = new ReservaManage();
+            this.idReserva = idReserva;
+            this.idHuesped = idHuesped;
+            this.idParcela = idParcela;
+            this.fechaEntrada = fechaEntrada;
+            this.fechaSalida = fechaSalida;
+            this.costeTotal = costeTotal;
+            this.estado = estado;
+        }
+        public Reserva(int idHuesped, int idParcela, DateTime fechaEntrada, DateTime fechaSalida, double costeTotal, string estado)
+        {
+            rm = new ReservaManage();
+            this.idHuesped = idHuesped;
+            this.idParcela = idParcela;
+            this.fechaEntrada = fechaEntrada;
+            this.fechaSalida = fechaSalida;
+            this.costeTotal = costeTotal;
+            this.estado = estado;
+        }
+
+        public int IdReserva { get => idReserva; set => idReserva = value; }
+        public int IdHuesped { get => idHuesped; set => idHuesped = value; }
+        public int IdParcela { get => idParcela; set => idParcela = value; }
+        public DateTime FechaEntrada { get => fechaEntrada; set => fechaEntrada = value; }
+        public DateTime FechaSalida { get => fechaSalida; set => fechaSalida = value; }
+        public double CosteTotal { get => costeTotal; set => costeTotal = value; }
+        public string Estado { get => estado; set => estado = value; }
+
+        public List<Reserva> getReservas()
+        {
+            return rm.leerReservas();
+        }
+
+        public void insertar()
+        {
+            rm.insertarReserva(this);
+        }
+
+        public void modificar()
+        {
+            rm.modificarReserva(this);
+        }
+
+        public void eliminar()
+        {
+            rm.eliminarReserva(this);
+        }
+
+    }
+}

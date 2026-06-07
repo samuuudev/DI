@@ -1,0 +1,56 @@
+﻿using ExamenRecuperacionInformes.persistance.manage;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ExamenRecuperacionInformes.domain
+{
+    internal class TipoVehiculo
+    {
+        private int idTipoVehiculo;
+        private string tipoVehiculo;
+
+        TipoVehiculoManage tvm;
+
+        public TipoVehiculo()
+        {
+            tvm = new TipoVehiculoManage();
+        }
+        public TipoVehiculo(int id, string tipoVehiculo)
+        {
+            tvm = new TipoVehiculoManage();
+            this.idTipoVehiculo = id;
+            this.tipoVehiculo = tipoVehiculo;
+        }
+        public TipoVehiculo(string tipoVehiculo)
+        {
+            tvm = new TipoVehiculoManage();
+            this.tipoVehiculo = tipoVehiculo;
+        }
+
+        public int IdTipoVehiculo { get => idTipoVehiculo; set => idTipoVehiculo = value; }
+        public string TipoVehiculo1 { get => tipoVehiculo; set => tipoVehiculo = value; }
+
+        public List<TipoVehiculo> getTiposVehiculo()
+        {
+            return tvm.leerTiposVehiculo();
+        }
+
+        public void insertar()
+        {
+            tvm.insertarTipoVehiculo(this);
+        }
+
+        public void modificar()
+        {
+            tvm.modificarTipoVehiculo(this);
+        }
+
+        public void eliminar()
+        {
+            tvm.eliminarTipoVehiculo(this);
+        }
+    }
+}

@@ -1,0 +1,376 @@
+﻿using ExamenRecuperacionInformes.domain;
+using ExamenRecuperacionInformes.domain;
+using ExamenRecuperacionInformes.persistance.dbbroker;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace ExamenRecuperacionInformes
+{
+    /// <summary>
+    /// Interaction logic for Window1.xaml
+    /// </summary>
+    public partial class Window1 : Window
+    {
+
+        private List<Huesped> listaHuespedes;
+        private List<Parcela> listaParcelas;
+        private List<Reserva> listaReservas;
+        private List<TipoVehiculo> listaTiposVehiculo;
+
+
+        public Window1()
+        {
+            InitializeComponent();
+            reportViewer.Owner = this;
+            InicializarFiltrosInforme();
+            CargarInforme();
+            actualizarDataGrids();
+        }
+
+        private void InicializarFiltrosInforme()
+        {
+            cmbMesInforme.ItemsSource = Enumerable.Range(1, 12).ToList();
+
+            int anioActual = DateTime.Today.Year;
+            cmbAnioInforme.ItemsSource = Enumerable.Range(anioActual - 5, 11).ToList();
+
+            cmbMesInforme.SelectedItem = DateTime.Today.Month;
+            cmbAnioInforme.SelectedItem = anioActual;
+        }
+
+        private void actualizarDataGrids()
+        {
+            actualizarDataGridHuesped();
+            actualizarDataGridParcela();
+            actualizarDataGridReserva();
+            actualizarDataGridTipoVehiculo();
+            CargarComboBoxes();
+        }
+
+
+        private void CargarComboBoxes()
+        {
+            // ComboBox de Id Reserva (solo visual)
+            cmbidReservaReserva.ItemsSource = listaReservas;
+            cmbidReservaReserva.DisplayMemberPath = "IdReserva";
+            cmbidReservaReserva.SelectedValuePath = "IdReserva";
+
+            // ComboBox de Tipo Vehículo en Huespedes
+            cmbTipoVehiculoHuesped.ItemsSource = listaTiposVehiculo;
+            cmbTipoVehiculoHuesped.DisplayMemberPath = "TipoVehiculo1"; // Propiedad a mostrar
+            cmbTipoVehiculoHuesped.SelectedValuePath = "IdTipoVehiculo"; // Valor seleccionado
+
+            // ComboBox de Huespedes en Reservas
+            cmbidHuespedReserva.ItemsSource = listaHuespedes;
+            cmbidHuespedReserva.DisplayMemberPath = "Nombre";
+            cmbidHuespedReserva.SelectedValuePath = "IdHuesped"; // Ajusta según tu modelo
+
+            // ComboBox de Parcelas en Reservas
+            cmbidparcelaReserva.ItemsSource = listaParcelas;
+            cmbidparcelaReserva.DisplayMemberPath = "IdParcela"; // O la propiedad que quieras mostrar
+            cmbidparcelaReserva.SelectedValuePath = "IdParcela";
+        }
+
+        private void actualizarDataGridHuesped()
+        {
+            listaHuespedes = new Huesped().getHuespedes();
+            dataGridHuespedes.ItemsSource = listaHuespedes;
+        }
+        private void actualizarDataGridParcela()
+        {
+            listaParcelas = new Parcela().getParcelas();
+            dataGridParcelas.ItemsSource = listaParcelas;
+        }
+        private void actualizarDataGridReserva()
+        {
+            listaReservas = new Reserva().getReservas();
+            dataGridReservas.ItemsSource = listaReservas;
+        }
+        private void actualizarDataGridTipoVehiculo()
+        {
+            listaTiposVehiculo = new TipoVehiculo().getTiposVehiculo();
+            dataGridTipoVehiculo.ItemsSource = listaTiposVehiculo;
+        }
+
+        // =========== Huesped ===========
+        private void btnInsertarHuesped_Click(object sender, RoutedEventArgs e)
+        {
+            if (cmbTipoVehiculoHuesped.SelectedValue == null) { return; }
+
+            Huesped h = new Huesped(
+                txtBoxNombreHuesped.Text,
+                txtBoxDNIHuesped.Text,
+                Convert.ToInt32(txtBoxTelefonoHuesped.Text),
+                Convert.ToInt32(cmbTipoVehiculoHuesped.SelectedValue),
+                txtBoxMatriculaHuesped.Text
+                );
+
+            h.insertar();
+            actualizarDataGrids();
+        }
+
+        private void btnModificarHuesped_Click(object sender, RoutedEventArgs e)
+        {
+            Huesped h = dataGridHuespedes.SelectedItem as Huesped;
+
+            if (h == null)
+            {
+                return; // si no es capaz de crear mi huesped que pare y no siga
+            }
+
+            h.Nombre = txtBoxNombreHuesped.Text;
+            h.Dni = txtBoxDNIHuesped.Text;
+            h.Telefono = Convert.ToInt32(txtBoxTelefonoHuesped.Text);
+            if (cmbTipoVehiculoHuesped.SelectedValue == null) { return; }
+            h.IdTipoVehiculo = Convert.ToInt32(cmbTipoVehiculoHuesped.SelectedValue);
+            h.Matricula = txtBoxMatriculaHuesped.Text;
+
+            h.modificar();
+            actualizarDataGrids();
+        }
+
+        private void btnEliminarHuesped_Click(object sender, RoutedEventArgs e)
+        {
+            Huesped h = dataGridHuespedes.SelectedItem as Huesped;
+            if (h == null) { return; }
+
+            h.eliminar();
+            actualizarDataGrids();
+        }
+
+        // =========== Parcela ===========
+        private void btnInsertarParcela_Click(object sender, RoutedEventArgs e)
+        {
+            Parcela p = new Parcela(
+                Convert.ToInt32(txtBoxTamanoParcela.Text),
+                Convert.ToBoolean(chkboxLuzParcela.IsChecked),
+                Convert.ToBoolean(chkboxAguaParcela.IsChecked),
+                Convert.ToInt32(txtBoxPrecioParcela.Text)
+                );
+
+            p.insertar();
+
+            actualizarDataGrids();
+        }
+
+        private void btnModificarParcela_Click(object sender, RoutedEventArgs e)
+        {
+            Parcela p = dataGridParcelas.SelectedItem as Parcela;
+
+            if (p == null)
+            {
+                return; // si no es capaz de crear mi huesped que pare y no siga
+            }
+
+            p.TamanoParcela = Convert.ToInt32(txtBoxTamanoParcela.Text);
+            p.Luz = Convert.ToBoolean(chkboxLuzParcela.IsChecked);
+            p.Agua = Convert.ToBoolean(chkboxAguaParcela.IsChecked);
+            p.Precio = Convert.ToInt32(txtBoxPrecioParcela.Text);
+
+            p.modificar();
+
+            actualizarDataGrids();
+        }
+
+        private void btnEliminarParcela_Click(object sender, RoutedEventArgs e)
+        {
+            Parcela p = dataGridParcelas.SelectedItem as Parcela;
+            if (p == null) { return; }
+
+            p.eliminar();
+
+            actualizarDataGrids();
+        }
+
+        // =========== Reservas ===========
+        private void btnInsertarReserva_Click(object sender, RoutedEventArgs e)
+        {
+            if (cmbidHuespedReserva.SelectedValue == null || cmbidparcelaReserva.SelectedValue == null ||
+                !datePickFechaEntradaReserva.SelectedDate.HasValue || !datePickFechaSalidaReserva.SelectedDate.HasValue)
+            {
+                return;
+            }
+
+            double costeTotal;
+            if (!double.TryParse(txtBoxCosteTotalReserva.Text, NumberStyles.Any, CultureInfo.CurrentCulture, out costeTotal) &&
+                !double.TryParse(txtBoxCosteTotalReserva.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out costeTotal))
+            {
+                MessageBox.Show("Coste total no válido.");
+                return;
+            }
+
+            Reserva r = new Reserva(
+                    Convert.ToInt32(cmbidHuespedReserva.SelectedValue),
+                    Convert.ToInt32(cmbidparcelaReserva.SelectedValue),
+                    (DateTime)datePickFechaEntradaReserva.SelectedDate,
+                    (DateTime)datePickFechaSalidaReserva.SelectedDate,
+                    costeTotal,
+                    txtBoxEstadoReserva.Text
+                );
+
+            r.insertar();
+
+            actualizarDataGrids();
+            CargarInforme();
+        }
+
+        private void btnModificarReserva_Click(object sender, RoutedEventArgs e)
+        {
+            Reserva r = dataGridReservas.SelectedItem as Reserva;
+
+            if (r == null)
+            {
+                return; // si no es capaz de crear mi huesped que pare y no siga
+            }
+
+            if (cmbidHuespedReserva.SelectedValue == null || cmbidparcelaReserva.SelectedValue == null ||
+                !datePickFechaEntradaReserva.SelectedDate.HasValue || !datePickFechaSalidaReserva.SelectedDate.HasValue)
+            {
+                return;
+            }
+
+            double costeTotal;
+            if (!double.TryParse(txtBoxCosteTotalReserva.Text, NumberStyles.Any, CultureInfo.CurrentCulture, out costeTotal) &&
+                !double.TryParse(txtBoxCosteTotalReserva.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out costeTotal))
+            {
+                MessageBox.Show("Coste total no válido.");
+                return;
+            }
+
+            r.IdHuesped = Convert.ToInt32(cmbidHuespedReserva.SelectedValue);
+            r.IdParcela = Convert.ToInt32(cmbidparcelaReserva.SelectedValue);
+            r.FechaSalida = (DateTime)datePickFechaSalidaReserva.SelectedDate;
+            r.FechaEntrada = (DateTime)datePickFechaEntradaReserva.SelectedDate;
+            r.CosteTotal = costeTotal;
+            r.Estado = txtBoxEstadoReserva.Text;
+
+            r.modificar();
+
+            actualizarDataGrids();
+            CargarInforme();
+        }
+
+        private void btnEliminarReserva_Click(object sender, RoutedEventArgs e)
+        {
+            Reserva r = dataGridReservas.SelectedItem as Reserva;
+            if (r == null) { return; }
+
+            r.eliminar();
+
+            actualizarDataGrids();
+            CargarInforme();
+        }
+
+        // =========== TipoVehiculo ===========
+        private void btnInsertarTipoVehiculo_Click(object sender, RoutedEventArgs e)
+        {
+            TipoVehiculo tv = new TipoVehiculo(
+                    txtBoxNombreTipoVehiculo.Text
+                );
+
+            tv.insertar();
+
+            actualizarDataGrids();
+        }
+
+        private void btnModificarTipoVehiculo_Click(object sender, RoutedEventArgs e)
+        {
+            TipoVehiculo tv = dataGridTipoVehiculo.SelectedItem as TipoVehiculo;
+
+            if (tv == null)
+            {
+                return; // si no es capaz de crear mi huesped que pare y no siga
+            }
+
+            tv.TipoVehiculo1 = txtBoxNombreTipoVehiculo.Text;
+
+            tv.modificar();
+
+            actualizarDataGrids();
+        }
+
+        private void btnEliminarTipoVehiculo_Click(object sender, RoutedEventArgs e)
+        {
+            TipoVehiculo tv = dataGridTipoVehiculo.SelectedItem as TipoVehiculo;
+            if (tv == null) { return; }
+
+            tv.eliminar();
+
+            actualizarDataGrids();
+        }
+
+        private void btnGenerarInforme_Click(object sender, RoutedEventArgs e)
+        {
+            if (cmbMesInforme.SelectedItem == null || cmbAnioInforme.SelectedItem == null)
+            {
+                CargarInforme();
+                return;
+            }
+
+            int mes = Convert.ToInt32(cmbMesInforme.SelectedItem);
+            int anio = Convert.ToInt32(cmbAnioInforme.SelectedItem);
+            CargarInforme(mes, anio);
+        }
+
+        private void dataGridTipoVehiculo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            TipoVehiculo tv = dataGridTipoVehiculo.SelectedItem as TipoVehiculo;
+            if (tv != null)
+            {
+                txtBoxNombreTipoVehiculo.Text = tv.TipoVehiculo1;
+            }
+        }
+
+        private void dataGridReservas_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Reserva r = dataGridReservas.SelectedItem as Reserva;
+            if (r != null)
+            {
+                cmbidReservaReserva.SelectedValue = r.IdReserva;
+                cmbidHuespedReserva.SelectedValue = r.IdHuesped;
+                cmbidparcelaReserva.SelectedValue = r.IdParcela;
+                datePickFechaEntradaReserva.SelectedDate = r.FechaEntrada;
+                datePickFechaSalidaReserva.SelectedDate = r.FechaSalida;
+                txtBoxCosteTotalReserva.Text = r.CosteTotal.ToString();
+                txtBoxEstadoReserva.Text = r.Estado;
+            }
+        }
+
+        private void dataGridParcelas_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Parcela p = dataGridParcelas.SelectedItem as Parcela;
+            if (p != null)
+            {
+                txtBoxTamanoParcela.Text = p.TamanoParcela.ToString();
+                chkboxLuzParcela.IsChecked = p.Luz;
+                chkboxAguaParcela.IsChecked = p.Agua;
+                txtBoxPrecioParcela.Text = p.Precio.ToString();
+            }
+        }
+
+        private void dataGridHuespedes_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Huesped h = dataGridHuespedes.SelectedItem as Huesped;
+            if (h != null)
+            {
+                txtBoxNombreHuesped.Text = h.Nombre;
+                txtBoxDNIHuesped.Text = h.Dni;
+                txtBoxTelefonoHuesped.Text = h.Telefono.ToString();
+                cmbTipoVehiculoHuesped.SelectedValue = h.IdTipoVehiculo;
+            }
+        }
+    }
+}
