@@ -477,7 +477,7 @@ namespace ExamenRecuperacionInformes {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ExamenRecuperacionInformes;component/view/window1.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/informes;component/view/window1.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\view\Window1.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

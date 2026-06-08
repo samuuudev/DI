@@ -578,5 +578,110 @@ namespace ExamenRecuperacionInformes
                 cmbTipoVehiculoHuesped.SelectedValue = h.IdTipoVehiculo;
             }
         }
+
+
+
+        // USO RÁPIDO EXAMEN (WPF + MySQL + Crystal + DataSet tipado)
+        private void PlantillaExamenTodoEnUno(
+            ComboBox cmb,
+            IEnumerable<object> source,
+            string displayMember,
+            string valueMember,
+            ref DataSet1 ds,
+            int mes,
+            int anio,
+            bool generarReservasMes,
+            bool generarFinancieroMes)
+        {
+            // 1) Cargar ComboBox (SIEMPRE SelectedValue para FK)
+            if (cmb != null && source != null)
+            {
+                cmb.ItemsSource = source;
+                cmb.DisplayMemberPath = displayMember;   // ej: "Nombre"
+                cmb.SelectedValuePath = valueMember;     // ej: "IdHuesped"
+            }
+
+            // 2) Conversión segura de Combo -> int FK
+            int GetSelectedId(ComboBox combo)
+            {
+                if (combo?.SelectedValue == null) throw new Exception("Combo sin selección.");
+                return Convert.ToInt32(combo.SelectedValue);
+            }
+
+            // 3) Conversiones típicas (evita errores de cultura/null)
+            int ToInt(string s) => int.TryParse(s, out var n) ? n : 0;
+            double ToDouble(string s)
+            {
+                if (double.TryParse(s, NumberStyles.Any, CultureInfo.CurrentCulture, out var d)) return d;
+                if (double.TryParse(s, NumberStyles.Any, CultureInfo.InvariantCulture, out d)) return d;
+                return 0d;
+            }
+            int BoolToBit(bool? b) => b == true ? 1 : 0;  // CheckBox -> 1/0
+            bool BitToBool(object v) => Convert.ToInt32(v) == 1;
+
+            // 4) Rango por mes (filtro correcto)
+            DateTime ini = new DateTime(anio, mes, 1);
+            DateTime fin = ini.AddMonths(1);
+
+            // 5) Cargar DataTable: ReservasMes
+            if (generarReservasMes)
+            {
+                var t = ds.Tables["ReservasMes"];
+                if (t != null)
+                {
+                    t.Clear();
+                    string sql = "SELECT r.idreserva, r.fechaentrada, r.fechasalida, h.nombre, tv.tipovehiculo, h.matricula, r.idparcela, r.costetotal, r.estado " +
+                                 "FROM mancha.reserva r " +
+                                 "INNER JOIN mancha.huesped h ON h.idhuesped = r.idhuesped " +
+                                 "INNER JOIN mancha.tipovehiculo tv ON tv.idtipovehiculo = h.idtipovehiculo " +
+                                 "WHERE r.fechaentrada >= '" + ini.ToString("yyyy-MM-dd") + "' " +
+                                 "AND r.fechaentrada < '" + fin.ToString("yyyy-MM-dd") + "' " +
+                                 "ORDER BY r.fechaentrada;";
+                    var rows = DBBroker.obtenerAgente().leer(sql);
+                    foreach (List<object> r in rows)
+                    {
+                        t.Rows.Add(
+                            r[0].ToString(),
+                            Convert.ToDateTime(r[1]).ToString("dd/MM/yyyy"),
+                            Convert.ToDateTime(r[2]).ToString("dd/MM/yyyy"),
+                            r[3].ToString(),
+                            r[4].ToString(),
+                            r[5].ToString(),
+                            r[6].ToString(),
+                            ToDouble(r[7].ToString()).ToString("N2", CultureInfo.CurrentCulture),
+                            r[8].ToString()
+                        );
+                    }
+                }
+            }
+
+            // 6) Cargar DataTable: FinancieroMes
+            if (generarFinancieroMes)
+            {
+                var t = ds.Tables["FinancieroMes"];
+                if (t != null)
+                {
+                    t.Clear();
+                    string sql = "SELECT YEAR(r.fechaentrada), MONTH(r.fechaentrada), COALESCE(SUM(r.costetotal),0) " +
+                                 "FROM mancha.reserva r " +
+                                 "WHERE r.fechaentrada >= '" + ini.ToString("yyyy-MM-dd") + "' " +
+                                 "AND r.fechaentrada < '" + fin.ToString("yyyy-MM-dd") + "' " +
+                                 "GROUP BY YEAR(r.fechaentrada), MONTH(r.fechaentrada);";
+                    var rows = DBBroker.obtenerAgente().leer(sql);
+
+                    if (rows.Count == 0)
+                        t.Rows.Add(anio.ToString(), mes.ToString(), 0d.ToString("N2", CultureInfo.CurrentCulture));
+                    else
+                        foreach (List<object> r in rows)
+                            t.Rows.Add(r[0].ToString(), r[1].ToString(), ToDouble(r[2].ToString()).ToString("N2", CultureInfo.CurrentCulture));
+                }
+            }
+
+            // RECORDATORIO EXAMEN:
+            // - FK con ComboBox: usar SelectedValue, NO SelectedIndex.
+            // - CheckBox a SQL: 1/0.
+            // - Fechas: rango [inicioMes, inicioMesSiguiente).
+        }
+
     }
 }
